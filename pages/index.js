@@ -1,15 +1,16 @@
 import Image from "next/image";
+import LandingButtons from "../components/LandingButtons";
 // import { Inter } from "next/font/google";
 
 export default function Home() {
   return (
     <div>
+      <LandingButtons />
       <div className="m-8 text-2xl lg:text-6xl text-stone-700">
-        ♻️ The RAM website is coming soon!
+        ♻️ The RAM website is under heavy construction!
       </div>
       <div className="m-8 text-1xl lg:text-2xl text-stone-700">
-        Richard got everything working in the backend, now he can just build out
-        the website content. 😁
+        Please come back soon and see our awesome website. 😁
       </div>
       <div className="md:flex items-center m-8">
         {" "}

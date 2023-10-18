@@ -1,4 +1,3 @@
-// fill this out!
 export default function NavbarButton({ title, bgColor }) {
   return (
     <div>
