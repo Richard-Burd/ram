@@ -1,5 +1,3 @@
-import LandingButtons from "../components/LandingButtons";
-
 export default function Fonts() {
   return (
     <div className="bg-slate-100">
@@ -23,8 +21,27 @@ export default function Fonts() {
         <div className="averia-400 mb-6">Averia 400 Font</div>
         <div className="averia-700 mb-6">Averia 700 Font</div>
         <div className="pt-serif-400 mb-6">PT Serif Font 400</div>
-        <div className="pt-serif-700 mb-6">PT Serif Font 700</div>
-        <div className="varela-round mb-6">Young Serif Font</div>
+        <div className="pt-serif-700 mb-6">
+          PT Serif Font 700 (in use for buttons)
+        </div>
+        <div className="varela-round mb-6">Varela-Round Font</div>
+        <div className="varela-round mb-6">
+          <b>Varela-Round Font (bold)</b>
+        </div>
+        <div className="nunito-400 mb-6">Nunito Font 400</div>
+        <div className="nunito-500 mb-6">Nunito Font 500</div>
+        <div className="nunito-600 mb-6">Nunito Font 600</div>
+        <div className="nunito-700 mb-6">Nunito Font 700</div>
+        <div className="nunito-800 mb-6">Nunito Font 800</div>
+        <div className="quicksand-300 mb-6">Quicksand Font 300</div>
+        <div className="quicksand-400 mb-6">Quicksand Font 400</div>
+        <div className="quicksand-500 mb-6">Quicksand Font 500</div>
+        <div className="quicksand-600 mb-6">Quicksand Font 600</div>
+        <div className="montserrat-300 mb-6">Montserrat Font 300</div>
+        <div className="montserrat-500 mb-6">Montserrat Font 500</div>
+        <div className="montserrat-600 mb-6">Montserrat Font 600</div>
+        <div className="montserrat-700 mb-6">Montserrat Font 700</div>
+        <div className="montserrat-800 mb-6">Montserrat Font 800</div>
         <br></br>
         <br></br>
         <br></br>
