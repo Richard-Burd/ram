@@ -26,6 +26,34 @@ export default function Home() {
           bucket is still being reconfigured.
         </div>
       </div>
+      <div className="text-slate-700 m-10 text-6xl">
+        <div className="roboto-font-300 mb-6">Roboto Font 300</div>
+        <div className="roboto-font-400 mb-6">Roboto Font 400</div>
+        <div className="roboto-font-500 mb-6">Roboto Font 500</div>
+        <div className="roboto-font-700 mb-6">Roboto Font 700</div>
+        <div className="roboto-font-900 mb-6">Roboto Font 900</div>
+        <div className="young-serif-font mb-6">Young Serif Font</div>
+        <div className="averia-400 mb-6">Averia 400 Font</div>
+        <div className="averia-700 mb-6">Averia 700 Font</div>
+        <div className="pt-serif-400 mb-6">PT Serif Font 400</div>
+        <div className="pt-serif-700 mb-6">PT Serif Font 700</div>
+        <div className="varela-round mb-6">Young Serif Font</div>
+        <div className="text-gray-900 young-serif-font mb-6 text-4xl italic">
+          Recycling Advocates of Middle Tennessee
+        </div>
+        <div className="text-gray-900 averia-400 mb-6 text-4xl italic">
+          Recycling Advocates of Middle Tennessee
+        </div>
+        <div className="text-gray-900 averia-700 mb-6 text-4xl italic">
+          Recycling Advocates of Middle Tennessee
+        </div>
+        <div className="text-gray-900 pt-serif-400 mb-6 text-4xl italic">
+          Recycling Advocates of Middle Tennessee
+        </div>
+        <div className="text-gray-900 pt-serif-700 mb-6 text-4xl italic">
+          Recycling Advocates of Middle Tennessee
+        </div>
+      </div>
     </div>
   );
 }

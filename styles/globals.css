@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.roboto-font-300 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.roboto-font-400 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.roboto-font-500 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.roboto-font-700 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto-font-900 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.young-serif-font {
+  font-family: "Young Serif", serif;
+}
+
+.averia-400 {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 400;
+}
+
+.averia-700 {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 700;
+}
+
+.pt-serif-400 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+}
+
+.pt-serif-700 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.varela-round {
+  font-family: "Varela Round", sans-serif;
+}
