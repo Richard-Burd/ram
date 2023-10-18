@@ -14,12 +14,6 @@ module.exports = {
         outreachBg: "#0dff26",
         successesBg: "#00bdff",
         organizingBg: "#c780ff",
-        homeText: "#260808",
-        aboutText: "#080400",
-        studiesText: "#222204",
-        outreachText: "#041906",
-        successesText: "#09152b",
-        organizingText: "#0f0619",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

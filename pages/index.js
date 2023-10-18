@@ -54,22 +54,22 @@ export default function Home() {
           Recycling Advocates of Middle Tennessee
         </div>
         <div className="pt-serif-700 mt-8">
-          <div className="inline-block bg-homeBg text-homeText italic m-2 p-4">
+          <div className="inline-block bg-homeBg text-black text-opacity-90 italic m-2 p-4">
             &nbsp; HOME &nbsp;
           </div>
-          <div className="inline-block bg-aboutBg text-aboutText italic m-2 p-4">
+          <div className="inline-block bg-aboutBg text-black text-opacity-90 italic m-2 p-4">
             &nbsp; ABOUT &nbsp;
           </div>
-          <div className="inline-block bg-studiesBg text-studiesText italic m-2 p-4">
+          <div className="inline-block bg-studiesBg text-black text-opacity-90 italic m-2 p-4">
             &nbsp; STUDIES &nbsp;
           </div>
-          <div className="inline-block bg-outreachBg text-outreachText italic m-2 p-4">
+          <div className="inline-block bg-outreachBg text-black text-opacity-90 italic m-2 p-4">
             &nbsp; OUTREACH &nbsp;
           </div>
-          <div className="inline-block bg-successesBg text-successesText italic m-2 p-4">
+          <div className="inline-block bg-successesBg text-black text-opacity-90 italic m-2 p-4">
             &nbsp; SUCCESSES &nbsp;
           </div>
-          <div className="inline-block bg-organizingBg text-organizingText italic m-2 p-4">
+          <div className="inline-block bg-organizingBg text-black text-opacity-90 italic m-2 p-4">
             &nbsp; ORGANIZING &nbsp;
           </div>
         </div>
