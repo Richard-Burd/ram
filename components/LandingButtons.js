@@ -3,8 +3,8 @@ import LandingButton from "./LandingButton";
 
 export default function LandingButtons() {
   return (
-    <div className="flex justify-center mt-16">
-      <div className="bg-zinc-950 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+    <div>
+      <div className="bg-black grid grid-cols-3 w-full">
         <Link href="/" passHref>
           <LandingButton
             title="Home"
@@ -52,6 +52,14 @@ export default function LandingButtons() {
             bgColor="bg-organizingBg"
           />
         </Link>
+      </div>
+      <div className="grid grid-cols-3 w-full">
+        <button className="bg-blue-200 p-4 m-1">Item 1</button>
+        <button className="bg-blue-300 p-4 m-1">Item 2</button>
+        <button className="bg-blue-400 p-4 m-1">Item 3</button>
+        <button className="bg-blue-500 p-4 m-1">Item 4</button>
+        <button className="bg-blue-600 p-4 m-1">Item 5</button>
+        <button className="bg-blue-700 p-4 m-1">Item 6</button>
       </div>
     </div>
   );
