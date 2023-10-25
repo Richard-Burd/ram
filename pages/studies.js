@@ -54,7 +54,7 @@ export default function Studies() {
       <Document
         title="Jefferson County Solid Waste Management District Board"
         fileName="doc-2"
-        description="Elgin Crull, Fred Banks, Joyce St. Clain, et. al."
+        description="Elgin Crull, Fred Banks, Joyce St. Clain, et. al. Elgin Crull, Fred Banks, Joyce St. Clain, et. al. Elgin Crull, Fred Banks, Joyce St. Clain, et. al. Elgin Crull, Fred Banks, Joyce St. Clain, et. al."
       />
       <Document title="" fileName="doc-3" description="" />
     </div>
