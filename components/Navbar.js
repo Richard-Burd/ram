@@ -5,7 +5,13 @@ import MobileNavbar from "./MobileNavbar";
 
 export default function Navbar() {
   const router = useRouter();
-  const routesForDesktopNavbarTwo = ["/about"];
+  const routesForDesktopNavbarTwo = [
+    "/about",
+    "/studies",
+    "/outreach",
+    "/successes",
+    "/organizing",
+  ];
   const isAltIndexPage = routesForDesktopNavbarTwo.includes(router.pathname);
 
   return (

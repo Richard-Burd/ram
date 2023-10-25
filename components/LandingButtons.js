@@ -53,14 +53,6 @@ export default function LandingButtons() {
           />
         </Link>
       </div>
-      <div className="grid grid-cols-3 w-full">
-        <button className="bg-blue-200 p-4 m-1">Item 1</button>
-        <button className="bg-blue-300 p-4 m-1">Item 2</button>
-        <button className="bg-blue-400 p-4 m-1">Item 3</button>
-        <button className="bg-blue-500 p-4 m-1">Item 4</button>
-        <button className="bg-blue-600 p-4 m-1">Item 5</button>
-        <button className="bg-blue-700 p-4 m-1">Item 6</button>
-      </div>
     </div>
   );
 }
