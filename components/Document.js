@@ -31,7 +31,7 @@ export default function Document({ fileName, title = "", description = "" }) {
             <img
               src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/${fileName}.jpg`}
               className="drop-shadow-lg"
-              alt="Agendas and Minutes PDF"
+              alt={`missing PDF document: ${fileName}`}
               style={{
                 width: "100%",
                 border: "1px solid gray",

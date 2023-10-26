@@ -32,29 +32,31 @@ export default function Studies() {
           alt="RAM Logo"
         />
         <div className="mx-4 lg:max-w-xs text-1xl lg:text-2xl text-stone-700">
-          This image is being served by our Amazon Web Services (AWS) S3 bucket.
-          &nbsp; This S3 bucket will serve all of our images and (PDF)
-          documents. &nbsp;If there is no image, that is because the AWS S3
-          bucket is still being reconfigured.
+          This image is the original mockup that John and Richard made for the
+          landing page.
         </div>
       </div>
-      <div className="mx-4 text-1xl lg:text-xl text-stone-700">
-        This images below are PDF documents that are being served by our Amazon
-        Web Services (AWS) S3 bucket. We don't know what the individual pages on
-        this site will look like yet, and how big the preview images will be on
-        them. &nbsp;We will have to experiment with different sizes and see what
-        we like.
+      <div className="mx-4 text-1xl lg:text-xl text-stone-700 px-10">
+        The images below are PDF documents that are being served by our Amazon
+        Web Services (AWS) S3 bucket. Each one is inside of a dynamic, reusable
+        component with the preview image at ±25% of the viewport size. We could
+        make this a little bigger or smaller, we can also change the fonts and
+        text sizes of the titles and descriptions below on the right side of the
+        image. The bottom one is a document with no title or description. When
+        we change the preview image size, the background colors or anything else
+        on the 'document component (in the code) it changes all instances of a
+        document throughout the website.'
       </div>
 
       <Document
         title="Meeting Minutes December 9th, 1992"
         fileName="doc-1"
-        description="Terry Keleher, Anna Motsejenko et. al."
+        description="Attendees: Terry Keleher, Anna Motsejenko et. al."
       />
       <Document
         title="Jefferson County Solid Waste Management District Board"
         fileName="doc-2"
-        description="Elgin Crull, Fred Banks, Joyce St. Clain, et. al. Elgin Crull, Fred Banks, Joyce St. Clain, et. al. Elgin Crull, Fred Banks, Joyce St. Clain, et. al. Elgin Crull, Fred Banks, Joyce St. Clain, et. al."
+        description="Attendees: Elgin Crull, Fred Banks, Joyce St. Clain, et. al. This is a rambling sentence that will let us see what a longer description would look like for a particular document."
       />
       <Document title="" fileName="doc-3" description="" />
     </div>
