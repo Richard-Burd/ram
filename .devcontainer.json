@@ -1,0 +1,16 @@
+// https://marketplace.visualstudio.com/vscode
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "unifiedjs.vscode-mdx",
+        "esbenp.prettier-vscode",
+        "burkeholland.simple-react-snippets",
+        "bradlc.vscode-tailwindcss",
+        "vscode-icons-team.vscode-icons",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}

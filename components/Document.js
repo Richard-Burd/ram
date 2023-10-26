@@ -4,8 +4,8 @@ export default function Document({ fileName, title = "", description = "" }) {
   return (
     <div>
       <div
-        className={`bg-slate-300 p-8 m-8 shadow-lg flex items-start ${
-          title || description ? "max-w-2xl" : "max-w-[290px]"
+        className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg flex items-start ${
+          title || description ? "max-w-[480px]" : "max-w-[184px]"
         }`}
         // style={{ maxWidth: "700px" }}
       >
@@ -15,7 +15,7 @@ export default function Document({ fileName, title = "", description = "" }) {
           target="_blank"
           rel="noopener noreferrer"
           // this value below makes the preview image bigger or smaller
-          style={{ maxWidth: "220px" }}
+          style={{ maxWidth: "150px" }}
           // if you see this yellow below, something is wrong
           className="bg-yellow-400"
         >
@@ -42,7 +42,7 @@ export default function Document({ fileName, title = "", description = "" }) {
         </a>
         {(title || description) && (
           <div className="ml-8">
-            <div className="averia-700 pb-5 text-xl border-b-2 border-b-gray-900">
+            <div className="averia-700 pb-5 text-lg border-b-2 border-b-gray-900">
               {title}
             </div>
             <div className="averia-400 pt-4">{description}</div>
