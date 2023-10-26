@@ -44,8 +44,8 @@ export default function Studies() {
         text sizes of the titles and descriptions below on the right side of the
         image. The bottom one is a document with no title or description. When
         we change the preview image size, the background colors or anything else
-        on the 'document component (in the code) it changes all instances of a
-        document throughout the website.'
+        on the 'document-component' (in the code) it changes all instances of a
+        document throughout the website.
       </div>
 
       <Document
