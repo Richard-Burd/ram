@@ -10,13 +10,15 @@ export default function Document({
     <div>
       <div className="parent">
         {fileLabel && (
-          <div className="child-2 translate-y-40 translate-x-12 absolute z-20">
-            <div className="text-red-800 text-3xl young-serif-font text-opacity-70 italic font-semibold relative">
-              {fileName}
+          <div className="child-1">
+            <div className="translate-y-40 translate-x-12 absolute z-20">
+              <div className="text-red-800 text-3xl young-serif-font text-opacity-70 italic font-semibold relative">
+                {fileName}
+              </div>
             </div>
           </div>
         )}
-        <div className="child-1">
+        <div className="child-2">
           <div
             className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg flex items-start ${
               title || description ? "max-w-[480px]" : "max-w-[184px]"
