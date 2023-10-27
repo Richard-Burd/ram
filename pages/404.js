@@ -8,7 +8,7 @@ export default function NotFound() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push("/");
-    }, 3000);
+    }, 7000);
 
     // Clear the timer upon component unmounting or dependency changes to
     // prevent memory leaks and avoid navigation attempts after component unmount.
@@ -16,12 +16,20 @@ export default function NotFound() {
   }, [router]);
 
   return (
-    <div className="not-found mt-20 mb-60">
-      <h1>Oops...</h1>
-      <h2 className="mb-4">That page cannot be found.</h2>
-      <p>
-        Go back to the <Link href="/">Homepage</Link>
-      </p>
+    <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
+      <div className=" text-stone-200 mx-20 pt-20 max-w-screen-md">
+        <p className="text-4xl font-semibold mb-10">
+          Oops, that page either does not exist or is still under
+          construction.🛠️
+        </p>{" "}
+        <p className="text-2xl font-semibold mb-10" p>
+          You can go to the{" "}
+          <Link className="text-blue-300 underline font-semibold" href="/">
+            Homepage
+          </Link>{" "}
+          or wait to be redirected there in a moment.
+        </p>
+      </div>
     </div>
   );
 }

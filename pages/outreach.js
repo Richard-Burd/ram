@@ -10,7 +10,7 @@ export default function Outreach() {
           </p>
           <ul className="mx-6 sm:mx-10 list-square list-outside text-base">
             <li className="pt-3 text-2xl">
-              A page called{" "}
+              A page or subsection called{" "}
               <Link
                 className="text-blue-300 underline font-semibold"
                 href="/brochures"
@@ -19,7 +19,7 @@ export default function Outreach() {
               </Link>
             </li>
             <li className="pt-3 text-2xl">
-              A page called{" "}
+              A page or subsection called{" "}
               <Link
                 className="text-blue-300 underline font-semibold"
                 href="/handouts"
@@ -28,7 +28,7 @@ export default function Outreach() {
               </Link>
             </li>
             <li className="pt-3 text-2xl">
-              A page called{" "}
+              A page or subsection called{" "}
               <Link
                 className="text-blue-300 underline font-semibold"
                 href="/newsletters"
@@ -37,7 +37,7 @@ export default function Outreach() {
               </Link>
             </li>
             <li className="pt-3 text-2xl">
-              A page called{" "}
+              A page or subsection called{" "}
               <Link
                 className="text-blue-300 underline font-semibold"
                 href="/submissions"
