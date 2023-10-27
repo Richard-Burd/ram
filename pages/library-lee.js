@@ -37,13 +37,20 @@ export default function LibraryLee() {
               title="Meeting Minutes December 9th, 1992"
               fileName="doc-1"
               description="Attendees: Terry Keleher, Anna Motsejenko et. al."
+              fileLabel={true}
             />
             <Document
               title="Jefferson County Solid Waste Management District Board"
               fileName="doc-2"
               description="Attendees: Elgin Crull, Fred Banks, Joyce St. Clain, et. al. This is a rambling sentence that will let us see what a longer description would look like for a particular document."
+              fileLabel={true}
             />
-            <Document title="" fileName="doc-3" description="" />
+            <Document
+              title=""
+              fileName="doc-3"
+              description=""
+              fileLabel={true}
+            />
           </div>
         </div>
         <div id="Ash Recycling">
