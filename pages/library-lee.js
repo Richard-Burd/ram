@@ -1,20 +1,19 @@
 import Document from "../components/Document";
 import Link from "next/link";
 
-export default function Library() {
+export default function LibraryLee() {
   return (
     <div>
       <div className="mt-20 text-center font-semibold text-4xl">
-        📚 Library of RAM Documents 📄
+        📚 Library of Lee's Scanned Documents 📄
       </div>
       <div className="mx-4 text-2xl text-stone-700 px-10 pt-20">
-        Each of the items below are documents that either Lee or Richard scanned
-        in. Each instance contains a document's preview picture (of the first
-        page) a clickable PDF document showing all pages within the document,
-        and a title / description for each one. The title and description are
-        optional. The first two documents have them in order to show how the
-        title and description would be displayed. The rest have no title or
-        description.
+        Each of the items below are documents that Lee scanned in. Each instance
+        contains a document's preview picture (of the first page) a clickable
+        PDF document showing all pages within the document, and a title /
+        description for each one. The title and description are optional. The
+        first two documents have them in order to show how the title and
+        description would be displayed. The rest have no title or description.
         <br></br>
         <br></br>
         The documents are sorted according to these{" "}

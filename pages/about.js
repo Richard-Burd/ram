@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Figure from "../components/Figure";
 
 export default function About() {
   return (
