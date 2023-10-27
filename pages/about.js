@@ -19,6 +19,11 @@ export default function About() {
             </ul>
           </ul>
         </div>
+        <Figure
+          title="Metro Gov't of Nashville & Davidson County"
+          fileName="fig-1"
+          description="Circa 2015, Council members, mayor, scale annd other details"
+        />
       </div>
     </div>
   );

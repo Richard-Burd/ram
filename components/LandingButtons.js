@@ -4,7 +4,7 @@ import LandingButton from "./LandingButton";
 export default function LandingButtons() {
   return (
     <div>
-      <div className="bg-black grid grid-cols-3 w-full">
+      <div className="bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
         <Link href="/" passHref>
           <LandingButton
             title="Home"
