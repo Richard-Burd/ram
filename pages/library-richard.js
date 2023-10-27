@@ -18,9 +18,10 @@ export default function LibraryRichard() {
       <Figure
         title="Metro Gov't of Nashville & Davidson County"
         fileName="fig-1"
-        description="Circa 2015, Council members, mayor, scale annd other details "
+        description="Circa 2015, Council members, mayor, scale annd other details"
+        fileLabel={true}
       />
-      <Figure title="" fileName="fig-2" description="" />
+      <Figure title="" fileName="fig-2" description="" fileLabel={true} />
       <div className="pb-48"></div>
     </div>
   );
