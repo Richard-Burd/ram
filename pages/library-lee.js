@@ -7,7 +7,7 @@ export default function LibraryLee() {
       <div className="mt-20 text-center font-semibold text-4xl">
         📚 Library of Lee's Scanned Documents 📄
       </div>
-      <div className="mx-4 text-2xl text-stone-700 px-10 pt-20">
+      <div className="mx-4 text-2xl text-stone-800 px-10 pt-20">
         Each of the items below are documents that Lee scanned in. Each instance
         contains a document's preview picture (of the first page) a clickable
         PDF document showing all pages within the document, and a title /
@@ -16,7 +16,20 @@ export default function LibraryLee() {
         description would be displayed. The rest have no title or description.
         <br></br>
         <br></br>
-        The documents are sorted according to these{" "}
+        <b>NOTE:</b> the{" "}
+        <text className="text-red-900 font-bold">red text </text>on the images
+        below that says things like
+        <text className="text-red-900 young-serif-font italic font-semibold">
+          {" "}
+          doc-1{" "}
+        </text>{" "}
+        is only tempoary and will not be on the final website. These are labels
+        for all documents (doc) and figures (fig) we plan to put on the website.
+        This makes it easy for the crew to discuss moving such-and-such doc or
+        fig to a given place in the website.
+        <br></br>
+        <br></br>
+        The below documents are sorted according to these{" "}
         <a
           href="https://drive.google.com/drive/u/1/folders/1m4k3QQLEKjYm7N0yBrhS5hGKkyAAIeeN"
           target="_blank"

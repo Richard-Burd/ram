@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function Figure({
+export default function Document({
   fileName,
   title = "",
   description = "",
@@ -9,32 +9,34 @@ export default function Figure({
   return (
     <div>
       <div className="parent">
+        {fileLabel && (
+          <div className="child-1 relative">
+            <div className="translate-y-40 translate-x-12 absolute z-20">
+              <div className="text-red-800 text-3xl young-serif-font text-opacity-70 italic font-semibold relative">
+                {fileName}
+              </div>
+            </div>
+          </div>
+        )}
         <div className="child-2">
           <div
-            className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg ${
+            className={`p-4 mx-4 my-12 flex items-start text-slate-200 ${
               title || description
-                ? "max-w-[450px]"
-                : "bg-gray-100 max-w-[450px]"
+                ? "min-w-[480px] max-w-[480px]"
+                : "min-w-[184px] max-w-[184px]"
             }`}
             // style={{ maxWidth: "700px" }}
           >
-            {(title || description) && (
-              <div className="">
-                <div className="averia-700 pb-5 text-lg text-center border-b-2 border-b-gray-900">
-                  {title}
-                </div>
-                <div className="averia-400 py-4">{description}</div>
-              </div>
-            )}
             <a
-              href={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/${fileName}.jpg`}
+              href={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/${fileName}.pdf`}
               download
               target="_blank"
               rel="noopener noreferrer"
               // this value below makes the preview image bigger or smaller
-              style={{ maxWidth: "400px" }}
+              style={{ maxWidth: "150px" }}
               // if you see this yellow below, something is wrong
-              className="bg-yellow-400"
+              className=""
+              draggable="false"
             >
               <motion.div
                 className={``}
@@ -49,6 +51,7 @@ export default function Figure({
                   src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/${fileName}.jpg`}
                   className="drop-shadow-lg"
                   alt={`missing PDF document: ${fileName}`}
+                  draggable="false"
                   style={{
                     width: "100%",
                     border: "1px solid gray",
@@ -57,17 +60,16 @@ export default function Figure({
                 />
               </motion.div>
             </a>
+            {(title || description) && (
+              <div className="title-n-description ml-8">
+                <div className="averia-700 pb-5 text-lg border-b-2 border-b-gray-200">
+                  {title}
+                </div>
+                <div className="averia-400 pt-4">{description}</div>
+              </div>
+            )}
           </div>
         </div>
-        {fileLabel && (
-          <div className="child-1">
-            <div className="-translate-y-44 translate-x-12 absolute z-20">
-              <div className="text-red-800 text-7xl young-serif-font text-opacity-80 italic relative">
-                {fileName}
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

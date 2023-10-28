@@ -11,7 +11,7 @@ export default function Figure({
       <div className="parent">
         <div className="child-2">
           <div
-            className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg ${
+            className={`p-4 mx-4 my-12 shadow-lg ${
               title || description
                 ? "max-w-[450px]"
                 : "bg-gray-100 max-w-[450px]"
@@ -20,10 +20,12 @@ export default function Figure({
           >
             {(title || description) && (
               <div className="">
-                <div className="averia-700 pb-5 text-lg text-center border-b-2 border-b-gray-900">
+                <div className="averia-700 pb-5 text-slate-200 text-lg text-center border-b-2 border-b-gray-200">
                   {title}
                 </div>
-                <div className="averia-400 py-4">{description}</div>
+                <div className="averia-400 py-4 text-slate-200">
+                  {description}
+                </div>
               </div>
             )}
             <a

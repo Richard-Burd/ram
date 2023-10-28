@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Carousel from "@/components/Carousel";
+import Document from "@/components/Document";
 
 export default function Studies() {
   return (
@@ -29,6 +31,32 @@ export default function Studies() {
             </li>
           </ul>
         </div>
+        <div className="mt-20 text-center font-semibold text-4xl text-stone-200">
+          🎠 Carousel 🎠
+        </div>
+        <div className="mx-4 text-2xl text-stone-200 px-10 pt-2 text-justify">
+          Below is an example of something called a website "Carousel." it lets
+          you pan left and right and see all of the items inside of it. This is
+          one potential way we could display documents, figures, and other
+          materials on this RAM website. This is a simple carousel that starts
+          and ends, but carousels can also be infinite, meaning that they will
+          loop around and around forever in an infinite scroll.
+        </div>
+        <Carousel>
+          <Document
+            title="Meeting Minutes December 9th, 1992"
+            fileName="doc-1"
+            description="Attendees: Terry Keleher, Anna Motsejenko et. al."
+            fileLabel={true}
+          />
+          <Document
+            title="Jefferson County Solid Waste Management District Board"
+            fileName="doc-2"
+            description="Attendees: Elgin Crull, Fred Banks, Joyce St. Clain, et. al. This is a rambling sentence that will let us see what a longer description would look like for a particular document."
+            fileLabel={true}
+          />
+          <Document title="" fileName="doc-3" description="" fileLabel={true} />
+        </Carousel>
       </div>
     </div>
   );

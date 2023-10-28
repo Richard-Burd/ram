@@ -10,7 +10,7 @@ export default function Document({
     <div>
       <div className="parent">
         {fileLabel && (
-          <div className="child-1">
+          <div className="child-1 relative">
             <div className="translate-y-40 translate-x-12 absolute z-20">
               <div className="text-red-800 text-3xl young-serif-font text-opacity-70 italic font-semibold relative">
                 {fileName}
@@ -21,7 +21,9 @@ export default function Document({
         <div className="child-2">
           <div
             className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg flex items-start ${
-              title || description ? "max-w-[480px]" : "max-w-[184px]"
+              title || description
+                ? "min-w-[480px] max-w-[480px]"
+                : "min-w-[184px] max-w-[184px]"
             }`}
             // style={{ maxWidth: "700px" }}
           >
@@ -33,7 +35,8 @@ export default function Document({
               // this value below makes the preview image bigger or smaller
               style={{ maxWidth: "150px" }}
               // if you see this yellow below, something is wrong
-              className="bg-yellow-400"
+              className=""
+              draggable="false"
             >
               <motion.div
                 className={``}
@@ -48,6 +51,7 @@ export default function Document({
                   src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/${fileName}.jpg`}
                   className="drop-shadow-lg"
                   alt={`missing PDF document: ${fileName}`}
+                  draggable="false"
                   style={{
                     width: "100%",
                     border: "1px solid gray",

@@ -1,4 +1,7 @@
 import Figure from "../components/Figure";
+import Document from "../components/Document";
+import FigureTwo from "../components/FigureTwo";
+import DocumentTwo from "../components/DocumentTwo";
 
 export default function About() {
   return (
@@ -23,6 +26,34 @@ export default function About() {
           title="Metro Gov't of Nashville & Davidson County"
           fileName="fig-1"
           description="Circa 2015, Council members, mayor, scale annd other details"
+          fileLabel={true}
+        />
+        <Document
+          title="Jefferson County Solid Waste Management District Board"
+          fileName="doc-2"
+          description="Attendees: Elgin Crull, Fred Banks, Joyce St. Clain, et. al. This is a rambling sentence that will let us see what a longer description would look like for a particular document."
+          fileLabel={true}
+        />
+        <br></br>
+        <br></br>
+        <div className="mx-4 text-2xl px-10 pt-20 text-zinc-100">
+          The images below are the same as above, the only difference is that
+          they do not have a background color, as the background is transparent.
+          This is just an alternative way to display content.
+        </div>
+        <br></br>
+        <br></br>
+        <FigureTwo
+          title="Metro Gov't of Nashville & Davidson County"
+          fileName="fig-1"
+          description="Circa 2015, Council members, mayor, scale annd other details"
+          fileLabel={true}
+        />
+        <DocumentTwo
+          title="Jefferson County Solid Waste Management District Board"
+          fileName="doc-2"
+          description="Attendees: Elgin Crull, Fred Banks, Joyce St. Clain, et. al. This is a rambling sentence that will let us see what a longer description would look like for a particular document."
+          fileLabel={true}
         />
       </div>
     </div>

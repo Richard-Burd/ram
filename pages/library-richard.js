@@ -14,6 +14,19 @@ export default function LibraryRichard() {
         for each one. The title and description are optional. The first one has
         them in order to show how the title and description would be displayed.
         The second has no title or description.
+        <br></br>
+        <br></br>
+        <b>NOTE:</b> the{" "}
+        <text className="text-red-400 font-bold">red text </text>on the images
+        below that says things like
+        <text className="text-red-400 young-serif-font italic font-semibold">
+          {" "}
+          fig-1{" "}
+        </text>{" "}
+        is only tempoary and will not be on the final website. These are labels
+        for all documents (doc) and figures (fig) we plan to put on the website.
+        This makes it easy for the crew to discuss moving such-and-such doc or
+        fig to a given place in the website.
       </div>
       <Figure
         title="Metro Gov't of Nashville & Davidson County"
