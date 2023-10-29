@@ -1,6 +1,20 @@
+import SecondaryNavbar from "@/components/SecondaryNavbar";
+
+const navbarProps = {
+  bgColor: "bg-successesBg",
+  titles: [
+    "Brief History",
+    "Longer History",
+    "Major Successes",
+    "Current Campaigns",
+  ],
+  path: "/successes",
+};
+
 export default function Successes() {
   return (
     <div>
+      <SecondaryNavbar {...navbarProps} />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
           <p className="text-4xl font-semibold mb-10">
