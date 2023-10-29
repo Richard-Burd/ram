@@ -1,11 +1,13 @@
-import Figure from "../components/Figure";
-import Document from "../components/Document";
-import FigureTwo from "../components/FigureTwo";
-import DocumentTwo from "../components/DocumentTwo";
+import Figure from "@/components/Figure";
+import Document from "@/components/Document";
+import FigureTwo from "@/components/FigureTwo";
+import DocumentTwo from "@/components/DocumentTwo";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
 
 export default function About() {
   return (
     <div>
+      <SecondaryNavbar />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
           <p className="text-4xl font-semibold mb-10">

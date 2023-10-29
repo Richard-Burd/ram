@@ -13,7 +13,7 @@ export default function Figure({
           <div
             className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg ${
               title || description
-                ? "max-w-[450px]"
+                ? "max-w-[480px]"
                 : "bg-gray-100 max-w-[450px]"
             }`}
             // style={{ maxWidth: "700px" }}
