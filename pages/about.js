@@ -3,6 +3,7 @@ import Document from "@/components/Document";
 import FigureTwo from "@/components/FigureTwo";
 import DocumentTwo from "@/components/DocumentTwo";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
   bgColor: "bg-aboutBg",
@@ -14,6 +15,11 @@ export default function About() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
+      <LogoAndPageTitle
+        title="About"
+        subtitle="Our History"
+        swooshColor="orange"
+      />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
           <p className="text-4xl font-semibold mb-10">

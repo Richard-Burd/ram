@@ -2,6 +2,7 @@ import Link from "next/link";
 import Carousel from "@/components/Carousel";
 import Document from "@/components/Document";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
   bgColor: "bg-studiesBg",
@@ -13,6 +14,11 @@ export default function Studies() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
+      <LogoAndPageTitle
+        title="Studies"
+        subtitle="Travels, pilots"
+        swooshColor="yellow"
+      />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
           <p className="text-4xl font-semibold mb-10">
