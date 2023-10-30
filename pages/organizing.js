@@ -17,6 +17,8 @@ export default function Organizing() {
         subtitle="Join us"
         swooshColor="purple"
         backgroundColor="to-[#150130]"
+        buttonsColor="bg-[#d5a8ff]"
+        {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
