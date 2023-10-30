@@ -18,8 +18,10 @@ export default function Successes() {
       <SecondaryNavbar {...navbarProps} />
       <LogoAndPageTitle
         title="Successes"
+        titleColor="text-[#bfe6ff]"
         subtitle="Listed"
         swooshColor="blue"
+        backgroundColor="to-[#011130]"
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">

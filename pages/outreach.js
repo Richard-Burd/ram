@@ -20,8 +20,10 @@ export default function Outreach() {
       <SecondaryNavbar {...navbarProps} />
       <LogoAndPageTitle
         title="Outreach"
+        titleColor="text-[#c2ffbf]"
         subtitle="Education, publications"
         swooshColor="green"
+        backgroundColor="to-[#013009]"
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
