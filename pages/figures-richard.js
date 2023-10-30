@@ -1,7 +1,7 @@
 import Figure from "../components/Figure";
 import Link from "next/link";
 
-export default function LibraryRichard() {
+export default function FiguresRichard() {
   return (
     <div className="bg-zinc-900">
       <div className="pt-20 text-center font-semibold text-4xl text-zinc-200">

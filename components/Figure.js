@@ -14,7 +14,7 @@ export default function Figure({
             className={`bg-slate-300 p-4 mx-4 my-12 shadow-lg ${
               title || description
                 ? "max-w-[480px]"
-                : "bg-gray-100 max-w-[450px]"
+                : "bg-gray-100 max-w-[480px]"
             }`}
             // style={{ maxWidth: "700px" }}
           >

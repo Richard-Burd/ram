@@ -31,7 +31,7 @@ export default function Construction() {
         Here is the{" "}
         <Link
           className="text-blue-700 underline font-semibold"
-          href="/library-richard"
+          href="/figures-richard"
         >
           gallery
         </Link>{" "}
