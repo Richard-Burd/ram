@@ -2,13 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-// framer-motion variants
-const buttonVariants = {
-  hover: {
-    x: 15,
-  },
-};
-
 export default function LogoAndPageTitle({
   title,
   titles,
