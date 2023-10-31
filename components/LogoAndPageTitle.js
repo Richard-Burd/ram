@@ -25,11 +25,11 @@ export default function LogoAndPageTitle({
         className={`bg-gradient-to-r from-black ${backgroundColor} flex border-y-slate-500 border-b-2`}
       >
         <Image
-          className="ml-10 py-8"
+          className="ml-8 py-8"
           src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-${swooshColor}.png`}
           alt="RAM Logo"
           width={500}
-          height={500}
+          height={414}
         />
         <div className="flex w-full">
           <div className="flex justify-center items-center w-full">
