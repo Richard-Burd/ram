@@ -3,7 +3,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-outreachBg",
+  bgColor: "bg-[#3dff51]",
   titles: [
     "Presentations",
     "Brochures",

@@ -6,7 +6,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-aboutBg",
+  bgColor: "bg-[#ff8938]",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
   path: "/about",
 };

@@ -5,7 +5,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-studiesBg",
+  bgColor: "bg-[#f9ff3d]",
   titles: ["Zero-Waste", "Methodology", "Travels", "Outreach"],
   path: "/studies",
 };

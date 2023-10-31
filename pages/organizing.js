@@ -2,7 +2,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-organizingBg",
+  bgColor: "bg-[#d299ff]",
   titles: ["Contacts", "Meetings", "Donors", "Legal"],
   path: "/organizing",
 };
