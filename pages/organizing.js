@@ -3,7 +3,7 @@ import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
   bgColor: "bg-organizingBg",
-  titles: ["Contancts", "Meetings", "Donors", "Legal"],
+  titles: ["Contacts", "Meetings", "Donors", "Legal"],
   path: "/organizing",
 };
 
@@ -16,7 +16,7 @@ export default function Organizing() {
         titleColor="text-[#d4bfff]"
         subtitle="Join us"
         swooshColor="purple"
-        backgroundColor="to-[#150130]"
+        backgroundColor="to-[#300c61] from-[#000000]"
         buttonsColor="bg-[#d5a8ff]"
         {...navbarProps}
       />

@@ -21,7 +21,7 @@ export default function Successes() {
         titleColor="text-[#bfe6ff]"
         subtitle="Listed"
         swooshColor="blue"
-        backgroundColor="to-[#011130]"
+        backgroundColor="from-[#0f2f6e] to-[#000000]"
         buttonsColor="bg-[#8aceff]"
         {...navbarProps}
       />

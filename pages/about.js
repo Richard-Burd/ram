@@ -16,11 +16,11 @@ export default function About() {
     <div>
       <SecondaryNavbar {...navbarProps} />
       <LogoAndPageTitle
-        title="About"
+        title="About us"
         titleColor="text-[#ffe9bf]"
         subtitle="Our History"
         swooshColor="orange"
-        backgroundColor="to-[#301501]"
+        backgroundColor="to-[#783604] from-[#000000]"
         buttonsColor="bg-[#ffd28a]"
         {...navbarProps}
       />
