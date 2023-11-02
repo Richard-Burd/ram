@@ -1,4 +1,5 @@
 import Figure from "../components/Figure";
+import FigurePng from "../components/FigurePng";
 import Link from "next/link";
 
 export default function FiguresRichard() {
@@ -34,7 +35,8 @@ export default function FiguresRichard() {
         description="Circa 2015, Council members, mayor, scale annd other details"
         fileLabel={true}
       />
-      <Figure title="" fileName="fig-2" description="" fileLabel={true} />
+      <Figure title="" fileName="fig-2a" description="" fileLabel={true} />
+      <FigurePng title="" fileName="fig-2b" description="" fileLabel={true} />
       <div className="pb-48"></div>
     </div>
   );
