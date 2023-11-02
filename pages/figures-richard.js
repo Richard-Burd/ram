@@ -37,6 +37,7 @@ export default function FiguresRichard() {
       />
       <Figure title="" fileName="fig-2a" description="" fileLabel={true} />
       <FigurePng title="" fileName="fig-2b" description="" fileLabel={true} />
+      <FigurePng title="" fileName="fig-2c" description="" fileLabel={true} />
       <div className="pb-48"></div>
     </div>
   );
