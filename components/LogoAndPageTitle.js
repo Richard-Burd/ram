@@ -25,7 +25,8 @@ export default function LogoAndPageTitle({
           height={414}
         />
         <div className="flex w-full">
-          <div className="flex justify-center items-center w-full">
+          {/* "items-center" removed & replaced w/"py-7" */}
+          <div className="flex justify-center py-7 w-full">
             <div className={`text-center`}>
               <div className={`${titleColor} text-7xl pt-serif-700 italic`}>
                 {title}
