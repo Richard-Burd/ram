@@ -20,7 +20,7 @@ export default function LogoAndPageTitle({
       >
         <Image
           className="ml-8 py-8"
-          src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-${swooshColor}.png`}
+          src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-${swooshColor}-v2.png`}
           alt="RAM Logo"
           width={500}
           height={414}
