@@ -17,13 +17,34 @@ export default function LibraryLee() {
         <br></br>
         <br></br>
         <b>NOTE:</b> the{" "}
+        <text className="text-red-900 font-bold">red text </text>above the
+        images below that say things like:<br></br>
+        <text className="text-red-900 px-6">
+          Agendas_and_minutes (agenda) [12/9/1992]{" "}
+        </text>{" "}
+        <br></br>
+        are only tempoary and will not be on the final website. These are the
+        labels that Lee put on all the documents he scanned in from the{" "}
+        <a
+          href="https://drive.google.com/drive/u/1/folders/1syzldHRu9hgyGNEcuDR9ynVuVvfIzS0E"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 underline"
+        >
+          seven binders of original scans
+        </a>{" "}
+        which he received from John. These original names are preserved in the
+        code so as to make finding documents easier.
+        <br></br>
+        <br></br>
+        <b>NOTE:</b> the{" "}
         <text className="text-red-900 font-bold">red text </text>on the images
-        below that says things like
+        below that say things like
         <text className="text-red-900 young-serif-font italic font-semibold">
           {" "}
           doc-1{" "}
         </text>{" "}
-        is only tempoary and will not be on the final website. These are labels
+        are only tempoary and will not be on the final website. These are labels
         for all documents (doc) and figures (fig) we plan to put on the website.
         This makes it easy for the crew to discuss moving such-and-such doc or
         fig to a given place in the website.
