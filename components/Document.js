@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 export default function Document({
   fileName,
   title = "",
+  leeTitle = "",
   description = "",
   fileLabel = false,
+  showLeeLabel = false,
 }) {
   return (
     <div>
@@ -16,6 +18,11 @@ export default function Document({
                 {fileName}
               </div>
             </div>
+            {fileLabel && (
+              <div className="-translate-y-8 translate-x-4 absolute z-20">
+                <div className="text-red-800 text-xl">{leeTitle}</div>
+              </div>
+            )}
           </div>
         )}
         <div className="child-2">
