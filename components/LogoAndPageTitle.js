@@ -15,7 +15,8 @@ export default function LogoAndPageTitle({
   return (
     <div>
       <div
-        className={`bg-gradient-to-r from-black ${backgroundColor} flex border-y-slate-500 border-b-2`}
+        // "bg-gradient-to-r" was replaced with "bg-gradient-24" for diagnoal effect
+        className={`bg-gradient-24 ${backgroundColor} from-25% flex border-y-slate-500 border-b-2`}
       >
         <Image
           className="ml-8 py-8"
@@ -39,7 +40,7 @@ export default function LogoAndPageTitle({
                     href={`${path}/${title.toLowerCase().replace(/ /g, "-")}`}
                   >
                     <motion.div
-                      className={`${buttonsColor} rounded-lg shadow-white`}
+                      className={`${buttonsColor} rounded-2xl shadow-white`}
                       whileHover={{
                         x: 15,
                         boxShadow: "0 0 40px 5px rgba(255, 255, 255, 0.4)",

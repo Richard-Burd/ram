@@ -6,7 +6,8 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-[#ff8938]",
+  // bgColor: "bg-[#ff8938]",
+  bgColor: "bg-aboutBg",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
   path: "/about",
 };
@@ -21,7 +22,7 @@ export default function About() {
         subtitle="Our History"
         swooshColor="orange"
         backgroundColor="to-[#783604] from-[#000000]"
-        buttonsColor="bg-[#ffd28a]"
+        buttonsColor="bg-aboutBg" //"bg-[#ffd28a]"
         {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">

@@ -2,7 +2,8 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-[#d299ff]",
+  // bgColor: "bg-[#d299ff]",
+  bgColor: "bg-organizingBg",
   titles: ["Contacts", "Meetings", "Donors", "Legal"],
   path: "/organizing",
 };
@@ -17,7 +18,7 @@ export default function Organizing() {
         subtitle="Join us"
         swooshColor="purple"
         backgroundColor="to-[#300c61] from-[#000000]"
-        buttonsColor="bg-[#d5a8ff]"
+        buttonsColor="bg-organizingBg" // "bg-[#d5a8ff]"
         {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">

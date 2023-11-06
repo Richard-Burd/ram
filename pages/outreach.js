@@ -3,7 +3,8 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-[#3dff51]",
+  // bgColor: "bg-[#3dff51]",
+  bgColor: "bg-outreachBg",
   titles: [
     "Presentations",
     "Brochures",
@@ -24,7 +25,7 @@ export default function Outreach() {
         subtitle="Education, publications"
         swooshColor="green"
         backgroundColor="to-[#086318] from-[#000000]"
-        buttonsColor="bg-[#8aff8c]"
+        buttonsColor="bg-outreachBg" // "bg-[#8aff8c]"
         {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">

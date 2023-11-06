@@ -5,7 +5,8 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
 const navbarProps = {
-  bgColor: "bg-[#f9ff3d]",
+  //bgColor: "bg-[#f9ff3d]",
+  bgColor: "bg-studiesBg",
   titles: ["Zero-Waste", "Methodology", "Travels", "Outreach"],
   path: "/studies",
 };
@@ -20,7 +21,7 @@ export default function Studies() {
         subtitle="Travels, pilots"
         swooshColor="yellow"
         backgroundColor="to-[#5b5e08] from-[#000000]"
-        buttonsColor="bg-[#fdff8a]"
+        buttonsColor="bg-studiesBg" // "bg-[#fdff8a]"
         {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
