@@ -10,6 +10,7 @@ const navbarProps = {
   bgColor: "bg-aboutBg",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
   path: "/about",
+  topMargin: `mt-7`,
 };
 
 export default function About() {
@@ -17,11 +18,11 @@ export default function About() {
     <div>
       <SecondaryNavbar {...navbarProps} />
       <LogoAndPageTitle
-        title="About us"
+        title="About Us"
         titleColor="text-[#ffe9bf]"
         subtitle="Our History"
         swooshColor="orange"
-        backgroundColor="to-[#783604] from-[#000000]"
+        backgroundColor="to-[#873f08] from-[#000000]"
         buttonsColor="bg-aboutBg" //"bg-[#ffd28a]"
         {...navbarProps}
       />

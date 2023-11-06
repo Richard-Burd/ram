@@ -11,6 +11,7 @@ const navbarProps = {
     "Current Campaigns",
   ],
   path: "/successes",
+  topMargin: `mt-7`,
 };
 
 export default function Successes() {
@@ -22,7 +23,7 @@ export default function Successes() {
         titleColor="text-[#bfe6ff]"
         subtitle="Listed"
         swooshColor="blue"
-        backgroundColor="to-[#1a457d] from-[#000000]"
+        backgroundColor="to-[#225394] from-[#000000]"
         buttonsColor="bg-successesBg" // "bg-[#8aceff]"
         {...navbarProps}
       />

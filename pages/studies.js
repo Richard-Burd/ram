@@ -9,6 +9,7 @@ const navbarProps = {
   bgColor: "bg-studiesBg",
   titles: ["Zero-Waste", "Methodology", "Travels", "Outreach"],
   path: "/studies",
+  topMargin: `mt-7`,
 };
 
 export default function Studies() {
@@ -20,7 +21,7 @@ export default function Studies() {
         titleColor="text-[#f8ffbf]"
         subtitle="Travels, pilots"
         swooshColor="yellow"
-        backgroundColor="to-[#5b5e08] from-[#000000]"
+        backgroundColor="to-[#686b0b] from-[#000000]"
         buttonsColor="bg-studiesBg" // "bg-[#fdff8a]"
         {...navbarProps}
       />

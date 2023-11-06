@@ -6,6 +6,7 @@ const navbarProps = {
   bgColor: "bg-organizingBg",
   titles: ["Contacts", "Meetings", "Donors", "Legal"],
   path: "/organizing",
+  topMargin: `mt-7`,
 };
 
 export default function Organizing() {
@@ -17,7 +18,7 @@ export default function Organizing() {
         titleColor="text-[#d4bfff]"
         subtitle="Join us"
         swooshColor="purple"
-        backgroundColor="to-[#300c61] from-[#000000]"
+        backgroundColor="to-[#431780] from-[#000000]"
         buttonsColor="bg-organizingBg" // "bg-[#d5a8ff]"
         {...navbarProps}
       />

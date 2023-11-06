@@ -13,6 +13,7 @@ const navbarProps = {
     "Submissions",
   ],
   path: "/outreach",
+  topMargin: `my-2.5`,
 };
 
 export default function Outreach() {
@@ -24,7 +25,7 @@ export default function Outreach() {
         titleColor="text-[#c2ffbf]"
         subtitle="Education, publications"
         swooshColor="green"
-        backgroundColor="to-[#086318] from-[#000000]"
+        backgroundColor="to-[#0d731f] from-[#000000]"
         buttonsColor="bg-outreachBg" // "bg-[#8aff8c]"
         {...navbarProps}
       />
