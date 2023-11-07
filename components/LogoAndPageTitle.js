@@ -19,13 +19,24 @@ export default function LogoAndPageTitle({
         // "bg-gradient-to-r" was replaced with "bg-gradient-24" for diagnoal effect
         className={`bg-gradient-24 ${backgroundColor} from-50% flex border-y-slate-500 border-b-2`}
       >
-        <Image
-          className="ml-8 py-8"
-          src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-${swooshColor}-v2.png`}
-          alt="RAM Logo"
-          width={500}
-          height={414}
-        />
+        {/* <Image
+            className="ml-8 py-8"
+            src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-${swooshColor}-v2.png`}
+            alt="RAM Logo"
+            width={500}
+            height={414}
+          /> */}
+
+        <div className="ml-8 py-8">
+          <Image
+            src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-${swooshColor}-v2.png`}
+            alt="RAM Logo"
+            width={1036}
+            height={857.554}
+            objectFit="contain" // This will ensure the image maintains its aspect ratio
+          />
+        </div>
+
         <div className="flex w-full">
           {/* "items-center" removed & replaced w/"py-7" */}
           <div className="flex justify-center py-7 w-full">
