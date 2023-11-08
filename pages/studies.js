@@ -7,7 +7,7 @@ import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 const navbarProps = {
   //bgColor: "bg-[#f9ff3d]",
   bgColor: "bg-studiesBg",
-  titles: ["Zero-Waste", "Methodology", "Travels", "Outreach"],
+  titles: ["Zero-Waste", "Methodology", "Travels", "Pilots"],
   path: "/studies",
   topMargin: `mt-7`,
 };
