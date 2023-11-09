@@ -1,10 +1,8 @@
 import Link from "next/link";
 import NavbarButton from "./NavbarButton";
-// import styles from "./DesktopNavbar.module.css";
 
 export default function DesktopNavbar() {
   return (
-    // ${styles.navbar} gets added to the line below to have the folder tab
     <nav
       className={` bg-neutral-950 text-white px-1 py-2 border-y-slate-500 border-b-2`}
     >

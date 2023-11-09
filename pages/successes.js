@@ -1,17 +1,18 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
-const navbarProps = {
+export const navbarProps = {
   // bgColor: "bg-[#33caff]",
   bgColor: "bg-successesBg",
   titles: [
+    "Initial Aims",
     "Brief History",
     "Longer History",
     "Major Successes",
     "Current Campaigns",
   ],
   path: "/successes",
-  topMargin: `mt-7`,
+  topMargin: `my-2.5`,
 };
 
 export default function Successes() {
@@ -24,7 +25,7 @@ export default function Successes() {
         subtitle="Listed"
         swooshColor="blue"
         backgroundColor="to-[#225394] from-[#000000]"
-        buttonsColor="bg-successesBg" // "bg-[#8aceff]"
+        buttonsColor="bg-successesBg"
         {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">

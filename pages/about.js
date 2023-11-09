@@ -5,7 +5,7 @@ import DocumentTwo from "@/components/DocumentTwo";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
-const navbarProps = {
+export const navbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-aboutBg",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],

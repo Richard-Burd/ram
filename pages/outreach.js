@@ -2,7 +2,7 @@ import Link from "next/link";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import LogoAndPageTitle from "@/components/LogoAndPageTitle";
 
-const navbarProps = {
+export const navbarProps = {
   // bgColor: "bg-[#3dff51]",
   bgColor: "bg-outreachBg",
   titles: [

@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
 
-// TODO: If the current URL path does not end in the title of the button,
-//       then the button should not animate when hovered over.
-//       this will have to be passed in as a prop from the parent component.
 export default function NavbarButton({ title, bgColor }) {
   return (
     <motion.div
