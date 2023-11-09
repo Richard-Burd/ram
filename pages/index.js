@@ -10,7 +10,7 @@ export default function Home() {
               <div className={``}>
                 <img
                   className="max-w-[85vh] max-h-[90vh] mx-auto py-4"
-                  src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-red.png`}
+                  src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-red.v2.png`}
                   alt="RAM Logo"
                 />
               </div>
