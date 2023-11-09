@@ -18,24 +18,34 @@ export default function Construction() {
         that we can use on this website
       </div>
       <div className="px-8 pb-10 text-2xl">
-        Here is the{" "}
+        📚 Here is the{" "}
         <Link
           className="text-blue-700 underline font-semibold"
           href="/library-lee"
         >
           library
         </Link>{" "}
-        that contains all documents scanned in by Lee.
+        that contains all documents scanned in by Lee. 📄
       </div>
-      <div className="px-8 pb-32 text-2xl">
-        Here is the{" "}
+      <div className="px-8 pb-10 text-2xl">
+        🖼️ Here is the{" "}
         <Link
           className="text-blue-700 underline font-semibold"
           href="/figures-richard"
         >
           gallery
         </Link>{" "}
-        that contains all figures scanned in by Richard.
+        that contains all figures scanned in by Richard. 🖼️
+      </div>
+      <div className="px-8 pb-32 text-2xl">
+        🚗 This{" "}
+        <Link
+          className="text-blue-700 underline font-semibold"
+          href="/parking-lot"
+        >
+          parking lot
+        </Link>{" "}
+        contains misc. text and info that needs placement. 🖊️
       </div>
     </div>
   );

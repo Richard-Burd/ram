@@ -21,7 +21,7 @@ export default function LandingButton({ title, subTitle, bgColor }) {
           </div>
           <div
             style={{ fontSize: "1.77rem", fontStretch: "semi-expanded" }}
-            className="roboto-font-500"
+            className="text-black text-opacity-90 roboto-font-500"
           >
             {subTitle}
           </div>
