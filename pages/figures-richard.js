@@ -1,4 +1,5 @@
 import Figure from "../components/Figure";
+import Brochure from "../components/Brochure";
 import FigurePng from "../components/FigurePng";
 import Link from "next/link";
 
@@ -38,6 +39,18 @@ export default function FiguresRichard() {
       <Figure title="" fileName="fig-2a" description="" fileLabel={true} />
       <FigurePng title="" fileName="fig-2b" description="" fileLabel={true} />
       <FigurePng title="" fileName="fig-2c" description="" fileLabel={true} />
+      <Brochure
+        title="Tri-Fold Handout"
+        fileName="fig-3"
+        description="This handout is intended to be printed front & back so as to be folded into three segments"
+        fileLabel={true}
+      />
+      <Brochure
+        title="Bi-Fold Handout"
+        fileName="fig-4"
+        description="This handout is intended to be printed front & back so as to be folded into two segments"
+        fileLabel={true}
+      />
       <div className="pb-48"></div>
     </div>
   );
