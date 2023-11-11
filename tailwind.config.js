@@ -24,6 +24,11 @@ module.exports = {
       listStyleType: {
         square: "square",
       },
+      borderRadius: {
+        "4xl": "2rem",
+        "5xl": "2.5rem",
+        "6xl": "3rem",
+      },
     },
   },
   plugins: [],

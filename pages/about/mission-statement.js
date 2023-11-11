@@ -8,7 +8,7 @@ export default function MissionStatement() {
         <SecondaryNavbar {...navbarProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-3xl"
+          className="bg-neutral-950 m-11 p-8 rounded-6xl"
         >
           <div className="m-4 p-4 text-center text-7xl pt-serif-700 text-[#ffe9bf] italic">
             Mission Statement
