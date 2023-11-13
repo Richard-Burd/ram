@@ -21,8 +21,115 @@ export default function Contacts() {
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-6 rounded-6xl"
         >
-          <div className="m-4 p-4 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
+          <div className="m-4 p-4 pb-12 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
             Contacts
+          </div>
+          <div className="container mx-auto px-4">
+            <table className="">
+              <tbody className="text-2xl">
+                <tr id="john">
+                  <td className="text-left font-bold pb-16">Davidson County</td>
+                  <td className="text-left pb-16 pl-12">John van der Harst</td>
+                  <td className="pl-12 pb-16">
+                    <a
+                      href={`/organizing/contacts/john`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
+                        src={`/images/external-link-icons/email.svg`}
+                        alt={"Email icon"}
+                        height={50}
+                        width={50}
+                      />
+                    </a>
+                  </td>
+                </tr>
+
+                <tr id="leith">
+                  <td className="text-left font-bold pb-16">Jackson County</td>
+                  <td className="text-left pb-16 pl-12">Leith Patton</td>
+                  <td className="pl-12 pb-16">
+                    <a
+                      href={`/organizing/contacts/leith`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
+                        src={`/images/external-link-icons/email.svg`}
+                        alt={"Email icon"}
+                        height={50}
+                        width={50}
+                      />
+                    </a>
+                  </td>
+                </tr>
+
+                <tr id="martha">
+                  <td className="text-left font-bold pb-16">Stewart County</td>
+                  <td className="text-left pb-16 pl-12">Martha Yanchyshyn</td>
+                  <td className="pl-12 pb-16">
+                    <a
+                      href={`/organizing/contacts/martha`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
+                        src={`/images/external-link-icons/email.svg`}
+                        alt={"Email icon"}
+                        height={50}
+                        width={50}
+                      />
+                    </a>
+                  </td>
+                </tr>
+
+                <tr id="colleen">
+                  <td className="text-left font-bold pb-16">Wayne County</td>
+                  <td className="text-left pb-16 pl-12">Colleen McLanaghan</td>
+                  <td className="pl-12 pb-16">
+                    <a
+                      href={`/organizing/contacts/colleen`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
+                        src={`/images/external-link-icons/email.svg`}
+                        alt={"Email icon"}
+                        height={50}
+                        width={50}
+                      />
+                    </a>
+                  </td>
+                </tr>
+
+                <tr id="catherine">
+                  <td className="text-left font-bold pb-16">
+                    Washington County
+                  </td>
+                  <td className="text-left pb-16 pl-12">Catherine Murray</td>
+                  <td className="pl-12 pb-16">
+                    <a
+                      href={`/organizing/contacts/catherine`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
+                        src={`/images/external-link-icons/email.svg`}
+                        alt={"Email icon"}
+                        height={50}
+                        width={50}
+                      />
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
