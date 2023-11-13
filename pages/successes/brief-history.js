@@ -4,17 +4,17 @@ import { navbarProps } from "@/pages/successes";
 export default function BriefHistory() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#000000] text-zinc-300 pb-16">
+      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
         <SecondaryNavbar {...navbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-8 rounded-6xl"
         >
-          <div className="m-4 p-4 text-center text-7xl pt-serif-700 text-[#bfe6ff] italic">
-            Brief History
+          <div className="m-4 p-4 text-center text-6xl pt-serif-700 text-[#bfe6ff] italic">
+            Some of RAM's Successes
           </div>
           <div className="mx-12 text-2xl">
-            <ul className="list-square list-outside">
+            <ol className="list-decimal list-outside">
               <li id="1" className="pt-3">
                 Set a high standard for studying issues by touring over 200
                 facilities in 19 states and Ontario. 1989-present.
@@ -141,7 +141,7 @@ export default function BriefHistory() {
               <li id="29" className="py-3"></li>
               <li id="30" className="py-3"></li> 
               */}
-            </ul>
+            </ol>
           </div>
         </div>
       </div>

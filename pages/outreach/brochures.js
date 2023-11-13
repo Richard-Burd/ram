@@ -7,7 +7,7 @@ export default function Brochures() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <div className="bg-gradient-to-l from-[#088723] to-[#000000] pb-72">
+      <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Brochures
         </div>

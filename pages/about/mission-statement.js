@@ -4,7 +4,7 @@ import { navbarProps } from "@/pages/about";
 export default function MissionStatement() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#873f08] to-[#000000] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#873f08] to-[#1a0c02] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
         <div
           id="title-and-text-box"
