@@ -140,3 +140,58 @@
   scrollbar-width: none;
   -ms-overflow-style: none; /* IE and Edge */
 }
+
+/* The following control the fade on the landing page */
+.right-fade-10 {
+  background-image: linear-gradient(
+    270deg,
+    #871014 0%,
+    #871014 0%,
+    transparent 10%
+  );
+}
+
+.left-fade-10 {
+  background-image: linear-gradient(
+    90deg,
+    #871014 0%,
+    #871014 0%,
+    transparent 10%
+  );
+}
+
+.right-fade-17 {
+  background-image: linear-gradient(
+    270deg,
+    #871014 0%,
+    #871014 0%,
+    transparent 17%
+  );
+}
+
+.left-fade-17 {
+  background-image: linear-gradient(
+    90deg,
+    #871014 0%,
+    #871014 0%,
+    transparent 17%
+  );
+}
+
+.right-fade-23 {
+  background-image: linear-gradient(
+    270deg,
+    #871014 0%,
+    #871014 0%,
+    transparent 23%
+  );
+}
+
+.left-fade-23 {
+  background-image: linear-gradient(
+    90deg,
+    #871014 0%,
+    #871014 0%,
+    transparent 23%
+  );
+}

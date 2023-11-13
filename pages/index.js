@@ -1,11 +1,36 @@
+import React, { useEffect, useState } from "react";
 import LandingButtons from "../components/LandingButtons";
-// import { Inter } from "next/font/google";
+
 export default function Home() {
+  const [backgroundFillRate, setBackgroundFillRate] = useState(20);
+
+  useEffect(() => {
+    // Function to update backgroundFillRate based on viewport height
+    const updateBackgroundFillRate = () => {
+      const viewportHeight = window.innerHeight;
+      setBackgroundFillRate(viewportHeight <= 800 ? "17" : "10");
+      if (viewportHeight <= 550) {
+        setBackgroundFillRate("23");
+      }
+    };
+
+    // Attach event listener to window resize
+    window.addEventListener("resize", updateBackgroundFillRate);
+
+    // Initial update
+    updateBackgroundFillRate();
+
+    // Clean up event listener when the component unmounts
+    return () => {
+      window.removeEventListener("resize", updateBackgroundFillRate);
+    };
+  }, []);
+
   return (
     <div>
       <div className="bg-black">
-        <div className="bg-gradient-to-l from-[#871014] to-10% to-transparent">
-          <div className="bg-gradient-to-l to-[#871014] from-90% from-transparent">
+        <div className={`right-fade-${backgroundFillRate}`}>
+          <div className={`left-fade-${backgroundFillRate}`}>
             <div className="pb-10">
               <div className={``}>
                 <img
