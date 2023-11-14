@@ -9,7 +9,7 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
           {titles.map((title) => (
             <Link
               className="min-w-32 flex-grow mx-1"
-              href={`${path}/bios/#${title.toLowerCase().replace(/ /g, "-")}`}
+              href={`${path}/#${title.toLowerCase().replace(/ /g, "-")}`}
             >
               <BiographyNavbarButton title={title} bgColor={bgColor} />
             </Link>

@@ -11,7 +11,7 @@ export default function Brochure({
       <div className="parent">
         <div className="child-2">
           <div
-            className={`bg-slate-300 p-4 ml-5 my-12 shadow-lg ${
+            className={`bg-[#9e9e9e] bg-opacity-70 opacity-90 p-4 rounded-xl ml-5 my-4 shadow-lg ${
               title || description
                 ? "max-w-[480px]"
                 : "bg-gray-100 max-w-[480px]"
@@ -20,7 +20,7 @@ export default function Brochure({
           >
             {(title || description) && (
               <div className="">
-                <div className="averia-700 pb-5 text-lg text-center border-b-2 border-b-gray-900">
+                <div className="pt-serif-700 italic pb-5 text-2xl text-center border-b-2 border-b-gray-900">
                   {title}
                 </div>
                 <div className="averia-400 py-4">{description}</div>

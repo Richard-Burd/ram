@@ -16,7 +16,7 @@ export const bioNavbarProps = {
     "Lee Nelson",
     "Richard Burd",
   ],
-  path: "/about",
+  path: "/about/bios",
 };
 
 export default function Bios() {
