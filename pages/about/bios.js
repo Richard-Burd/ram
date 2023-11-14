@@ -400,7 +400,23 @@ export default function Bios() {
                 preparations. Tables and floors full of piles.
               </div>
               <div className="my-4"></div>
+              <div>More details are anticipated soon.</div>
             </div>
+            <center className="link-icon-set">
+              <a
+                href={`/organizing/contacts/leith`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
+                  src={`/images/external-link-icons/email.svg`}
+                  alt={"Email icon"}
+                  height={50}
+                  width={50}
+                />
+              </a>
+            </center>
           </div>
 
           <div id="martha-yanchyshyn" className="pt-40">
@@ -424,6 +440,7 @@ export default function Bios() {
                 years.
               </div>
               <div className="my-4"></div>
+              <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
               <a
@@ -455,6 +472,8 @@ export default function Bios() {
               </div>
               <div className="my-4"></div>
               <div>Colleen has a nursing background.</div>
+              <div className="my-4"></div>
+              <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
               <a
@@ -488,6 +507,8 @@ export default function Bios() {
                 Catherine was one of the commenters on the issue of State
                 compost quality standards.
               </div>
+              <div className="my-4"></div>
+              <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
               <a
@@ -660,7 +681,7 @@ export default function Bios() {
             </div>
             <div className="my-7 standard-font-3 text-justify text-lg">
               <div>
-                As Leslie had done before, she dove into supporting <i>RAM</i>
+                As Leslie had done before, she dove into supporting <i>RAM</i>{" "}
                 at what proved to be an unsustainable level. She hosted many{" "}
                 <i>RAM</i> meetings at her house, and even a <i>RAM</i>{" "}
                 Christmas party. She attended meetings of the Davidson County
@@ -670,13 +691,9 @@ export default function Bios() {
               </div>
               <div className="my-4"></div>
               <div>
-                Joe was famous for focusing on minutiae. Joe pointed out a
-                grammatical error that had lurked in <i>RAM&apos;s</i> Mission
-                Statement unnoticed for over two decades. His correction was
-                examined by Leslie Allen, a skilled writer herself. She
-                concluded Joe was right. His correction remains part of{" "}
-                <i>RAM&apos;s</i> Mission Statement to this day. It's the second
-                "Which," which had been a "that."
+                Ultimately, Leslie's business, I Dream of Weenie, and many other
+                long-term friends, required enough attention that involvement
+                with <i>RAM</i> became a casualty.
               </div>
             </div>
           </div>
@@ -761,15 +778,6 @@ export default function Bios() {
                 tour of a plastic waste molding start-up in Gainsboro, a
                 drop-off site, and the kick-off press announcement for a
                 5-county recycling marketing co-op.
-              </div>
-              <div className="my-4"></div>
-              <div>
-                Randy loved street theater, and once dressed up as a green elf
-                outside a Tennessee Environmental Council Green Tie fundraiser.
-                No tie for Randy. He helped collect cardboard boxes for John to
-                build costumes like the much-used Walking Incinerator. Randy was
-                fascinated with the plumbing in John's subsequent Walking
-                Ashfill costume.
               </div>
               <div className="my-4"></div>
               <div>
