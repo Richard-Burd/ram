@@ -141,16 +141,6 @@ export default function BriefHistory() {
                 above) including "Triple Bottom Line" economic assessment of
                 recycling benefits, approved March 2019
               </li>
-
-              {/*
-              <li id="24" className="py-3"></li>
-              <li id="25" className="py-3"></li>
-              <li id="26" className="py-3"></li>
-              <li id="27" className="py-3"></li>
-              <li id="28" className="py-3"></li>
-              <li id="29" className="py-3"></li>
-              <li id="30" className="py-3"></li> 
-              */}
             </ol>
           </div>
         </div>

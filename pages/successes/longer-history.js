@@ -95,7 +95,7 @@ export default function LongHistory() {
               </li>
 
               <li id="7" className="py-3">
-                Achieved the world’s first and only, to-date (to our
+                Achieved the world&apos;s first and only, to-date (to our
                 knowledge),voluntary closure of a large, financially viable
                 waste-to-energy incinerator with up-to-date air pollution
                 control equipment (Nashville Thermal Transfer Corp.), 1993-Metro
@@ -341,16 +341,6 @@ export default function LongHistory() {
                 Board-stated objective. Performance since has so far confirmed
                 that assessment.
               </li>
-
-              {/*
-              <li id="24" className="py-3"></li>
-              <li id="25" className="py-3"></li>
-              <li id="26" className="py-3"></li>
-              <li id="27" className="py-3"></li>
-              <li id="28" className="py-3"></li>
-              <li id="29" className="py-3"></li>
-              <li id="30" className="py-3"></li> 
-              */}
             </ol>
           </div>
         </div>
