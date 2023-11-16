@@ -732,6 +732,557 @@ export default function LibraryLee() {
           </div>
         </div>
       </div>
+
+      <div id="binder-2">
+        <div id="Bluestream">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-2 ➤ Bluestream
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="incinerator-vs-natural-gas">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-2 ➤ Incinerator vs Natural Gas
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="lobbyist-issue">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-2 ➤ Lobbyist Issue
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="recycling-and-composting">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-2 ➤ Recycling and Composting
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="solar-oven">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-2 ➤ Solar Oven
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="solid-waste-general">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-2 ➤ Solid Waste - General
+          </div>
+          <div className="documents-element"></div>
+        </div>
+      </div>
+
+      <div id="binder-3">
+        <div id="ash">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Ash
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="cards-and-comics">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Cards and Comics
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="green-party">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Green Party
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="immaterial-john">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Immaterial John
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="lobbying-issues">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Lobbying Issues
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="peace">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Peace
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="politics">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Politics
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="pollution-and-health">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Pollution and Health
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="recycling">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Recycling
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="solid-waste-general">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ Solid Waste - General
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="ymca">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-3 ➤ YMCA
+          </div>
+          <div className="documents-element"></div>
+        </div>
+      </div>
+
+      <div id="binder-4">
+        <div id="ash">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-4 ➤ Ash
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="philanthropy">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-4 ➤ Philanthropy
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="pollution">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-4 ➤ Pollution
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="ram-agendas">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-4 ➤ RAM Agendas
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="recycling">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-4 ➤ Recycling
+          </div>
+          <div className="documents-element"></div>
+        </div>
+      </div>
+
+      <div id="binder-5">
+        <div id="agendas">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ Agendas
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="campaigns">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ Campaigns
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="legislation">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ Legislation
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="new-articles">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ New Article
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="permaculture">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ Permaculture
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="ram-website">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ RAM Website
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="recycling">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-5 ➤ Recycling
+          </div>
+          <div className="documents-element"></div>
+        </div>
+      </div>
+
+      <div id="binder-6">
+        <div id="511-main-st-nashville">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ 511 Main St Nashville
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="ash-landfill-expansion">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Ash Landfill Expansion
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="cement-plant-rd">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Cement Plant Rd
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="county-line-auto-salvage">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ County Line Auto Salvage
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="general-usage">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ General Usage
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="green-meadow-apts">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Green Meadow Apts
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="greenbrier-self-storage">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Greenbrier Self-Storage
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="hickory-grove">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Hickory Grove
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="highland-rim-speedway">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Highland Rim Speedway
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="metro-air-pollution">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Metro Air Pollution
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="metro-ash-landfill">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Metro Ash Landfill
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="metro-sewage-plant">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Metro Sewage Plant
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="multiple-sites">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Multiple Sites
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="regulations">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Regulations
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="risk">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Risk
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="spillage-on-roads">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Spillage on Roads
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="testing">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Testing
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="unknown-location">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-6 ➤ Unknown Location
+          </div>
+          <div className="documents-element"></div>
+        </div>
+      </div>
+
+      <div id="binder-7">
+        <div id="2176-ted-dorris-rd">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ 2176 Ted Dorris Rd
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="archey-center">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Archey Center
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="central-parking">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Central Parking
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="cimmaron-trace">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Cimmaron Trace
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="city-road-chapel">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ City Road Chapel
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="comfort-suites">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Comfort Suites
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="cvs-madison">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ CVS Madison
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="exxon-12th-broadway">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Exxon 12th Broadway
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="exxon-i-65&24-shelby">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Exxon I-65&24 Shelby
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="lakewood-condominiums">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Lakewood Condominiums
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="last-plantation">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Last Plantation
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="marcorp-constructors">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Marcorp Constructors
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="mcdonalds-i-24-hwy-76">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ McDonalds I-24 Hwy 76
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="mcdonalds-nippers-corner">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ McDonalds Nippers Corner
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="mcquiston-heights">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ McQuiston Heights
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="n-mt-pleasant-rd-homes">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ N. Mt. Pleasant Rd. homes
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="pitt-excavating">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Pitt Excavating
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="powell-ave-armory-dr">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Powell Ave Armory Dr
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="rawls-estates">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Rawls Estates
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="red-roof-inn-cool-springs">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Red Roof Inn Cool Springs
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="ridgetop-auto-center">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Ridgetop Auto Center
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="shadow-brook">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Shadow Brook
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="southern-medical-disposal">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Southern Medical Disposal
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="sterling-house">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Sterling House
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="sunny-meadows-estates">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Sunny Meadows Estates
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="sycamore-springs">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Sycamore Springs
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="walgreens-melrose">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Walgreens Melrose
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="whiteland-estates">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Whiteland Estates
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="whitsett-elem-school">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Whitsett Elem School
+          </div>
+          <div className="documents-element"></div>
+        </div>
+
+        <div id="willow-creek">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-7 ➤ Willow Creek
+          </div>
+          <div className="documents-element"></div>
+        </div>
+      </div>
     </div>
   );
 }
