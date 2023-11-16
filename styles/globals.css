@@ -195,3 +195,7 @@
     transparent 23%
   );
 }
+
+.list-alpha-upper {
+  list-style-type: upper-alpha;
+}

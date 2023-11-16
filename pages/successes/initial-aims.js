@@ -70,7 +70,7 @@ export default function InitialAims() {
               characteristics of those with high quality talent are:
             </p>
 
-            <ol className="list-decimal list-outside mx-12 text-xl">
+            <ol className="list-alpha-upper list-outside mx-12 text-xl">
               <li id="1" className="">
                 having a focus on, and yearning for, success, and
               </li>
