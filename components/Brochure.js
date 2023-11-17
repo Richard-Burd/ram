@@ -11,7 +11,7 @@ export default function Brochure({
       <div className="parent">
         <div className="child-2">
           <div
-            className={`bg-[#9e9e9e] bg-opacity-70 opacity-90 p-4 rounded-xl ml-5 my-4 shadow-lg ${
+            className={`bg-[#b8d1c8] bg-opacity-90 opacity-90 p-4 rounded-xl ml-5 my-4 shadow-lg ${
               title || description
                 ? "max-w-[480px]"
                 : "bg-gray-100 max-w-[480px]"

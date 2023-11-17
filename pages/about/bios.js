@@ -15,6 +15,26 @@ export const bioNavbarProps = {
     "Catherine Murray",
     "Lee Nelson",
     "Richard Burd",
+    // new names added for extended bios
+    "Anna Haislip",
+    "Andrew Evans",
+    "A. C. (Sandy) Loyd",
+    "Sherry Force",
+    "Joe Shedlock",
+    "Leslie Allen",
+    "Suzanna Lonce",
+    "Randy Nocton",
+    "Sandy Hepler",
+    "Don Miller",
+    "Pixie Lewis",
+    "Connie Collopy",
+    "Connie Kaylor",
+    "Connie Lehman",
+    "Dan Sweeton",
+    "Michael Traugot",
+    "Ethel Spiller",
+    "Pat McAlpine",
+    "Myles Jakubowski",
   ],
   path: "/about/bios",
 };
@@ -577,7 +597,7 @@ export default function Bios() {
             </div>
           </div>
 
-          <div id="a-c-sandy-loyd" className="pt-40">
+          <div id="a.-c.-(sandy)-loyd" className="pt-40">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
               A. C. (Sandy) Loyd
             </div>
