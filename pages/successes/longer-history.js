@@ -142,10 +142,10 @@ export default function LongHistory() {
                 experiences with AAR-TN surfaced in state after state in which
                 AAR sought to expand their business. Activists in those states,
                 desperate for help, turned to John repeatedly, as they had no
-                other experienced source sympathetic to their causes. To spare
-                RAM, which was then dropped from the lawsuit, John took full
-                responsibility for his actions. <i>RAM</i> thereafter was an
-                affiliation label in this case. John and his attorneys Mary
+                other experienced source sympathetic to their causes. To spare{" "}
+                <i>RAM</i>, which was then dropped from the lawsuit, John took
+                full responsibility for his actions. <i>RAM</i> thereafter was
+                an affiliation label in this case. John and his attorneys Mary
                 Parker, assisted by Stacey Gibson, received lots of newspaper
                 coverage and help from activists who knew John. Sandy Hepler
                 organized a well-attended fundraiser at Leith Patton's house,

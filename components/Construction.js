@@ -27,7 +27,7 @@ export default function Construction() {
         </Link>{" "}
         that contains all documents scanned in by Lee. 📄
       </div>
-      <div className="px-8 pb-10 text-2xl">
+      {/* <div className="px-8 pb-10 text-2xl">
         🖼️ Here is the{" "}
         <Link
           className="text-blue-700 underline font-semibold"
@@ -36,7 +36,7 @@ export default function Construction() {
           gallery
         </Link>{" "}
         that contains all figures scanned in by Richard. 🖼️
-      </div>
+      </div> */}
       <div className="px-8 pb-32 text-2xl">
         🚗 This{" "}
         <Link

@@ -25,7 +25,7 @@ export default function Outreach() {
         titleColor="text-[#c2ffbf]"
         subtitle="Education, publications"
         swooshColor="green"
-        backgroundColor="to-[#0d731f] from-[#000000]"
+        backgroundColor="to-[#14993c] from-[#08120b]"
         buttonsColor="bg-outreachBg" // "bg-[#8aff8c]"
         {...navbarProps}
       />

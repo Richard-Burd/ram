@@ -49,16 +49,16 @@ export default function InitialAims() {
               needs into opportunities, and then deliver solutions. This
               preparation resulted from two primary focuses:
             </p>
-            <div className="bg-blue-700 m-4 px-2 py-4 bg-opacity-10 rounded-2xl">
+            <div className="bg-blue-700 m-4 px-2 py-4 bg-opacity-30 rounded-2xl">
               <ol className="list-decimal list-outside mx-12">
                 <li id="1" className="">
-                  <i>RAM</i> focused steadfastly on figuring out how to minimize
-                  disposal, the best way possible, in line with its Mission
-                  Statement.
+                  <i>RAM</i> focused steadfastly on figuring out how to{" "}
+                  <b>minimize disposal</b>, the best way possible, in line with
+                  its Mission Statement.
                 </li>
                 <li id="2" className="pt-3 pb-2">
-                  <i>RAM</i> focused on high-quality talent management, aimed at
-                  best utilizing what became available, as efficiently,
+                  <i>RAM</i> focused on high-quality <b>talent management</b>,
+                  aimed at best utilizing what became available, as efficiently,
                   humanely, and sustainably, as ever-limiting circumstances
                   would allow. It was the failure to do this, by other groups,
                   which led to the need for this. <i>RAM</i> did it well.
@@ -70,13 +70,13 @@ export default function InitialAims() {
               Both of these two are interrelated. Perhaps the most important
               characteristics of those with high quality talent are:
             </p>
-            <div className="bg-blue-700 m-4 px-2 py-4 bg-opacity-10 rounded-2xl">
+            <div className="bg-blue-700 m-4 px-2 py-4 bg-opacity-30 rounded-2xl">
               <ol className="list-alpha-upper list-outside mx-12">
                 <li id="A" className="">
-                  having a focus on, and yearning for, success, and
+                  having a focus on, and yearning for, <b>success</b>, and
                 </li>
                 <li id="B" className="pt-3 pb-2">
-                  having the work ethic to make that happen.
+                  having the <b>work ethic</b> to make that happen.
                 </li>
               </ol>
             </div>

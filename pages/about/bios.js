@@ -38,8 +38,8 @@ export default function Bios() {
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-6 rounded-6xl"
         >
-          <div className="m-4 p-4 text-center text-7xl pt-serif-700 text-[#ffe9bf] italic">
-            Notable RAM Members
+          <div className="m-4 p-4 text-center text-5xl pt-serif-700 text-[#ffe9bf] italic">
+            Some Notable RAM Members
           </div>
           <div id="john-van-der-harst">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
@@ -528,7 +528,7 @@ export default function Bios() {
           </div>
 
           <div className="m-4 p-4 text-center text-5xl pt-serif-700 text-[#ffe9bf] italic mt-40">
-            Past Notable RAM Members
+            Some Notable Past RAM Members
           </div>
 
           <div id="anna-haislip" className="pt-2">
