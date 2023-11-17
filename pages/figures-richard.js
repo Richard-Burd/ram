@@ -1,3 +1,4 @@
+// NOTE: this page is slated for deletion
 import Figure from "../components/Figure";
 import Brochure from "../components/Brochure";
 import FigurePng from "../components/FigurePng";
