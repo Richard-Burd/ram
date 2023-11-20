@@ -9,6 +9,9 @@ export const bioNavbarProps = {
   bgColor: "bg-aboutBg",
   titles: [
     "John van der Harst",
+    "Karen Cisler",
+    "Ursula King",
+    "Jeff Broussal",
     "Leith Patton",
     "Martha Yanchyshyn",
     "Colleen McLanaghan",

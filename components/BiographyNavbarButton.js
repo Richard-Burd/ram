@@ -12,7 +12,7 @@ export default function BiographyNavbarButton({ title, bgColor }) {
       transition={{ duration: 0.25 }}
     >
       <div className={`${bgColor} rounded-lg`}>
-        <div className="text-black text-center text-xl text-opacity-80 roboto-font-500">
+        <div className="text-black px-3 text-center text-xl text-opacity-80 roboto-font-500">
           {title}
         </div>
       </div>
