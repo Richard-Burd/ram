@@ -18,7 +18,7 @@ export default function Organizing() {
         titleColor="text-[#d4bfff]"
         subtitle="Join us"
         swooshColor="purple"
-        backgroundColor="to-[#511c9c] from-[#060112]"
+        backgroundColor="to-[#591fab] from-[#0b041c]"
         buttonsColor="bg-organizingBg" // "bg-[#d5a8ff]"
         {...navbarProps}
       />

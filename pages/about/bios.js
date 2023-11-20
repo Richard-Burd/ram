@@ -51,7 +51,7 @@ export default function Bios() {
           content="team, bio, background, about us, biography, persons"
         />
       </Head>
-      <div className="bg-gradient-to-l from-[#873f08] to-[#1a0c02] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#b8580b] to-[#120700] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
         <BiographyNavbar {...bioNavbarProps} />
         <div

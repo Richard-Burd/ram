@@ -20,7 +20,7 @@ export default function Studies() {
         titleColor="text-[#f8ffbf]"
         subtitle="Travels, pilots"
         swooshColor="yellow"
-        backgroundColor="to-[#686b0b] from-[#000000]"
+        backgroundColor="to-[#8a8500] from-[#0f0f00]"
         buttonsColor="bg-studiesBg"
         {...navbarProps}
       />

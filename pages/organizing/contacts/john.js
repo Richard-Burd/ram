@@ -12,7 +12,7 @@ export default function John() {
           content="contact, address, email, outreach, leadership"
         />
       </Head>
-      <div className="bg-gradient-to-l from-[#431780] to-[#000000] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
         <div
           id="title-and-text-box"

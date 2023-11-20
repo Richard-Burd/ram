@@ -22,7 +22,7 @@ export default function About() {
         titleColor="text-[#ffe9bf]"
         subtitle="Our History"
         swooshColor="orange"
-        backgroundColor="to-[#873f08] from-[#000000]"
+        backgroundColor="to-[#b8580b] from-[#120700]"
         buttonsColor="bg-aboutBg" //"bg-[#ffd28a]"
         {...navbarProps}
       />
