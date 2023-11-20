@@ -165,7 +165,7 @@ export default function LongHistory() {
                   then dropped from the lawsuit, John took full responsibility
                   for his actions. <i>RAM</i> thereafter was an affiliation
                   label in this case. John and his attorneys Mary Parker,
-                  assisted by Stacey Gibson, received lots of newspaper coverage
+                  assisted by Stacy Gibson, received lots of newspaper coverage
                   and help from activists who knew John. Sandy Hepler organized
                   a well-attended fundraiser at Leith Patton's house, featuring
                   Elizabeth Cutler's music. Sherry Sloan and Carl Evertson

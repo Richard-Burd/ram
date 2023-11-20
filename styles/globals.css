@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
 .roboto-font-300 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
