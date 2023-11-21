@@ -778,7 +778,368 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-2 ➤ Incinerator vs Natural Gas
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_1 (Public Hearing Schedule) [1-6-1994]"
+              fileName="doc-79"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_2 (Cost Comparison) [11-8-1993]"
+              fileName="doc-80"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_3 (Gas Conversion Benefits) [11-8-1993]"
+              fileName="doc-81"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_4 (CPA Comments) [1-10-1994]"
+              fileName="doc-82"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_5 (Councilmans Request to John) [1-24-1994]"
+              fileName="doc-83"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_6 (Council Resolution R94-1008)"
+              fileName="doc-84"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_7 (Solid Waste Public Hearing) [1-11-1994]"
+              fileName="doc-85"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_8 (Solid Waste Public Hearing) [1-13-1994]"
+              fileName="doc-86"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_9 (Solid Waste Public Hearing) [1-20-1994]"
+              fileName="doc-87"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_10 (RAM replies to hearings) [1-31-1994]"
+              fileName="doc-88"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_11 (Nashville Business Journal article on RAM) [2-14-1994]"
+              fileName="doc-89"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_12 (joint meeting agenda notes)"
+              fileName="doc-90"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_13 (Letter to Gary Odom) [5-10-1994]"
+              fileName="doc-91"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_14 (Letter to Nashville Business Journal) [5-30-1994]"
+              fileName="doc-92"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_15 (Letter to Civil Engineering) [5-30-1994]"
+              fileName="doc-93"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_16 (Letter from Jennifer Rowe) [9-12-1994]"
+              fileName="doc-94"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_17 (Letter from Jennifer Rowe) [9-22-1994]"
+              fileName="doc-95"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_18 (Letter from Jennifer Rowe) [10-23-1994]"
+              fileName="doc-96"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_19 (Waste to Energy Combustion Ash) [7-14-1994]"
+              fileName="doc-97"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_20 (Ash Test Results) [7-26-1994]"
+              fileName="doc-98"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_21 (Local News - Ash Price Rise) [8-5-1994]"
+              fileName="doc-99"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_22 (BURNT letter to Metro Health) [8-7-1994]"
+              fileName="doc-100"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_23 (Dioxin Sources) "
+              fileName="doc-101"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_24 (EDF Ash Dump) [8-18-1994]"
+              fileName="doc-102"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_25 (Activist Memorandum) [8-25-1994]"
+              fileName="doc-103"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_26 (Ash Alert) [7-29-1994]"
+              fileName="doc-104"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_27 (Letter to Representatives) [8-29-1994]"
+              fileName="doc-105"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_28 (Memorandum to Incinerator Activists) [9-26-1994]"
+              fileName="doc-106"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_29 (RAM Newsletter) [9-12-1994]"
+              fileName="doc-107"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_30 (RAM Letter to Supporters) [9-12-1994]"
+              fileName="doc-108"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_31 (Letter to Doug Cameron) [9-27-1994]"
+              fileName="doc-109"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_31 (TEC Meeting Agenda) [11-19-1994]"
+              fileName="doc-110"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_32 (RAM letter to Metro Health Dept) [10-12-1994]"
+              fileName="doc-111"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_33 (Metro Council Workshop) [9-26-1995]"
+              fileName="doc-112"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_34 (Metro Council Workshop 2) [9-26-1995]"
+              fileName="doc-113"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_35 (Incineration Emission Standards) [2-14-1996]"
+              fileName="doc-114"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_36 (RAM to Board of Health) [2-20-1996]"
+              fileName="doc-115"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_37 (Ether Bunny Comic) [2-1996]"
+              fileName="doc-116"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_38 (Letter to Nashville Scene) [6-29-1996]"
+              fileName="doc-117"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_38 (Letter to The Tennessean) [6-30-1996]"
+              fileName="doc-118"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_39 (Request to dismantle Thermal Plant) [7-15-1996]"
+              fileName="doc-119"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_40 (Letter to Councilmember Janis Baird Sontany) [8-30-1996]"
+              fileName="doc-120"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_41 (Resolution R96-474 Support)"
+              fileName="doc-121"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_42 (Clearing the Air around Thermal event) [11-21-1996]"
+              fileName="doc-122"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Incinerator_vs_Natural_Gas_43 (Meeting with the Mayor) [12-17-1996]"
+              fileName="doc-123"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="lobbyist-issue">
