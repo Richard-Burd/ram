@@ -44,7 +44,7 @@ export default function BriefHistory() {
 
               <li id="6" className="py-3">
                 Led effort that resulted in Tennessee being the first U.S. state
-                with soil-based compost quality standards a: an incentive class
+                with soil-based compost quality standards as an incentive class
                 (Type A), 1993-final vote June 2, 1998
               </li>
 

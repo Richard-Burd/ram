@@ -7,7 +7,12 @@ import { navbarProps } from "@/pages/successes";
 export const bioNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-successesBg",
-  titles: ["Section 1", "Section 2", "Section 3", "Section 4"],
+  titles: [
+    "Internalizing externalized material recovery benefits and disposal costs",
+    "First state soil-based compost quality standards as an incentive class",
+    "First voluntary closure of a large, financially-viable, WTE incinerator with up-to-date air pollution control equipment",
+    "No more treated incinerator ash outside landfills",
+  ],
   path: "/successes/major-successes",
 };
 
@@ -25,7 +30,10 @@ export default function MajorSuccesses() {
             Major Successes
           </div>
 
-          <div id="section-1" className="mx-4 pt-4 text-2xl mb-24">
+          <div
+            id="internalizing-externalized-material-recovery-benefits-and-disposal-costs"
+            className="mx-4 pt-4 text-2xl mb-24"
+          >
             <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
               Internalizing externalized material recovery benefits and disposal
               costs
@@ -113,9 +121,9 @@ export default function MajorSuccesses() {
               John seriously evaluated other affiliation options. All other
               groups would not allow John to upgrade their previous ineffective
               agendas. So John did what he had never aimed to do before. He
-              conceived and organized RAM. That took a lot of time and effort.
-              Often, tough choices faced criticism no matter what direction was
-              chosen.
+              conceived and organized <i>RAM</i>. That took a lot of time and
+              effort. Often, tough choices faced criticism no matter what
+              direction was chosen.
             </p>
             <p className="mt-8">
               After producing <i>RAM&apos;s</i> first newsletter, John applied
@@ -130,9 +138,12 @@ export default function MajorSuccesses() {
             </p>
           </div>
 
-          <div id="section-2" className="mx-4 pt-4 text-2xl mb-24">
+          <div
+            id="first-state-soil-based-compost-quality-standards-as-an-incentive-class"
+            className="mx-4 pt-4 text-2xl mb-24"
+          >
             <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
-              First state soil-based compost quality standard as an incentive
+              First state soil-based compost quality standards as an incentive
               class
             </div>
             <p className="mb-8">
@@ -215,7 +226,10 @@ export default function MajorSuccesses() {
             </p>
           </div>
 
-          <div id="section-3" className="mx-4 pt-4 text-2xl mb-24">
+          <div
+            id="first-voluntary-closure-of-a-large,-financially-viable,-wte-incinerator-with-up-to-date-air-pollution-control-equipment"
+            className="mx-4 pt-4 text-2xl mb-24"
+          >
             <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
               First voluntary closure of a large, financially-viable, WTE
               incinerator with up-to-date air pollution control equipment
@@ -339,7 +353,10 @@ export default function MajorSuccesses() {
             </p>
           </div>
 
-          <div id="section-4" className="mx-4 pt-4 text-2xl mb-24">
+          <div
+            id="no-more-treated-incinerator-ash-outside-landfills"
+            className="mx-4 pt-4 text-2xl mb-24"
+          >
             <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
               No more treated incinerator ash outside landfills
             </div>
@@ -452,15 +469,15 @@ export default function MajorSuccesses() {
             <p className="mt-8">
               The lawsuits filed by AAR and its affiliates came amid the
               regulatory drama. Initial, clueless state staff&apos;s negligence
-              both enabled lax permits, hid violations, and denied enforcement.
-              One put that ignorance in writing. A single
-              I-don&apos;t-see-anything letter. That emboldened AAR to get
-              careless, and employ classic SLAPP lawsuit tactics when facing a
-              single, poor, but extremely effective opponent. Tennessee was one
-              of 3 states with a Chancery Court (Delaware and Louisiana are the
-              others), designed to streamline business dispute resolution. This
-              case was assigned to a Republican-appointed Chancellor not
-              inclined to believe businesses would sue frivolously.
+              enabled lax permits, hid violations, and denied enforcement. One
+              put that ignorance in writing. A single I-don&apos;t-see-anything
+              letter. That emboldened AAR to get careless, and employ classic
+              SLAPP lawsuit tactics when facing a single, poor, but extremely
+              effective opponent. Tennessee was one of 3 states with a Chancery
+              Court (Delaware and Louisiana are the others), designed to
+              streamline business dispute resolution. This case was assigned to
+              a Republican-appointed Chancellor not inclined to believe
+              businesses would sue frivolously.
             </p>
             <p className="mt-8">
               A kind-but-very-direct, environmentally-experienced attorney
@@ -474,7 +491,8 @@ export default function MajorSuccesses() {
               a dispute over the issue -- far more complex, and costly, legally.
             </p>
             <p className="mt-8">
-              John put all of the responsibility on himself, to spare other RAM
+              John put all of the responsibility on himself, to spare other{" "}
+              <i>RAM</i>
               personnel. AAR accepted that, gaining the image of its opponent
               appearing smaller.
             </p>
