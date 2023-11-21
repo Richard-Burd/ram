@@ -738,7 +738,40 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-2 ➤ Bluestream
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Bluestem_1 (Volume 1.1) [8-1994]"
+              fileName="doc-75"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Bluestem_2 (Volume 1.2) [9-1994]"
+              fileName="doc-76"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Bluestem_3 (Volume 1.4) [10-1994]"
+              fileName="doc-77"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Bluestem_4 (Volume 1.4) [11-1994]"
+              fileName="doc-78"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="incinerator-vs-natural-gas">
