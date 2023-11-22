@@ -1330,7 +1330,216 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-2 ➤ Recycling and Composting
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_1 (Review and Letter from Sandy Helper) [7-19-1994]"
+              fileName="doc-146"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_2 (Letter to Metro Council Candidates) [6-17-1995]"
+              fileName="doc-147"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_3 (Backyard Composting) [1995]"
+              fileName="doc-148"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_4 (Recycling Keeps Taxes Low) [1995]"
+              fileName="doc-149"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_5 (Making Recycling Easier) [1996]"
+              fileName="doc-150"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_6 (Good for the Garden) [1997]"
+              fileName="doc-151"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_7 (Reuse article) [6-1996]"
+              fileName="doc-152"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_8 (Reuse Haz Waste Collection)"
+              fileName="doc-153"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_9 (MSW Recycling Submittal) [10-30-1995]"
+              fileName="doc-154"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_10 (Metro Recycling Resolution) [11-21-1995]"
+              fileName="doc-155"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_11 (R Cave on board) [11-22-1995]"
+              fileName="doc-156"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_12 (Status Report Resolution)"
+              fileName="doc-157"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_13 (Letter to John W Stone III) [1-17-1995-6]"
+              fileName="doc-158"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_14 (Response to Resolution R96-139) [2-15-1996]"
+              fileName="doc-159"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_15 (Garbage into Building Materials) [2-17-1996]"
+              fileName="doc-160"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_16 (Resolution to Fund Recycling) [2-26-1996]"
+              fileName="doc-161"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_17 (Council Letter) [3-11-1996]"
+              fileName="doc-162"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_18 (RAM Responds) [4-13-1996]"
+              fileName="doc-163"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_19 (Solid Waste Board Notes) [7-23-1996]"
+              fileName="doc-164"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_20 (Solid Waste Board Response) [7-25-1996]"
+              fileName="doc-165"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_21 (RAM Response) [8-5-1996]"
+              fileName="doc-166"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_22 (Letter to Councilman Johns) [8-12-1996]"
+              fileName="doc-167"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_23 (Letter to Councilwoman Eileen Beehan) [6-16-1996]"
+              fileName="doc-168"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_24 (Letter to Councilman Julius Sloss) [7-4-1996]"
+              fileName="doc-169"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_25 (Letter to Councilman Julius Sloss 2) [7-16-1996]"
+              fileName="doc-170"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_and_Composting_26 (Green Box Fire Issue) [10-24-1996]"
+              fileName="doc-171"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="solar-oven">
