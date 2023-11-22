@@ -13,11 +13,6 @@ export default function Document({
       <div className="parent">
         {fileLabel && (
           <div className="child-1 relative">
-            <div className="translate-y-40 translate-x-12 absolute z-20">
-              <div className="text-red-800 text-3xl young-serif-font text-opacity-70 italic font-semibold relative">
-                {fileName}
-              </div>
-            </div>
             {fileLabel && (
               <div className="-translate-y-8 translate-x-4 absolute z-20">
                 <div className="text-red-800 text-xl">{leeTitle}</div>
@@ -77,6 +72,15 @@ export default function Document({
             )}
           </div>
         </div>
+        {fileLabel && (
+          <div className="child-1 relative">
+            <div className="-translate-y-28 translate-x-12 absolute z-20">
+              <div className="text-red-800 text-3xl young-serif-font text-opacity-70 italic font-semibold relative">
+                {fileName}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
