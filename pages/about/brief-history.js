@@ -56,7 +56,7 @@ export default function BriefHistory() {
             <div className="title font-semibold underline">2005-2010</div>
             <div className="paragraph">
               Climate change, Iraq war, economic collapse, and health care, all
-              draw public attention away from improving material recovery.
+              draw public attention away from improving material recovery
               methods.
             </div>
           </div>

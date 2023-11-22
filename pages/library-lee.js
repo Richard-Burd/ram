@@ -1975,8 +1975,32 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle=""
+              leeTitle="Peace_1 (Strategy Meeting 1) [5-1-2002)"
               fileName="doc-218"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Peace_2 (Strategy Meeting 2) [5-8-2002)"
+              fileName="doc-219"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Peace_3 (Common Ground) [11-1993)"
+              fileName="doc-220"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Peace_4 (Lookism Flyers)"
+              fileName="doc-221"
               description=""
               fileLabel={true}
               showLeeLabel={true}
@@ -1988,21 +2012,168 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Politics
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Politics_1 (NPJC decides which candidate to support) [9-15-2003]"
+              fileName="doc-222"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Politics_2 (NPJC Flyer)"
+              fileName="doc-223"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="pollution-and-health">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Pollution and Health
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_1 (Air, Soil, Water Pollution and Health) [11-17-1998]"
+              fileName="doc-224"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_2 (RAM on Pollution) [11-29-1998]"
+              fileName="doc-225"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_3 (Dr Guengerich responds) [12-9-1998]"
+              fileName="doc-226"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_4 (Dr Olden responds) [12-18-1998]"
+              fileName="doc-227"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_5 (UK Study) [4-24-2000]"
+              fileName="doc-228"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_6 (RAM requests study) [12-7-2000]"
+              fileName="doc-229"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_7 (Tire Burning)"
+              fileName="doc-230"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_8 (Tire Burning 2) [5-21-2001]"
+              fileName="doc-231"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_9 (Tire Burning 3) [6-24-2001]"
+              fileName="doc-232"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_10 (Letter to American Lung Association) [6-17-2001]"
+              fileName="doc-233"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_11 (PEACH)"
+              fileName="doc-234"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_12 (PEACH July Report) [8-1-2003]"
+              fileName="doc-235"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_13 (PEACH August Report) [8-1-2003]"
+              fileName="doc-236"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_14 (Benefit Flyer)"
+              fileName="doc-237"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Pollution_and_Health_15 (LEAF Certificate) [6-2001]"
+              fileName="doc-238"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="recycling">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Recycling
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle=""
+              fileName="doc-239"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="solid-waste-general">
