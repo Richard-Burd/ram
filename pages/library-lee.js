@@ -1546,14 +1546,144 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-2 ➤ Solar Oven
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Solar_Oven_1 (Solar Oven) [7-19-1994]"
+              fileName="doc-172"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="solid-waste-general">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-2 ➤ Solid Waste - General
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_1 (RAM letter to Mark Rogers - A Blueprint to Tackle Solid Waste Issues) [10-24-1994]"
+              fileName="doc-173"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_2 (Letter to Phil) [11-9-1994]"
+              fileName="doc-174"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_3 (Letter to Mark Bowers) [11-9-1994]"
+              fileName="doc-175"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_4 (Letter to EPA) [11-16-1994]"
+              fileName="doc-176"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_5 (Letter to EPA - HG lamps) [11-21-1994]"
+              fileName="doc-177"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_6 (RAM supports Reuse Center) [12-10-1994]"
+              fileName="doc-178"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_7 (Letter to Mark Rogers) [12-22-1994]"
+              fileName="doc-179"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_8 (Letter to Horace Johns - Citizen Participation) [2-7-1995]"
+              fileName="doc-180"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_9 (Letter to Steve Walsh - California Info) [3-26-1995] "
+              fileName="doc-181"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_10 (Questions for the Mayor) [5-9-1995]"
+              fileName="doc-182"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_11 (Squandered Waste)"
+              fileName="doc-183"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_12 (RAM Agenda) [11-15-2021] "
+              fileName="doc-184"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_13 (Mercer Survey Request) [3-5-1996] "
+              fileName="doc-185"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_14 (Mercer Survey) [3-7-1996]"
+              fileName="doc-186"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_-_General_15 (Response to LA ad on Solid Waste) [6-15-1996]"
+              fileName="doc-187"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
       </div>
 
@@ -1562,7 +1692,16 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Ash
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle=""
+              fileName="doc-188"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="cards-and-comics">
