@@ -1695,8 +1695,144 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle=""
+              leeTitle="Ash_1 (Vote No Flyer)"
               fileName="doc-188"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_2 (Incinerator Expansion - Detroit)"
+              fileName="doc-189"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_3 (Washington Environmental Council) [2-25-1999]"
+              fileName="doc-190"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_4 (RAM to WEC on Ash) [3-7-1999]"
+              fileName="doc-191"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_5 (Dioxin Action Summit) [12-23-2000]"
+              fileName="doc-192"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_6 (John requests to address Thermal Board) [2-13-2001]"
+              fileName="doc-193"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_7 (Incinerator Shutdowns) [8-30-2001]"
+              fileName="doc-194"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_8 (Thermal Violation Notice) [11-19-2001]"
+              fileName="doc-195"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_9 (Thermal Violation in the News) [11-26-2001]"
+              fileName="doc-196"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_10 (RAM helps PA against thermal) [11-29-2001]"
+              fileName="doc-197"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_11 (Burn Plant News) [12-12-2001]"
+              fileName="doc-198"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_12 (Trash Burning in KY) [5-3-2003]"
+              fileName="doc-199"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_13 (RAM shares vistory) [7-20-2003]"
+              fileName="doc-200"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_14 (John helps fight ash in other countries) [9-29-2003]"
+              fileName="doc-201"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_15 (Hidden Taxes Pamphlet)"
+              fileName="doc-202"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_16 (Thermal Economics)"
+              fileName="doc-203"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_17 (Thermal Economics Draft)"
+              fileName="doc-204"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Ash_18 (Reduce Pollution from Ash) [1-21-1999]"
+              fileName="doc-205"
               description=""
               fileLabel={true}
               showLeeLabel={true}
