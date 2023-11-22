@@ -492,9 +492,8 @@ export default function MajorSuccesses() {
             </p>
             <p className="mt-8">
               John put all of the responsibility on himself, to spare other{" "}
-              <i>RAM</i>
-              personnel. AAR accepted that, gaining the image of its opponent
-              appearing smaller.
+              <i>RAM</i> personnel. AAR accepted that, gaining the image of its
+              opponent appearing smaller.
             </p>
             <p className="mt-8">
               Mary recruited help from attorney Stacy Gibson, an associate she

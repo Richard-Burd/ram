@@ -1844,35 +1844,144 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Cards and Comics
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Cards_and_Comics_1 (Earth Day Card) [3-30-2002]"
+              fileName="doc-206"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Cards_and_Comics_2 (Christmas Card) [5-1994]"
+              fileName="doc-207"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Cards_and_Comics_3 (Clear the Air Card) [11-21-1996]"
+              fileName="doc-208"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="green-party">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Green Party
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Green_Party_1 (Agenda) [1-10-2001]"
+              fileName="doc-209"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="immaterial-john">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Immaterial John
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Immaterial_John_1 (Flyer) [4-26-2004]"
+              fileName="doc-210"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="lobbying-issues">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Lobbying Issues
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_1 (Murphy and White) [8-12-2003]"
+              fileName="doc-211"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_2 (Murphy responds) [10-21-2003]"
+              fileName="doc-212"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_3 (White responds) [10-21-2003]"
+              fileName="doc-213"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_4 (Should lawyers register as lobbyists) [10-30-2003]"
+              fileName="doc-214"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_5 (John on lobbying ethics) [11-9-2003]"
+              fileName="doc-215"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_6 (Metro Clerk decision) [11-25-2003]"
+              fileName="doc-216"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbying_Issues_7 (News article) [11-27-2003]"
+              fileName="doc-217"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="peace">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Peace
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle=""
+              fileName="doc-218"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="politics">

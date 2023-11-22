@@ -11,7 +11,7 @@ export const bioNavbarProps = {
     "John van der Harst",
     "Karen Cisler",
     "Ursula King",
-    "Jeff Broussal",
+    "Jeff Brousal",
     "Leith Patton",
     "Martha Yanchyshyn",
     "Colleen McLanaghan",
@@ -215,9 +215,9 @@ export default function Bios() {
             </div>
           </div>
 
-          <div id="jeff-broussal" className="pt-40">
+          <div id="jeff-brousal" className="pt-40">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
-              Jeff Broussal
+              Jeff Brousal
             </div>
             <div className="my-7 standard-font-3 text-justify text-lg">
               <div>
@@ -568,7 +568,7 @@ export default function Bios() {
               </div>
               <div className="my-4"></div>
               <div>
-                Anna pushed for more recent material to be used. Jeff Broussall
+                Anna pushed for more recent material to be used. Jeff Brousal
                 provided that material to John. A better presentation of
                 recycling economic value was created as a result.
               </div>
