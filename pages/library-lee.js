@@ -1146,7 +1146,184 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-2 ➤ Lobbyist Issue
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_1 (Lobbyist Ordinance) [2-10-1995]"
+              fileName="doc-124"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_2 (Lobbyist Registration) [1994]"
+              fileName="doc-125"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_3 (Lobbyist Registration) [1995]"
+              fileName="doc-126"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_4 (Air Pollution Control Vote) [2-7-1995]"
+              fileName="doc-127"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_5 (Environmental Action Fund)"
+              fileName="doc-128"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_6 (TN Conservation League) [12-20-1994]"
+              fileName="doc-129"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_7 (RAM to Metro Clerk - Ann P Murray) [2-10-1995]"
+              fileName="doc-130"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_8 (RAM to Metro Clerk - John P Williams) [2-10-1995]"
+              fileName="doc-131"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_9 (RAM to Metro Clerk - Pam Wolfe) [2-10-1995]"
+              fileName="doc-132"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_10 (Pam Wolfe responds) [2-14-1995]"
+              fileName="doc-133"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_11 (John P Williams responds) [2-13-1995]"
+              fileName="doc-134"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_12 (Ann P Murray responds) [2-13-1995]"
+              fileName="doc-135"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_13 (RAM to Metro Clerk - Howard H (Butch) Eley) [2-16-1995]"
+              fileName="doc-136"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_14 (RAM to Metro Clerk - Tony Campbell) [2-16-1995]"
+              fileName="doc-137"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_15 (G Steven Henry to Metro Clerk) [2-17-1995]"
+              fileName="doc-138"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_16 (RAM to Metro Clerk - Thomas V White) [2-17-1995]"
+              fileName="doc-139"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_17 (RAM to Metro Clerk - John S Reed) [2-16-1995]"
+              fileName="doc-140"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_18 (Ash Agreement) [1-28-1993]"
+              fileName="doc-141"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_19 (Pam Wolfe addition) [2-16-1995]"
+              fileName="doc-142"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_20 (John P Williams addition) [3-19-1995]"
+              fileName="doc-143"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_21 (Metro Clerk responds) [5-17-1995]"
+              fileName="doc-144"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Lobbyist_Issue_22 (Lobbying Questions)"
+              fileName="doc-145"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="recycling-and-composting">
