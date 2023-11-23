@@ -2167,8 +2167,112 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle=""
+              leeTitle="Recycling_1 (Recycling Summary) 2-7-2003"
               fileName="doc-239"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_2 (Organizing Recycling Presentation) [8-6-2002]"
+              fileName="doc-240"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_3 (Recycling Report Flyer) [2-17-2003]"
+              fileName="doc-241"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_4 (Recycling Report PRess Release) [2-17-2003]"
+              fileName="doc-242"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_5 (Recycling Handout) [12-31-2002]"
+              fileName="doc-243"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_6 (Recycling Facility Idea) [2-11-2003]"
+              fileName="doc-244"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_7 (Recycling Facility Idea - John Responds) [3-9-2003]"
+              fileName="doc-245"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_8 (John Hepler letter) [3-15-2003]"
+              fileName="doc-246"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_9 (Recycling Classification MEtro vs RAM-BURNT)"
+              fileName="doc-247"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_10 (Composting as Recycling Symposium) [10-30-2003]"
+              fileName="doc-248"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_11 (Recycling News) [11-4-1992]"
+              fileName="doc-249"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_12 (Petition)"
+              fileName="doc-250"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_13 (RAM Logos)"
+              fileName="doc-251"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_14 (BURNT Logos)"
+              fileName="doc-252"
               description=""
               fileLabel={true}
               showLeeLabel={true}
@@ -2180,14 +2284,408 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ Solid Waste - General
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_1 (Metro Council to John) [9-19-1997]"
+              fileName="doc-253"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_2 (RAM Top Ten List) [10-8-1997]"
+              fileName="doc-254"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_3 (Sierra Club List) [10-10-1997]"
+              fileName="doc-255"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_4 (Metro Council asks John to speak) [11-5-1997]"
+              fileName="doc-256"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_5 (Advocate List) [1-13-1998]"
+              fileName="doc-257"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_6 (RAM Legislative Proposal) [4-15-1998]"
+              fileName="doc-258"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_7 (RAM Recycling Memorandum) [6-19-1998]"
+              fileName="doc-259"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_8 (RAM Recycling Switch) p1 of 2"
+              fileName="doc-260"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_9 (Dissertation request) [8-18-1998]"
+              fileName="doc-261"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_10 (Grassroots Groups Survey)"
+              fileName="doc-262"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_11 (Letter to CRAB) [3-12-1999]"
+              fileName="doc-263"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_12 (Remanufacturing TP)"
+              fileName="doc-264"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_13 (Zero Waste Goal article) [9-1999]"
+              fileName="doc-265"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_14 (Solid Waste Board public hearing comments) [9-21-1999]"
+              fileName="doc-266"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_15 (5-Year plan recommendations) [10-19-1999]"
+              fileName="doc-267"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_16 (Metro Council Solid Waste recommendations) [1-23-2001]"
+              fileName="doc-268"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_17 (Equal Time Request) [2-6-2001]"
+              fileName="doc-269"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_18 (Equal Time Request 2) [2-14-2001]"
+              fileName="doc-270"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_19 (Recycling vs Burning-Landfilling) [2-27-2001]"
+              fileName="doc-271"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_20 (Recycling-Composting Field Trip) [3-20-2001]"
+              fileName="doc-272"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_21 (Metro Trash Discussion Flyer) [4-1-2001]"
+              fileName="doc-273"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_22 (Thermal Conversion Options by Cost Scenario) [4-19-2001]"
+              fileName="doc-274"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_23 (Subsidies versus Benefits) [5-9-2001]"
+              fileName="doc-275"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_24 (Senator Thompson to John) [6-7-2001]"
+              fileName="doc-276"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_25 (Senator Thompson to John) [6-22-2001]"
+              fileName="doc-277"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_26 (Landfill Gas News) [2-26-2001]"
+              fileName="doc-278"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_27 (WTE-LFG News) [3-5-2001]"
+              fileName="doc-279"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_28 (Waste in Congress News) [4-2-2001]"
+              fileName="doc-280"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_29 (Letter to Senators) [6-28-2002]"
+              fileName="doc-281"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_30 (Senator Thompson responds) [7-23-2002]"
+              fileName="doc-282"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_31 (Public Works Solid Waste Meeting) [9-4-2001]"
+              fileName="doc-283"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_32 (Don Majors letter to John) [9-5-2001]"
+              fileName="doc-284"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_33 (Wet-Dry Pilot Flyer) [9-11-2001]"
+              fileName="doc-285"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_34 (Civic Design Center thanks John) [9-24-2001]"
+              fileName="doc-286"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_35 (John digs into Recycling Plan) [12-8-2001]"
+              fileName="doc-287"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_36 (MSW Journal reviews Nashville Plan) [4-13-2006]"
+              fileName="doc-288"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_37 (Bill BL2002-931 with changes by John) [12-31-2001]"
+              fileName="doc-289"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_38 (Waste Stream Analysis) [5-4-2003]"
+              fileName="doc-290"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_39 (John rewards good stewardship - CCIP) [8-15-2003]"
+              fileName="doc-291"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_40 (SW subcommittee candidates) [9-11-2003]"
+              fileName="doc-292"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_41 (Annual Report corrections) [9-20-2003]"
+              fileName="doc-293"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_42 (Recycling-Composting-Disposal numbers) [10-5-2003]"
+              fileName="doc-294"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_43 (Recycling-Composting-Disposal numbers 2) [10-5-2003]"
+              fileName="doc-295"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_44 (Waste represented as ferries) [10-17-2003]"
+              fileName="doc-296"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_45 (Program Flyer) [10-16-1995]"
+              fileName="doc-297"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_46 (RAM Agenda) [11-15-1995]"
+              fileName="doc-298"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_47 (Hazardous Waste Collection) [6-1-1996]"
+              fileName="doc-299"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Solid_Waste_General_48 (Wet-Dry Advert)"
+              fileName="doc-300"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="ymca">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-3 ➤ YMCA
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle=""
+              fileName="doc-301"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
       </div>
 
