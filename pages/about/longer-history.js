@@ -37,6 +37,8 @@ export default function LongerHistory() {
               <p className="mb-3">
                 American Ash Recycling Corp. of Tennessee (AAR-TN) moves from
                 trial in Sumner County to full operation in Davidson County.
+              </p>
+              <p className="mb-3">
                 Major campaigns begin, on compost quality standards, incinerator
                 closure, and ash treatment.
               </p>
@@ -73,9 +75,11 @@ export default function LongerHistory() {
               </p>
               <p className="mb-3">
                 John works at The Re-Use Center as a volunteer then contract
-                worker, specializing in paints and other chemicals. Final
-                stretch on air pollution control upgrades at Nashville&apos;s
-                incinerator
+                worker, specializing in paints and other chemicals.
+              </p>
+              <p className="mb-3">
+                Final stretch on air pollution control upgrades at
+                Nashville&apos;s incinerator
               </p>
             </div>
           </div>
@@ -88,15 +92,19 @@ export default function LongerHistory() {
               </p>
               <p className="mb-3">
                 <i>RAM</i> and John van der Harst are both separately sued by
-                AAR-TN, AAR-NE, AAR, and Environmental Capital Holdings Sandy
-                Hepler organizes a fundraiser for John at Leith Patton&apos;s
-                house.
+                AAR-TN, AAR-NE, AAR, and Environmental Capital Holdings
+              </p>
+              <p className="mb-3">
+                Sandy Hepler organizes a fundraiser for John at Leith
+                Patton&apos;s house.
               </p>
               <p className="mb-3">
                 Sherry Sloan travels to all known treated ash-using construction
-                sites, often taking John along with her. Preliminary hearing,
-                first ruling, second filing, discovery, and final ruling on AAR
-                et al lawsuit in state Chancery Count
+                sites, often taking John along with her.
+              </p>
+              <p className="mb-3">
+                Preliminary hearing, first ruling, second filing, discovery, and
+                final ruling on AAR et al lawsuit in state Chancery Count
               </p>
             </div>
           </div>
@@ -240,9 +248,11 @@ export default function LongerHistory() {
               <p className="mb-3">
                 Davidson County&apos;s increasing waste stream, with little
                 material recovery, prompts a C&D landfill proposal in Council
-                District 22 that <i>RAM</i> helps successfully oppose. That also
-                prompts a transfer station proposal in Council District 5 that{" "}
-                <i>RAM</i> helps successfully oppose.
+                District 22 that <i>RAM</i> helps successfully oppose.
+              </p>
+              <p className="mb-3">
+                That also prompts a transfer station proposal in Council
+                District 5 that <i>RAM</i> helps successfully oppose.
               </p>
               <p className="mb-3">
                 A <i>RAM</i> handout presents a set of 8 disposal cost
@@ -329,8 +339,11 @@ export default function LongerHistory() {
               <p className="mb-3">
                 <i>RAM</i>&apos;s John, working with Linda Breggin, together
                 convince Davidson County&apos;s Solid Waste Region Board to call
-                for a zero-waste plan. Staff draws up a Scope of Work that
-                won&apos;t accomplish the Board&apos;s objective.
+                for a zero-waste plan.
+              </p>
+              <p className="mb-3">
+                Staff draws up a Scope of Work that won&apos;t accomplish the
+                Board&apos;s objective.
               </p>
               <p className="mb-3">
                 <i>RAM</i> tries to convince Metro Council to defer approval
@@ -353,7 +366,7 @@ export default function LongerHistory() {
               <p className="mb-3">
                 Meetings with the public exposes the consultants&apos; biases
                 against zero-waste. They are condescending toward anyone who
-                differed from them.
+                differs from them.
               </p>
             </div>
           </div>

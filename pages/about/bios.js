@@ -523,7 +523,7 @@ export default function Bios() {
               <div>
                 Catherine agreed to be <i>RAM&apos;s</i> contact person in
                 Washington County, with the understanding that she specializes
-                in oppositional activities. that role with him.
+                in oppositional activities.
               </div>
               <div className="my-4"></div>
               <div>
