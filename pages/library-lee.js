@@ -2785,8 +2785,296 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle=""
+              leeTitle="Recycling_1 (NNOCI wants to improve recycling)"
               fileName="doc-309"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_2 (NPJC on recycling)"
+              fileName="doc-310"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_3 (Karl Meyer on recycling)"
+              fileName="doc-311"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_4 (Direction for MSW)"
+              fileName="doc-312"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_5 (Recycling Survey) [2-4-2004]"
+              fileName="doc-313"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_6 (Press Release) [2-7-2004]"
+              fileName="doc-314"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_7 (Recycling Trends) [2-26-2004]"
+              fileName="doc-315"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_8 (Recycling Trends 2) [3-9-2004]"
+              fileName="doc-316"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_9 (Recycling Performance) [9-5-2004]"
+              fileName="doc-317"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_10 (MSW Trends) [9-6-2004]"
+              fileName="doc-318"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_11 (Numbers) [12-10-2004]"
+              fileName="doc-319"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_12 (Letter to Mayor Bill Purcell) [2-15-2005]"
+              fileName="doc-320"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_13 (Flyer) [2-27-2005]"
+              fileName="doc-321"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_14 (Curby News) [4-20-2005]"
+              fileName="doc-322"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_15 (Draft Recycling Rate Resolution) [4-23-2005]"
+              fileName="doc-323"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_16 (Recycling Rate Resolution) [7-7-2005]"
+              fileName="doc-324"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_17 (Councilman Jameson responds) [7-12-2005]"
+              fileName="doc-325"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_18 (Recycling Rates) [9-14-2005]"
+              fileName="doc-326"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_19 (Numbers) [9-15-2005]"
+              fileName="doc-327"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_20 (Recycling Rate) [9-16-2005]"
+              fileName="doc-328"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_21 (Capital Improvement Misuse)"
+              fileName="doc-329"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_22 (more numbers) [7-23-2006]"
+              fileName="doc-330"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_23 (more trends) [7-23-2006]"
+              fileName="doc-331"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_24 (Letter to Solid Waste Board) [5-30-2008]"
+              fileName="doc-332"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_25 (Letter to Solid Waste Board) [12-17-2008]"
+              fileName="doc-333"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_26 (Free Press Vol 1) [1-15-2009]"
+              fileName="doc-334"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_27 (Solid Waste Destinations) [11-1-2011]"
+              fileName="doc-335"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_28 (Solid Waste Destinations 2) [2-18-2012]"
+              fileName="doc-336"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_29 (Growing the Recycling Economy) [4-23-2012]"
+              fileName="doc-337"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_30 (Growing the Recycling Economy - Numbers) [4-18-2012]"
+              fileName="doc-338"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_31 (Growing the Recycling Economy 2) [5-8-2012]"
+              fileName="doc-339"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_32 (Tax Disparity) [8-21-2012]"
+              fileName="doc-340"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_33 (Landfilling Cost) [6-1-2012]"
+              fileName="doc-341"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_34 (Recycling Economy 3) [6-2-2012]"
+              fileName="doc-342"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_35 (Proposed Closed-loop Solid Waste System) [10-15-2012]"
+              fileName="doc-343"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_36 (E-mail to Solid Waste Board) [1-7-2013]"
+              fileName="doc-344"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_37 (Where it goes) [7-26-2013]"
+              fileName="doc-345"
               description=""
               fileLabel={true}
               showLeeLabel={true}
@@ -2800,7 +3088,16 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ Agendas
           </div>
-          <div className="documents-element"></div>
+          <div className="">
+            <Document
+              title=""
+              leeTitle=""
+              fileName="doc-346"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="campaigns">
