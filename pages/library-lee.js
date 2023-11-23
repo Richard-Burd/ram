@@ -2679,7 +2679,7 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle=""
+              leeTitle="YMCA_1 (Earth Service Report Card) [2000]"
               fileName="doc-301"
               description=""
               fileLabel={true}
