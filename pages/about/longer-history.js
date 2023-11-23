@@ -155,7 +155,7 @@ export default function LongerHistory() {
                 Citizens in Pennsylvania invite John to help end incineration in
                 Harrisburg. He meets with mayoral policy staff and citizens.
                 Harrisburg citizens can&apos;t provide him with a place to stay
-                after a point. David Parker, in York County, can, and does. From
+                after a point. David Palmer, in York County, can, and does. From
                 York County, he continues to work on Harrisburg, but also York.
               </p>
               <p className="mb-3">The York Daily Record profiles John.</p>
@@ -359,9 +359,9 @@ export default function LongerHistory() {
                 Davidson County&apos;s Solid Waste Region Board Chair allows the
                 consultant to lecture the board without allowing any public
                 comment. Indoctrination pleases staff. All about how zero waste
-                supposedly could not be achieved. No methods were presented that
-                would accomplish zero waste. The consultant behaved as if staff
-                was the client. Not the Board. Or the public.
+                supposedly could not be achieved. No methods are presented that
+                would accomplish zero waste. The consultant behaves as if staff
+                is the client. Not the Board. Or the public.
               </p>
               <p className="mb-3">
                 Meetings with the public exposes the consultants&apos; biases
