@@ -38,6 +38,7 @@ export const bioNavbarProps = {
     "Ethel Spiller",
     "Pat McAlpine",
     "Myles Jakubowski",
+    "Robert Cox",
   ],
   path: "/about/bios",
 };
@@ -928,7 +929,7 @@ export default function Bios() {
               <div className="my-4"></div>
               <div>
                 Dan's son Terry organized a radio interview and public
-                presentation by John in Lebanon. Dan's family -- He, Marilyn,
+                presentation by John in Lebanon. Dan's family -- He, Beverly,
                 Terry, Rusty, and the late Timothy -- attended a fundraising
                 event organized by Sandy Hepler, at Leith Patton's house, for
                 John's legal defence against four related companies promoting
@@ -1005,6 +1006,29 @@ export default function Bios() {
                 Myles was involved with the Cumberland Green Bioregional
                 Council, which John has been a part of for over 30 years,
                 helping waste issues become a frequent topic there.
+              </div>
+            </div>
+          </div>
+
+          <div id="robert-cox" className="pt-40">
+            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+              Robert Cox
+            </div>
+            <div className="my-7 standard-font-3 text-justify text-lg">
+              <div>
+                Robert went with Sandy Loyd and John van der Harst to the U.S.
+                Conference of Mayors/National Association of Counties seminar on
+                Municipal Composting, in June 1993, in Sevier County, where John
+                had been invited by NACo&apos;s Naomi Friedman to address
+                quality issues. Robert might have been the only African American
+                there.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Robert had previously served as President of Recycle! Nashville,
+                until that group ousted him when a much higher-profile,
+                politically more experienced and connected leader became willing
+                to take that role. That left Robert feeling quite bitter.
               </div>
             </div>
           </div>

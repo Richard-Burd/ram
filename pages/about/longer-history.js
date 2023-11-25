@@ -30,10 +30,18 @@ export default function LongerHistory() {
             <div className="paragraph">
               <p className="mb-3">
                 <i>RAM</i> incorporates. John van der Harst, the late Sandy
-                Loyd, and Don Miller are co-incorporators. Letterhead finalizes
-                logo, acronym, and font style.
+                Loyd, and Don Miller are co-incorporators.
               </p>
-              <p className="mb-3">First newsletter</p>{" "}
+              <p className="mb-3">
+                Letterhead finalizes logo, acronym, and font style.
+              </p>
+              <p className="mb-3">First newsletter</p>
+              <p className="mb-3">
+                Sandy Loyd, Robert Cox, and John van der Harst attend a U.S.
+                Conference of Mayors/National Association of Counties seminar on
+                Municipal Composting, in Sevier County, where John had been
+                invited by NACo&apos;s Naomi Friedman to address quality issues.
+              </p>
               <p className="mb-3">
                 American Ash Recycling Corp. of Tennessee (AAR-TN) moves from
                 trial in Sumner County to full operation in Davidson County.
@@ -51,7 +59,7 @@ export default function LongerHistory() {
               <p className="mb-3">
                 Education sessions begin on incinerator closure, led by Kathleen
                 Rosemary, and later by John van der Harst, assisted by Sherry
-                Force.
+                Force and others.
               </p>
             </div>
           </div>
@@ -193,7 +201,7 @@ export default function LongerHistory() {
           <div id="line-15" className="mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2006</div>
             <div className="paragraph">
-              John and Leslie Allen ramp up food salvage activities after
+              Leslie Allen and John ramp up food salvage activities after
               organizing leadership from Jim Selin and management by Adrienne
               Sullivan demonstrate maturity for that type of operation.
             </div>
