@@ -83,34 +83,9 @@ export default function Contacts() {
               </div>
               <div className="paragraph">
                 <p className="">
-                  Here you can park images that pertain -- Agendas, Sign-in
+                  Here you can park images that pertain to -- Agendas, Sign-in
                   sheets
                 </p>
-              </div>
-            </div>
-            <div className="m-4 p-4 pb-4 pt-20 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
-              Donors
-            </div>
-            <div id="section-3" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline">Participation</div>
-              <div className="paragraph">
-                <p className=""></p>
-              </div>
-            </div>
-            <div id="section-4" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline">
-                Expenses covered
-              </div>
-              <div className="paragraph">
-                <p className=""></p>
-              </div>
-            </div>
-            <div id="section-5" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline">
-                Monetary gifts
-              </div>
-              <div className="paragraph">
-                <p className=""></p>
               </div>
             </div>
           </div>
