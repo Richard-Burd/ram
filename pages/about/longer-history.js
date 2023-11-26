@@ -332,12 +332,12 @@ export default function LongerHistory() {
               </p>
               <p className="mb-3">
                 John tries to have the Tennessee Environmental Council manage a
-                process that hoped to attain independent assessments of what
-                Davidson County&apos;s disposal fees should be. TEC fails to
-                obtain good work from subcontractor Freeman Applegate and the
+                process to attain independent assessments of what Davidson
+                County&apos;s disposal fees should be. TEC fails to obtain good
+                work from subcontractor Freeman Applegate and the
                 sub-subcontractor they hire, and dismisses Michal Goff&apos;s
-                work -- though that remains promising. Its own attempt does not
-                get completed.
+                work -- though that remains promising. TEC&apos;s own attempt
+                does not get completed.
               </p>
             </div>
           </div>
