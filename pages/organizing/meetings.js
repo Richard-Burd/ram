@@ -10,7 +10,7 @@ export const bioNavbarProps = {
     <text>
       <i>RAM</i> Meetings
     </text>,
-    "Coalition meetings",
+    "Coalition Meetings",
     "Documents for these",
   ],
   path: "/organizing/meetings",
