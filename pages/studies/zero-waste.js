@@ -13,23 +13,21 @@ import "chart.js/auto";
 function PieChartComponent() {
   const data = {
     labels: [
-      "Plastics",
-      "Paper",
-      "Organic Food Yard Wastes",
-      "Other",
-      "Glass",
-      "Metals",
+      "Reused, Recycled, Composted or Anaerobically Digested",
+      "Used as Aggregates",
+      "Made into Heavy Molded/Extruded Products",
+      "To Pyrolysis",
+      "To Hazerous Treatement Facilities",
     ],
     datasets: [
       {
-        data: [10, 50, 13, 20, 1, 6], // Your data values as percentages
+        data: [78, 5, 9, 6, 2], // Your data values as percentages
         backgroundColor: [
           "#d15276",
           "#d16b52",
           "#62ab55",
           "#f0f0f0",
           "#60d1cd",
-          "#a6a6a6",
         ],
         hoverBackgroundColor: [
           "#612637",
@@ -37,7 +35,6 @@ function PieChartComponent() {
           "#33592d",
           "#bfbfbf",
           "#3c8280",
-          "#6e6e6e",
         ],
       },
     ],
@@ -45,17 +42,31 @@ function PieChartComponent() {
 
   const options = {
     plugins: {
-      legend: {
-        labels: {
-          font: {
-            size: 24, // Set your desired font size here
-          },
-        },
-      },
+      legend: false,
     },
   };
 
-  return <Pie data={data} options={options} />;
+  const labels = data.labels.map((label, i) => (
+    <div className="pb-2" key={label} style={{ display: "flex" }}>
+      <div
+        className="mt-1"
+        style={{
+          width: "24px",
+          height: "24px",
+          backgroundColor: data.datasets[0].backgroundColor[i],
+          marginRight: "8px",
+        }}
+      />
+      <div>{label}</div>
+    </div>
+  ));
+
+  return (
+    <div>
+      <div className="mb-8">{labels}</div>
+      <Pie data={data} options={options} />
+    </div>
+  );
 }
 
 export const bioNavbarProps = {
