@@ -1,4 +1,8 @@
-export default function BrochureFig({ fileName, figureNumber }) {
+export default function BrochureFig({
+  fileName,
+  figureNumber,
+  borderColor = "black",
+}) {
   return (
     <div>
       <div className="child-1">
@@ -9,8 +13,8 @@ export default function BrochureFig({ fileName, figureNumber }) {
             alt={`missing PDF document: ${fileName}`}
             style={{
               width: "100%",
-              border: "5px solid black",
-              boxShadow: "15px 15px 0px rgba(0, 0, 0, 1)",
+              border: `5px solid ${borderColor}`,
+              boxShadow: `15px 15px 0px ${borderColor}`,
             }}
           />
         </div>
