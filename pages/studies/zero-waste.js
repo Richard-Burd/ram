@@ -22,7 +22,7 @@ export default function ZeroWaste() {
       <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
         <SecondaryNavbar {...navbarProps} />
         <BiographyNavbar {...bioNavbarProps} />
-        <div className="m-4 p-4 text-2xl">
+        <div id="comming-soon-placeholder" className="m-4 p-4 text-2xl">
           ...comming soon! This page is under construction.
         </div>
         <div
