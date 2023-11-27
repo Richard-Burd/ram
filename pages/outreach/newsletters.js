@@ -27,7 +27,7 @@ export default function Brochures() {
               fileLabel={false}
             />
             <Brochure
-              title="Summer 1993 - Spring 1994 Newsletter"
+              title="Summer 1993-Spring 1994 Newsletter"
               fileName="green-newsletter-inserts"
               description="Sevierville plant tour, Bordeaux visit, Gallatin meet, sludge, Tennessee Environmental Council, & more"
               fileLabel={false}

@@ -20,7 +20,7 @@ export default function Presentations() {
           Presentations
         </div>
         <div id="brochure-exhibits">
-          <div className="text-2xl roboto-font-400 text-zinc-950 m-6 p-6 bg-[#b8d1c8] bg-opacity-70 rounded-xl">
+          <div className="text-2xl roboto-font-400 text-zinc-950 m-6 p-6 bg-[#b8d1c8] bg-opacity-70 rounded-6xl">
             <BrochureFig
               figureNumber="Fig-1"
               fileName="solid-waste-destination.jpg"

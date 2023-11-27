@@ -11,7 +11,7 @@ export default function Brochure({
       <div className="parent">
         <div className="child-2">
           <div
-            className={`bg-[#b8d1c8] bg-opacity-90 opacity-90 p-4 rounded-xl ml-5 my-4 shadow-lg ${
+            className={`bg-[#b8d1c8] bg-opacity-90 opacity-90 p-4 rounded-6xl ml-5 my-4 shadow-lg ${
               title || description
                 ? "max-w-[480px]"
                 : "bg-gray-100 max-w-[480px]"
@@ -34,7 +34,7 @@ export default function Brochure({
               // this value below makes the preview image bigger or smaller
               style={{ maxWidth: "400px" }}
               // if you see this yellow below, something is wrong
-              className="bg-yellow-400"
+              className=""
             >
               <motion.div
                 className={``}
