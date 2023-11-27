@@ -1,10 +1,20 @@
+import React from "react";
+import { motion } from "framer-motion";
+
 export default function BrochureFig({
   fileName,
   figureNumber,
   borderColor = "black",
+  width, // Width passed as a prop
+  onClick, // onClick handler passed as a prop
 }) {
   return (
-    <div>
+    <motion.div
+      onClick={onClick}
+      animate={{ width }}
+      style={{ width }}
+      className="cursor-pointer"
+    >
       <div className="child-1">
         <div className="mr-4">
           <img
@@ -26,6 +36,6 @@ export default function BrochureFig({
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

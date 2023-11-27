@@ -1,9 +1,62 @@
-import Link from "next/link";
+import React, { useState } from "react";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import BiographyNavbar from "@/components/BiographyNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
+
+// used for the pie chart
+import { Pie } from "react-chartjs-2";
+import "chart.js/auto";
+
+// pie chart
+function PieChartComponent() {
+  const data = {
+    labels: [
+      "Plastics",
+      "Paper",
+      "Organic Food Yard Wastes",
+      "Other",
+      "Glass",
+      "Metals",
+    ],
+    datasets: [
+      {
+        data: [10, 50, 13, 20, 1, 6], // Your data values as percentages
+        backgroundColor: [
+          "#d15276",
+          "#d16b52",
+          "#62ab55",
+          "#f0f0f0",
+          "#60d1cd",
+          "#a6a6a6",
+        ],
+        hoverBackgroundColor: [
+          "#612637",
+          "#824131",
+          "#33592d",
+          "#bfbfbf",
+          "#3c8280",
+          "#6e6e6e",
+        ],
+      },
+    ],
+  };
+
+  const options = {
+    plugins: {
+      legend: {
+        labels: {
+          font: {
+            size: 24, // Set your desired font size here
+          },
+        },
+      },
+    },
+  };
+
+  return <Pie data={data} options={options} />;
+}
 
 export const bioNavbarProps = {
   // bgColor: "bg-[#ff8938]",
@@ -18,6 +71,13 @@ export const bioNavbarProps = {
 };
 
 export default function ZeroWaste() {
+  // manages the initial size of the figures
+  const [width, setWidth] = useState("50%"); // Initial width
+
+  // manages the initial size of the figures
+  const toggleSize = () => {
+    setWidth(width === "50%" ? "100%" : "50%");
+  };
   return (
     <div>
       <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
@@ -45,6 +105,8 @@ export default function ZeroWaste() {
                   figureNumber="Fig-3"
                   fileName="net-zero-landfilling.jpg"
                   borderColor="#665c49"
+                  width={width}
+                  onClick={toggleSize}
                 />
               </div>
 
@@ -52,12 +114,8 @@ export default function ZeroWaste() {
                 For those preferring a simplified, less precise graphic to help
                 them remember:
               </p>
-              <div className="mb-12">
-                <BrochureFig
-                  figureNumber="Fig-3"
-                  fileName="net-zero-landfilling.jpg"
-                  borderColor="#665c49"
-                />
+              <div className="mb-12 p-12">
+                <PieChartComponent />
               </div>
             </div>
           </div>
@@ -345,72 +403,6 @@ export default function ZeroWaste() {
               </ol>
             </div>
           </div>
-          {/* <div className="mx-4 text-2xl">
-            <p className="mb-8">
-              Of the list of Successes on the{" "}
-              <Link
-                href="/successes/brief-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
-                // target="_blank"
-              >
-                <strong>Brief History</strong>
-              </Link>{" "}
-              and{" "}
-              <Link
-                href="/successes/longer-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
-                // target="_blank"
-              >
-                <strong>Longer History</strong>
-              </Link>{" "}
-              pages (both with identical numbering), only numbers 1, 2, 3, 9,
-              and 12 were already being worked on -- and most of these just
-              beginning to be -- when <i>RAM</i> was forming in late 1992.
-              Those, and the other 18 successes, happened for two important
-              reasons:
-            </p>
-
-            <p className="mb-8">
-              First, as history unfolds, unanticipated needs arise.
-            </p>
-
-            <p className="mb-4">
-              Second, <i>RAM</i> had prepared itself to be able to turn such
-              needs into opportunities, and then deliver solutions. This
-              preparation resulted from two primary focuses:
-            </p>
-            <div className="bg-yellow-700 m-4 px-2 py-4 bg-opacity-30 rounded-2xl">
-              <ol className="list-decimal list-outside mx-12">
-                <li id="1" className="">
-                  <i>RAM</i> focused steadfastly on figuring out how to{" "}
-                  <b>minimize disposal</b>, the best way possible, in line with
-                  its Mission Statement.
-                </li>
-                <li id="2" className="pt-3 pb-2">
-                  <i>RAM</i> focused on high-quality <b>talent management</b>,
-                  aimed at best utilizing what became available, as efficiently,
-                  humanely, and sustainably, as ever-limiting circumstances
-                  would allow. It was the failure to do this, by other groups,
-                  which led to the need for this. <i>RAM</i> did it well.
-                </li>
-              </ol>
-            </div>
-
-            <p className="mb-4 mt-14">
-              Both of these two are interrelated. Perhaps the most important
-              characteristics of those with high quality talent are:
-            </p>
-            <div className="bg-yellow-700 m-4 px-2 py-4 bg-opacity-30 rounded-2xl">
-              <ol className="list-alpha-upper list-outside mx-12">
-                <li id="A" className="">
-                  having a focus on, and yearning for, <b>success</b>, and
-                </li>
-                <li id="B" className="pt-3 pb-2">
-                  having the <b>work ethic</b> to make that happen.
-                </li>
-              </ol>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
