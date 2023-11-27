@@ -17,7 +17,7 @@ import { navbarProps } from "@/pages/organizing";
 //   path: "/successes/major-successes",
 // };
 
-export default function Contacts() {
+export default function Legal() {
   const crewDescriptionTestLayoutStyles =
     "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
