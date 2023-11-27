@@ -47,7 +47,7 @@ export default function Brochure({
               >
                 <img
                   src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/${fileName}.jpg`}
-                  className="drop-shadow-lg"
+                  className="drop-shadow-lg mb-10"
                   alt={`missing PDF document: ${fileName}`}
                   style={{
                     width: "100%",
