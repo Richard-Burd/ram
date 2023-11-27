@@ -7,19 +7,16 @@ export const bioNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: [
-    <>
+    <text>
       <i>RAM</i> Meetings
-    </>,
-    "Documents for these",
+    </text>,
     "Coalition meetings",
     "Documents for these",
   ],
-  path: "/successes/major-successes",
+  path: "/organizing/meetings",
 };
 
 export default function Contacts() {
-  const crewDescriptionTestLayoutStyles =
-    "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
       <Head>
@@ -40,7 +37,7 @@ export default function Contacts() {
             Meetings
           </div>
           <div className="container mx-auto px-4">
-            <div id="section-1" className="mx-8 my-8 text-2xl">
+            <div id="ram" className="mx-8 my-8 text-2xl">
               <div className="title font-semibold underline">
                 <i>RAM</i> Meeting Locations to date
               </div>
@@ -92,7 +89,7 @@ export default function Contacts() {
                 </p>
               </div>
             </div>
-            <div id="section-2" className="mx-8 my-14 text-2xl">
+            <div id="coalition-meetings" className="mx-8 my-14 text-2xl">
               <div className="title font-semibold underline">
                 Meeting locations for Coalitions RAM was a part of
               </div>
@@ -129,7 +126,7 @@ export default function Contacts() {
                 </p>
               </div>
             </div>
-            <div id="section-3" className="mx-8 my-14 text-2xl">
+            <div id="documents-for-these" className="mx-8 my-14 text-2xl">
               <div className="title font-semibold underline">
                 Documents related to these meetings
               </div>
