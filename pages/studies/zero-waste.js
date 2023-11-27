@@ -125,7 +125,7 @@ export default function ZeroWaste() {
                 For those preferring a simplified, less precise graphic to help
                 them remember:
               </p>
-              <div className="mb-12 p-12">
+              <div id="pie-chart" className="mb-12 p-12">
                 <PieChartComponent />
               </div>
             </div>
@@ -217,38 +217,30 @@ export default function ZeroWaste() {
                     <table>
                       <tbody>
                         <tr id="row-1">
-                          <td className="column-1 pr-3 align-top pb-4">1.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            A&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">A.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Dry waste sorting/recovery facilities, for both MSW
                             and C&D wastes, typically separately,
                           </td>
                         </tr>
                         <tr id="row-2">
-                          <td className="column-1 pr-3 align-top pb-4">2.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            B&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">B.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Wet waste composting/anaerobic digestion facilities,
                           </td>
                         </tr>
                         <tr id="row-3">
-                          <td className="column-1 pr-3 align-top pb-4">3.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            C&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">C.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Aggregate sorting/recovery facilities,
                           </td>
                         </tr>
                         <tr id="row-4">
-                          <td className="column-1 pr-3 align-top pb-4">4.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            D&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">D.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Heavy molded/extruded products facilities, which
                             often create composites out of unrecyclable plastics
@@ -256,10 +248,8 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-5">
-                          <td className="column-1 pr-3 align-top pb-4">5.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            E&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">E.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Pyrolysis or other energy/fuels production
                             facilities (e.g. Enerkem) for only wastes that can
@@ -269,10 +259,8 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-6">
-                          <td className="column-1 pr-3 align-top pb-4">6.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            F&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">F.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Hazardous waste collection and processing
                             facilities, which emphasize re-use as much as
@@ -280,10 +268,8 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-7">
-                          <td className="column-1 pr-3 align-top pb-4">6.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            G&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">G.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Another essential component is a contractual
                             requirement that all residues coming from facilities
@@ -301,28 +287,22 @@ export default function ZeroWaste() {
                     <table>
                       <tbody>
                         <tr id="row-1">
-                          <td className="column-1 pr-3 align-top pb-4">1.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            H&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">H.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Marketing of all recovered commodities,
                           </td>
                         </tr>
                         <tr id="row-2">
-                          <td className="column-1 pr-3 align-top pb-4">2.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            I&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">I.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Maximizing local market development,
                           </td>
                         </tr>
                         <tr id="row-3">
-                          <td className="column-1 pr-3 align-top pb-4">3.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            J&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">J.;</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             All economic, environmental, and health costs and
                             benefits need to be internalized for both material
@@ -330,10 +310,8 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-4">
-                          <td className="column-1 pr-3 align-top pb-4">4.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            K&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">K.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Collection needs to be coordinated with processing
                             (A-F above). Franchising should be considered, where
@@ -355,10 +333,8 @@ export default function ZeroWaste() {
                     <table>
                       <tbody>
                         <tr id="row-1">
-                          <td className="column-1 pr-3 align-top pb-4">1.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            L&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">L.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Any photographs of the municipality or other scenery
                             not necessary for the understanding of elements,
@@ -366,10 +342,8 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-2">
-                          <td className="column-1 pr-3 align-top pb-4">2.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            M&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">M.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             Any branding, naming, color schemes, or education
                             programming. These are best created locally,
@@ -378,10 +352,8 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-3">
-                          <td className="column-1 pr-3 align-top pb-4">3.</td>
-                          <td className="column-2 pr-3 align-top pb-4">
-                            N&#41;
-                          </td>
+                          <td className="column-1 pr-3 align-top pb-4"></td>
+                          <td className="column-2 pr-3 align-top pb-4">N.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             &#34;Pay-As-You-Throw&#34; (PAYT), or its
                             confusingly euphemistic identical twin
