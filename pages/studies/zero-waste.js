@@ -5,71 +5,71 @@ import BiographyNavbar from "@/components/BiographyNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
 
-// used for the pie chart
-import { Pie } from "react-chartjs-2";
-import "chart.js/auto";
+// // used for the pie chart
+// import { Pie } from "react-chartjs-2";
+// import "chart.js/auto";
 
-// pie chart
-function PieChartComponent() {
-  const data = {
-    labels: [
-      "Reused, Recycled, Composted or Anaerobically Digested",
-      "Used as Aggregates",
-      "Made into Heavy Molded/Extruded Products",
-      "To Pyrolysis",
-      "To Hazerous Treatement Facilities",
-    ],
-    datasets: [
-      {
-        data: [78, 5, 9, 6, 2], // Your data values as percentages
-        backgroundColor: [
-          "#d15276",
-          "#d16b52",
-          "#62ab55",
-          "#f0f0f0",
-          "#60d1cd",
-        ],
-        hoverBackgroundColor: [
-          "#612637",
-          "#824131",
-          "#33592d",
-          "#bfbfbf",
-          "#3c8280",
-        ],
-      },
-    ],
-  };
+// // pie chart
+// function PieChartComponent() {
+//   const data = {
+//     labels: [
+//       "Reused, Recycled, Composted or Anaerobically Digested",
+//       "Used as Aggregates",
+//       "Made into Heavy Molded/Extruded Products",
+//       "To Pyrolysis",
+//       "To Hazerous Treatement Facilities",
+//     ],
+//     datasets: [
+//       {
+//         data: [78, 5, 9, 6, 2], // Your data values as percentages
+//         backgroundColor: [
+//           "#d15276",
+//           "#d16b52",
+//           "#62ab55",
+//           "#f0f0f0",
+//           "#60d1cd",
+//         ],
+//         hoverBackgroundColor: [
+//           "#612637",
+//           "#824131",
+//           "#33592d",
+//           "#bfbfbf",
+//           "#3c8280",
+//         ],
+//       },
+//     ],
+//   };
 
-  const options = {
-    plugins: {
-      legend: false,
-    },
-  };
+//   const options = {
+//     plugins: {
+//       legend: false,
+//     },
+//   };
 
-  const labels = data.labels.map((label, i) => (
-    <div className="pb-2" key={label} style={{ display: "flex" }}>
-      <div
-        className="mt-1"
-        style={{
-          width: "24px",
-          height: "24px",
-          backgroundColor: data.datasets[0].backgroundColor[i],
-          marginRight: "8px",
-        }}
-      />
-      <div>{label}</div>
-    </div>
-  ));
+//   const labels = data.labels.map((label, i) => (
+//     <div className="pb-2" key={label} style={{ display: "flex" }}>
+//       <div
+//         className="mt-1"
+//         style={{
+//           width: "24px",
+//           height: "24px",
+//           backgroundColor: data.datasets[0].backgroundColor[i],
+//           marginRight: "8px",
+//         }}
+//       />
+//       <div>{label}</div>
+//     </div>
+//   ));
 
-  return (
-    <div>
-      <div className="px-12 mb-8">{labels}</div>
-      <div className="px-40">
-        <Pie data={data} options={options} />
-      </div>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <div className="px-12 mb-8">{labels}</div>
+//       <div className="px-40">
+//         <Pie data={data} options={options} />
+//       </div>
+//     </div>
+//   );
+// }
 
 export const bioNavbarProps = {
   // bgColor: "bg-[#ff8938]",
@@ -123,13 +123,13 @@ export default function ZeroWaste() {
                 />
               </div>
 
-              <p className="mb-8">
+              {/* <p className="mb-8">
                 For those preferring a simplified, less precise graphic to help
                 them remember:
               </p>
               <div id="pie-chart" className="mb-12">
                 <PieChartComponent />
-              </div>
+              </div> */}
               <p className="mb-8">
                 The following chart shows roughly the destination of typical
                 municipal solid waste when quality-oriented high-recovery
