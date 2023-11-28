@@ -63,8 +63,10 @@ function PieChartComponent() {
 
   return (
     <div>
-      <div className="mb-8">{labels}</div>
-      <Pie data={data} options={options} />
+      <div className="px-12 mb-8">{labels}</div>
+      <div className="px-40">
+        <Pie data={data} options={options} />
+      </div>
     </div>
   );
 }
@@ -125,8 +127,21 @@ export default function ZeroWaste() {
                 For those preferring a simplified, less precise graphic to help
                 them remember:
               </p>
-              <div id="pie-chart" className="mb-12 p-12">
+              <div id="pie-chart" className="mb-12">
                 <PieChartComponent />
+              </div>
+              <p className="mb-8">
+                The following chart shows roughly the destination of typical
+                municipal solid waste when quality-oriented high-recovery
+                recycling/composting systems are applied to it:
+              </p>
+              <div className="mb-12">
+                <BrochureFig
+                  figureNumber=""
+                  fileName="typical-solid-waste-destinations.jpg"
+                  borderColor="#665c49"
+                  width={"100%"}
+                />
               </div>
             </div>
           </div>
@@ -302,7 +317,7 @@ export default function ZeroWaste() {
                         </tr>
                         <tr id="row-3">
                           <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">J.;</td>
+                          <td className="column-2 pr-3 align-top pb-4">J.</td>
                           <td className="column-3 pr-3 align-top pb-4">
                             All economic, environmental, and health costs and
                             benefits need to be internalized for both material
@@ -318,7 +333,7 @@ export default function ZeroWaste() {
                             a single collection and processing entity is
                             obligated to produce the desired results, with
                             penalties for failure sufficient to assure
-                            compliance.
+                            compliance. Wet/dry techniques can reduce costs.
                           </td>
                         </tr>
                       </tbody>
