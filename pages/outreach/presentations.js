@@ -4,8 +4,7 @@ import { navbarProps } from "@/pages/outreach";
 
 import Brochure from "@/components/Brochure";
 
-export const bioNavbarProps = {
-  // bgColor: "bg-[#ff8938]",
+export const hyperlinkNavbarProps = {
   bgColor: "bg-outreachBg",
   titles: ["Printable Brochures", "Brochure Exhibits"],
   path: "/outreach/brochures",

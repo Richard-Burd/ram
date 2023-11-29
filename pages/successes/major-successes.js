@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import BiographyNavbar from "@/components/BiographyNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/successes";
 
-export const bioNavbarProps = {
+export const hyperlinkNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-successesBg",
   titles: [
@@ -21,7 +21,7 @@ export default function MajorSuccesses() {
     <div>
       <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
         <SecondaryNavbar {...navbarProps} />
-        <BiographyNavbar {...bioNavbarProps} />
+        <AnchorLinkNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-8 rounded-6xl"

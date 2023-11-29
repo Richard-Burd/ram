@@ -1,21 +1,28 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import TertiaryNavbar from "@/components/TertiaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { bioNavbarProps } from "@/pages/outreach/submissions";
+import { hyperlinkNavbarProps } from "@/pages/outreach/submissions";
 
-// export const thisNavbarProps = {
-//   // bgColor: "bg-[#ff8938]",
-//   bgColor: "bg-outreachBg",
-//   titles: ["put s.thing here", "put s.thing here also"],
-//   path: "/outreach/submissions",
-// };
+export const thisNavbarProps = {
+  bgColor: "bg-outreachBg",
+  titles: [
+    "Massachusetts",
+    "Metro Nashville/Davidson County",
+    "Los Angeles, California",
+    "Boards",
+    "Committee",
+    "Legislative",
+  ],
+  path: "/outreach/submissions/departmental",
+};
 
 export default function Departmental() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...bioNavbarProps} />
-      {/* <TertiaryNavbar {...thisNavbarProps} /> */}
+      <HyperLinkNavbar {...hyperlinkNavbarProps} />
+      <AnchorLinkNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Departmental
@@ -40,7 +47,10 @@ export default function Departmental() {
             </div>
           </div>
 
-          <div id="metro-nashville" className="my-4 px-4 py-4 mb-20">
+          <div
+            id="metro-nashville/davidson-county"
+            className="my-4 px-4 py-4 mb-20"
+          >
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               Metro Nashville/Davidson County
             </div>
@@ -90,7 +100,7 @@ export default function Departmental() {
             </div>
           </div>
 
-          <div id="massachusetts" className="my-4 px-4 py-4 mb-20">
+          <div id="los-angeles,-california" className="my-4 px-4 py-4 mb-20">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               Los Angeles, California
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -156,7 +166,7 @@ export default function Departmental() {
             </div>
           </div>
 
-          <div id="metro-nashville" className="my-4 px-4 py-4 mb-20">
+          <div id="legislative" className="my-4 px-4 py-4 mb-20">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               Legislative
             </div>

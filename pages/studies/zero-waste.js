@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import BiographyNavbar from "@/components/BiographyNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
 
@@ -71,8 +71,7 @@ import { navbarProps } from "@/pages/studies";
 //   );
 // }
 
-export const bioNavbarProps = {
-  // bgColor: "bg-[#ff8938]",
+export const hyperlinkNavbarProps = {
   bgColor: "bg-studiesBg",
   titles: [
     "Diversion",
@@ -95,7 +94,7 @@ export default function ZeroWaste() {
     <div>
       <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
         <SecondaryNavbar {...navbarProps} />
-        <BiographyNavbar {...bioNavbarProps} />
+        <AnchorLinkNavbar {...hyperlinkNavbarProps} />
 
         <div
           id="title-and-text-box"

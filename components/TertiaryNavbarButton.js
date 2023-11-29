@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function BiographyNavbarButton({ title, bgColor }) {
+export default function TertiaryNavbarButton({ title, bgColor }) {
   return (
     <motion.div
       className={`rounded-lg shadow-white`}

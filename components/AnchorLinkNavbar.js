@@ -1,8 +1,8 @@
 import Link from "next/link";
-import BiographyNavbarButton from "./BiographyNavbarButton";
+import TertiaryNavbarButton from "./TertiaryNavbarButton";
 import React from "react"; // Import React module
 
-export default function BiographyNavbar({ bgColor, titles, path }) {
+export default function AnchorLinkNavbar({ bgColor, titles, path }) {
   return (
     <nav className="bg-neutral-950 px-1 py-2 border-y-slate-500 border-b-2">
       <div className="container flex justify-between">
@@ -45,7 +45,7 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
                 className="min-w-32 flex-grow mx-1 my-1"
                 href={`${path}/#${hrefText}`}
               >
-                <BiographyNavbarButton title={titleText} bgColor={bgColor} />
+                <TertiaryNavbarButton title={titleText} bgColor={bgColor} />
               </Link>
             );
           })}
@@ -56,9 +56,9 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
 }
 
 // import Link from "next/link";
-// import BiographyNavbarButton from "./BiographyNavbarButton";
+// import TertiaryNavbarButton from "./TertiaryNavbarButton";
 
-// export default function BiographyNavbar({ bgColor, titles, path }) {
+// export default function AnchorLinkNavbar({ bgColor, titles, path }) {
 //   return (
 //     <nav className="bg-neutral-950 px-1 py-2 border-y-slate-500 border-b-2">
 //       <div className="container flex justify-between">
@@ -74,7 +74,7 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
 //                 .toLowerCase()
 //                 .replace(/ /g, "-")}`}
 //             >
-//               <BiographyNavbarButton title={title} bgColor={bgColor} />
+//               <TertiaryNavbarButton title={title} bgColor={bgColor} />
 //             </Link>
 //           ))}
 //         </div>
@@ -85,7 +85,7 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
 
 // // This is a previous version we used before we had to accomidate having
 // // "RAM" in the title, which must be italicized.
-// export default function BiographyNavbar({ bgColor, titles, path }) {
+// export default function AnchorLinkNavbar({ bgColor, titles, path }) {
 //   return (
 //     <nav className="bg-neutral-950 px-1 py-2 border-y-slate-500 border-b-2">
 //       <div className="container flex justify-between">
@@ -97,7 +97,7 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
 //               className="min-w-32 flex-grow mx-1 my-1"
 //               href={`${path}/#${title.toLowerCase().replace(/ /g, "-")}`}
 //             >
-//               <BiographyNavbarButton title={title} bgColor={bgColor} />
+//               <TertiaryNavbarButton title={title} bgColor={bgColor} />
 //             </Link>
 //           ))}
 //         </div>
@@ -108,9 +108,9 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
 
 // // This is the original version of the smaller navbar
 // import Link from "next/link";
-// import BiographyNavbarButton from "./BiographyNavbarButton";
+// import TertiaryNavbarButton from "./TertiaryNavbarButton";
 
-// export default function BiographyNavbar({ bgColor, titles, path }) {
+// export default function AnchorLinkNavbar({ bgColor, titles, path }) {
 //   return (
 //     <nav className="bg-neutral-950 px-1 py-2 border-y-slate-500 border-b-2">
 //       <div className="container flex justify-between">
@@ -120,7 +120,7 @@ export default function BiographyNavbar({ bgColor, titles, path }) {
 //               className="min-w-32 flex-grow mx-1"
 //               href={`${path}/#${title.toLowerCase().replace(/ /g, "-")}`}
 //             >
-//               <BiographyNavbarButton title={title} bgColor={bgColor} />
+//               <TertiaryNavbarButton title={title} bgColor={bgColor} />
 //             </Link>
 //           ))}
 //         </div>

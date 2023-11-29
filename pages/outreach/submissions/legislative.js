@@ -1,21 +1,25 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import TertiaryNavbar from "@/components/TertiaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { bioNavbarProps } from "@/pages/outreach/submissions";
+import { hyperlinkNavbarProps } from "@/pages/outreach/submissions";
 
-// export const thisNavbarProps = {
-//   // bgColor: "bg-[#ff8938]",
-//   bgColor: "bg-outreachBg",
-//   titles: ["put s.thing here", "put s.thing here also"],
-//   path: "/outreach/submissions",
-// };
+export const thisNavbarProps = {
+  bgColor: "bg-outreachBg",
+  titles: [
+    "Cedar Rapids, Iowa",
+    "Metro Nashville/Davidson County, Clerk",
+    "Metro Council, Nashville/Davidson County",
+  ],
+  path: "/outreach/submissions/legislative",
+};
 
 export default function Legislative() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...bioNavbarProps} />
-      {/* <TertiaryNavbar {...thisNavbarProps} /> */}
+      <HyperLinkNavbar {...hyperlinkNavbarProps} />
+      <AnchorLinkNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Legislative
@@ -33,7 +37,7 @@ export default function Legislative() {
           <div className="w-full">
             <table className="m-4">
               <tbody>
-                <tr id="row-1">
+                <tr id="cedar-rapids,-iowa">
                   <td className="column-1 align-top pb-4 w-full whitespace-normal">
                     Cedar Rapids, Iowa
                   </td>
@@ -41,7 +45,7 @@ export default function Legislative() {
                     2 pages
                   </td>
                 </tr>
-                <tr id="row-2">
+                <tr id="metro-nashville/davidson-county,-clerk">
                   <td className="column-1 pr-3 align-top pb-12">
                     Metro Nashville/Davidson County, Clerk
                   </td>
@@ -49,7 +53,7 @@ export default function Legislative() {
                     9 pages + responses
                   </td>
                 </tr>
-                <tr id="row-3">
+                <tr id="metro-council,-nashville/davidson-county">
                   <td className="column-1 pr-3 align-top">
                     <div className="pt-8">
                       Metro Council, Nashville/Davidson County

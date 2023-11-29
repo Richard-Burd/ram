@@ -1,10 +1,10 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import BiographyNavbar from "@/components/BiographyNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/about";
 import Image from "next/image";
 
-export const bioNavbarProps = {
+export const hyperlinkNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-aboutBg",
   titles: [
@@ -57,7 +57,7 @@ export default function Bios() {
       </Head>
       <div className="bg-gradient-to-l from-[#b8580b] to-[#120700] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
-        <BiographyNavbar {...bioNavbarProps} />
+        <AnchorLinkNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-6 rounded-6xl"

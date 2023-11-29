@@ -1,21 +1,21 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import TertiaryNavbar from "@/components/TertiaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { bioNavbarProps } from "@/pages/outreach/submissions";
+import { hyperlinkNavbarProps } from "@/pages/outreach/submissions";
 
-// export const thisNavbarProps = {
-//   // bgColor: "bg-[#ff8938]",
-//   bgColor: "bg-outreachBg",
-//   titles: ["put s.thing here", "put s.thing here also"],
-//   path: "/outreach/submissions",
-// };
+export const thisNavbarProps = {
+  bgColor: "bg-outreachBg",
+  titles: ["Curbside Recycling Bidding and Alternatives", "Report to Mayor"],
+  path: "/outreach/submissions/committee",
+};
 
 export default function Committee() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...bioNavbarProps} />
-      {/* <TertiaryNavbar {...thisNavbarProps} /> */}
+      <HyperLinkNavbar {...hyperlinkNavbarProps} />
+      <AnchorLinkNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Committee

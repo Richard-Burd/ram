@@ -1,21 +1,21 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import TertiaryNavbar from "@/components/TertiaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { bioNavbarProps } from "@/pages/outreach/submissions";
+import { hyperlinkNavbarProps } from "@/pages/outreach/submissions";
 
-// export const thisNavbarProps = {
-//   // bgColor: "bg-[#ff8938]",
-//   bgColor: "bg-outreachBg",
-//   titles: ["put s.thing here", "put s.thing here also"],
-//   path: "/outreach/submissions",
-// };
+export const thisNavbarProps = {
+  bgColor: "bg-outreachBg",
+  titles: ["U.S. EPA", "Tennessee", "Maine", "Metro Nashville/Davidson County"],
+  path: "/outreach/submissions/regulatory",
+};
 
 export default function Regulatory() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...bioNavbarProps} />
-      {/* <TertiaryNavbar {...thisNavbarProps} /> */}
+      <HyperLinkNavbar {...hyperlinkNavbarProps} />
+      <AnchorLinkNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Regulatory
@@ -30,7 +30,7 @@ export default function Regulatory() {
           id="items-list"
           className="m-4 p-4 text-2xl opacity-70 text-zinc-200"
         >
-          <div id="u-s-epa" className="my-4 px-4 py-4 mb-20">
+          <div id="u.s.-epa" className="my-4 px-4 py-4 mb-20">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               U.S. EPA
             </div>
@@ -117,7 +117,10 @@ export default function Regulatory() {
             </div>
           </div>
 
-          <div id="metro-nashville" className="my-4 px-4 py-4 mb-20">
+          <div
+            id="metro-nashville/davidson-county"
+            className="my-4 px-4 py-4 mb-20"
+          >
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               Metro Nashville/Davidson County
             </div>

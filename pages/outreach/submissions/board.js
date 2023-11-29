@@ -1,21 +1,24 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import TertiaryNavbar from "@/components/TertiaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { bioNavbarProps } from "@/pages/outreach/submissions";
+import { hyperlinkNavbarProps } from "@/pages/outreach/submissions";
 
-// export const thisNavbarProps = {
-//   // bgColor: "bg-[#ff8938]",
-//   bgColor: "bg-outreachBg",
-//   titles: ["put s.thing here", "put s.thing here also"],
-//   path: "/outreach/submissions",
-// };
+export const thisNavbarProps = {
+  bgColor: "bg-outreachBg",
+  titles: [
+    "Tennessee Solid Waste Disposal Control",
+    "Davison County Solid Waste Region",
+  ],
+  path: "/outreach/submissions/board",
+};
 
 export default function Board() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...bioNavbarProps} />
-      {/* <TertiaryNavbar {...thisNavbarProps} /> */}
+      <HyperLinkNavbar {...hyperlinkNavbarProps} />
+      <AnchorLinkNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Board
@@ -50,70 +53,6 @@ export default function Board() {
               </tr>
             </tbody>
           </table>
-
-          <div id="committee" className="my-4 px-4 py-4 mb-20">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
-              Committee
-            </div>
-            <div className="w-full">
-              <table className="m-4">
-                <tbody>
-                  <tr id="row-1">
-                    <td className="column-1 align-top pb-4 w-full whitespace-normal">
-                      Curbside Recycling Bidding and Alternatives
-                    </td>
-                    <td className="column-2 align-top pb-4 w-full whitespace-normal">
-                      5 pages
-                    </td>
-                  </tr>
-                  <tr id="row-2">
-                    <td className="column-1 pr-3 align-top pb-4">
-                      Report to Mayor
-                    </td>
-                    <td className="column-2 pr-3 align-top pb-4 whitespace-nowrap">
-                      5 pages
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div id="metro-nashville" className="my-4 px-4 py-4 mb-20">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
-              Legislative
-            </div>
-            <div className="w-full">
-              <table className="m-4">
-                <tbody>
-                  <tr id="row-1">
-                    <td className="column-1 align-top pb-4 w-full whitespace-normal">
-                      Cedar Rapids, Iowa
-                    </td>
-                    <td className="column-2 align-top pb-4 w-full whitespace-normal">
-                      2 pages
-                    </td>
-                  </tr>
-                  <tr id="row-2">
-                    <td className="column-1 pr-3 align-top pb-4">
-                      Metro Nashville/Davidson County, Clerk
-                    </td>
-                    <td className="column-2 pr-3 align-top pb-4 whitespace-nowrap">
-                      9 pages + responses
-                    </td>
-                  </tr>
-                  <tr id="row-3">
-                    <td className="column-1 pr-3 align-top pb-4">
-                      Metro Council, Nashville/Davidson County
-                    </td>
-                    <table>
-                      <tbody></tbody>
-                    </table>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
         </div>
       </div>
     </div>

@@ -1,9 +1,8 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import TertiaryNavbar from "@/components/TertiaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
 import { navbarProps } from "@/pages/outreach";
 
-export const bioNavbarProps = {
-  // bgColor: "bg-[#ff8938]",
+export const hyperlinkNavbarProps = {
   bgColor: "bg-outreachBg",
   titles: ["General", "Waste Streams", "Methodology", "Markets", "Plans"],
   path: "/outreach/handouts",
@@ -13,7 +12,7 @@ export default function Submissions() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...bioNavbarProps} />
+      <HyperLinkNavbar {...hyperlinkNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Handouts
