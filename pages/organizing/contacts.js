@@ -37,8 +37,8 @@ export default function Contacts() {
                       rel="noreferrer"
                     >
                       <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                        src={`/images/external-link-icons/email.svg`}
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
+                        src={`/images/external-link-icons/purple/email.svg`}
                         alt={"Email icon"}
                         height={50}
                         width={50}
@@ -57,8 +57,8 @@ export default function Contacts() {
                       rel="noreferrer"
                     >
                       <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                        src={`/images/external-link-icons/email.svg`}
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
+                        src={`/images/external-link-icons/purple/email.svg`}
                         alt={"Email icon"}
                         height={50}
                         width={50}
@@ -77,8 +77,8 @@ export default function Contacts() {
                       rel="noreferrer"
                     >
                       <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                        src={`/images/external-link-icons/email.svg`}
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
+                        src={`/images/external-link-icons/purple/email.svg`}
                         alt={"Email icon"}
                         height={50}
                         width={50}
@@ -97,8 +97,8 @@ export default function Contacts() {
                       rel="noreferrer"
                     >
                       <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                        src={`/images/external-link-icons/email.svg`}
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
+                        src={`/images/external-link-icons/purple/email.svg`}
                         alt={"Email icon"}
                         height={50}
                         width={50}
@@ -119,8 +119,8 @@ export default function Contacts() {
                       rel="noreferrer"
                     >
                       <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                        src={`/images/external-link-icons/email.svg`}
+                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
+                        src={`/images/external-link-icons/purple/email.svg`}
                         alt={"Email icon"}
                         height={50}
                         width={50}

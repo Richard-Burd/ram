@@ -164,7 +164,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
@@ -275,7 +275,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/linkedin.svg`}
+                  src={`/images/external-link-icons/orange/linkedin.svg`}
                   alt={"LinkedIn icon"}
                   height={50}
                   width={50}
@@ -288,7 +288,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/home.svg`}
+                  src={`/images/external-link-icons/orange/home.svg`}
                   alt={"Home icon"}
                   height={50}
                   width={50}
@@ -301,7 +301,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
@@ -356,7 +356,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/linkedin.svg`}
+                  src={`/images/external-link-icons/orange/linkedin.svg`}
                   alt={"LinkedIn icon"}
                   height={50}
                   width={50}
@@ -369,7 +369,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/home.svg`}
+                  src={`/images/external-link-icons/orange/home.svg`}
                   alt={"Home icon"}
                   height={50}
                   width={50}
@@ -382,7 +382,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/github.svg`}
+                  src={`/images/external-link-icons/orange/github.svg`}
                   alt={"GitHub icon"}
                   height={50}
                   width={50}
@@ -395,7 +395,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
@@ -434,7 +434,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
@@ -474,7 +474,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
@@ -507,7 +507,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
@@ -542,7 +542,7 @@ export default function Bios() {
               >
                 <Image
                   className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/email.svg`}
+                  src={`/images/external-link-icons/orange/email.svg`}
                   alt={"Email icon"}
                   height={50}
                   width={50}
