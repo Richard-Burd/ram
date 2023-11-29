@@ -6,7 +6,7 @@ export const bioNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-outreachBg",
   titles: ["General", "Waste Streams", "Methodology", "Markets", "Plans"],
-  path: "/outreach/submissions",
+  path: "/outreach/handouts",
 };
 
 export default function Submissions() {
