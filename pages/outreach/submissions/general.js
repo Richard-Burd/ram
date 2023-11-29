@@ -32,13 +32,13 @@ export default function General() {
         >
           <ul className="list-square list-outside m-4 p-4">
             <li className="mb-4">
-              A 7-page letter to Mark Rogers (Governor's Office), dated
-              10/10/94.
-            </li>
-            <li className="mb-4">
               A 2-page (8 1/2 x 14) 5-scenario economic comparison of options
               related to incineration, 10/93. To see what it looks like, see a
               reduced size version on p. 18 of RAM's second newsletter.
+            </li>
+            <li className="mb-4">
+              A 7-page letter to Mark Rogers (Governor's Office), dated
+              10/10/94.
             </li>
           </ul>
         </div>

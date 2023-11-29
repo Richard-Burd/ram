@@ -111,7 +111,9 @@ export default function ZeroWaste() {
             <div className="text-2xl">
               <p className="mb-8">
                 <i>RAM</i> supports true zero waste. Two RAM graphics describe
-                rough proportions of diversion categories. First a bar chart:
+                maximizing diversion from municipal solid waste -- destinations
+                when quality-oriented high-recovery systems are applied to it.
+                First a bar chart:
               </p>
               <div className="mb-12">
                 <BrochureFig
@@ -131,9 +133,8 @@ export default function ZeroWaste() {
                 <PieChartComponent />
               </div> */}
               <p className="mb-8">
-                The following chart shows roughly the destination of typical
-                municipal solid waste when quality-oriented high-recovery
-                recycling/composting systems are applied to it:
+                For those preferring a simplified, less precise graphic to help
+                them remember:
               </p>
               <div className="mb-12">
                 <BrochureFig
