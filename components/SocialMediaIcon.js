@@ -79,7 +79,7 @@ export default function EmailIcon({
       {anchorLink ? (
         <Link href={anchorLink}>{renderSVG()}</Link>
       ) : hyperLink ? (
-        <a href={hyperLink} target="_blank">
+        <a href={hyperLink} target="_blank" rel="noreferrer">
           {renderSVG()}
         </a>
       ) : (

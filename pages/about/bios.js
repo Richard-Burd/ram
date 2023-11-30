@@ -347,7 +347,7 @@ export default function Bios() {
               />
               <SocialMediaIcon
                 icon="x"
-                anchorLink="https://twitter.com/Richard_A_Burd"
+                anchorLink="https://x.com/Richard_A_Burd"
                 {...socialMediaIconProps}
               />
             </center>
