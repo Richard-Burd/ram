@@ -1,11 +1,15 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import SocialMediaIcon from "@/components/SocialMediaIcon";
 import { navbarProps } from "@/pages/organizing";
-import Image from "next/image";
+
+const socialMediaIconProps = {
+  icon: "email",
+  backgroundColor: `#5f36b3`,
+  activeBackgroundColor: `#ad9eff`,
+};
 
 export default function Contacts() {
-  const crewDescriptionTestLayoutStyles =
-    "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
       <Head>
@@ -30,80 +34,44 @@ export default function Contacts() {
                 <tr id="john">
                   <td className="text-left font-bold pb-16">Davidson County</td>
                   <td className="text-left pb-16 pl-12">John van der Harst</td>
-                  <td className="pl-12 pb-16">
-                    <a
-                      href={`/organizing/contacts/john`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
-                        src={`/images/external-link-icons/purple/email.svg`}
-                        alt={"Email icon"}
-                        height={50}
-                        width={50}
-                      />
-                    </a>
+                  <td className="pl-20 pb-16 ml-9">
+                    <SocialMediaIcon
+                      anchorLink="/organizing/contacts/john"
+                      {...socialMediaIconProps}
+                    />
                   </td>
                 </tr>
 
                 <tr id="leith">
                   <td className="text-left font-bold pb-16">Jackson County</td>
                   <td className="text-left pb-16 pl-12">Leith Patton</td>
-                  <td className="pl-12 pb-16">
-                    <a
-                      href={`/organizing/contacts/leith`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
-                        src={`/images/external-link-icons/purple/email.svg`}
-                        alt={"Email icon"}
-                        height={50}
-                        width={50}
-                      />
-                    </a>
+                  <td className="pl-20 pb-16 ml-9">
+                    <SocialMediaIcon
+                      anchorLink="/organizing/contacts/leith"
+                      {...socialMediaIconProps}
+                    />
                   </td>
                 </tr>
 
                 <tr id="martha">
                   <td className="text-left font-bold pb-16">Stewart County</td>
                   <td className="text-left pb-16 pl-12">Martha Yanchyshyn</td>
-                  <td className="pl-12 pb-16">
-                    <a
-                      href={`/organizing/contacts/martha`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
-                        src={`/images/external-link-icons/purple/email.svg`}
-                        alt={"Email icon"}
-                        height={50}
-                        width={50}
-                      />
-                    </a>
+                  <td className="pl-20 pb-16 ml-9">
+                    <SocialMediaIcon
+                      anchorLink="/organizing/contacts/martha"
+                      {...socialMediaIconProps}
+                    />
                   </td>
                 </tr>
 
                 <tr id="colleen">
                   <td className="text-left font-bold pb-16">Wayne County</td>
                   <td className="text-left pb-16 pl-12">Colleen McLanaghan</td>
-                  <td className="pl-12 pb-16">
-                    <a
-                      href={`/organizing/contacts/colleen`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
-                        src={`/images/external-link-icons/purple/email.svg`}
-                        alt={"Email icon"}
-                        height={50}
-                        width={50}
-                      />
-                    </a>
+                  <td className="pl-20 pb-16 ml-9">
+                    <SocialMediaIcon
+                      anchorLink="/organizing/contacts/colleen"
+                      {...socialMediaIconProps}
+                    />
                   </td>
                 </tr>
 
@@ -112,20 +80,11 @@ export default function Contacts() {
                     Washington County
                   </td>
                   <td className="text-left pb-16 pl-12">Catherine Murray</td>
-                  <td className="pl-12 pb-16">
-                    <a
-                      href={`/organizing/contacts/catherine`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-60 transition"
-                        src={`/images/external-link-icons/purple/email.svg`}
-                        alt={"Email icon"}
-                        height={50}
-                        width={50}
-                      />
-                    </a>
+                  <td className="pl-20 pb-16 ml-9">
+                    <SocialMediaIcon
+                      anchorLink="/organizing/contacts/catherine"
+                      {...socialMediaIconProps}
+                    />
                   </td>
                 </tr>
               </tbody>

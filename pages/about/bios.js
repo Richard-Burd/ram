@@ -1,8 +1,14 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
+import SocialMediaIcon from "@/components/SocialMediaIcon";
 import { navbarProps } from "@/pages/about";
 import Image from "next/image";
+
+const socialMediaIconProps = {
+  backgroundColor: `#b86d2c`,
+  activeBackgroundColor: `#ffe3c2`,
+};
 
 export const hyperlinkNavbarProps = {
   // bgColor: "bg-[#ff8938]",
@@ -65,6 +71,7 @@ export default function Bios() {
           <div className="m-4 p-4 text-center text-5xl pt-serif-700 text-[#ffe9bf] italic">
             Some Notable RAM Members
           </div>
+
           <div id="john-van-der-harst">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
               John van der Harst
@@ -157,19 +164,11 @@ export default function Bios() {
               </div>
             </div>
             <center className="link-icon-set">
-              <a
-                href={`/organizing/contacts/john`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="/organizing/contacts/john"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -268,45 +267,21 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
             <center className="grid grid-cols-3 content-center mx-64">
-              <a
-                href="https://www.linkedin.com/in/lee-nelson-b5701981"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/linkedin.svg`}
-                  alt={"LinkedIn icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
-              <a
-                href="https://www.supremelifeforce.info/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/home.svg`}
-                  alt={"Home icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
-              <a
-                href="mailto:lee@urbancruiseship.org"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+              <SocialMediaIcon
+                icon="linkedin"
+                hyperLink="https://www.linkedin.com/in/lee-nelson-b5701981"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="home"
+                hyperLink="https://www.supremelifeforce.info/"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="mailto:lee@urbancruiseship.org"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -348,59 +323,33 @@ export default function Bios() {
               <div className="my-4"></div>
               <div>More details are anticipated soon.</div>
             </div>
-            <center className="grid grid-cols-4 content-center mx-52">
-              <a
-                href="https://www.linkedin.com/in/richardburd/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/linkedin.svg`}
-                  alt={"LinkedIn icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
-              <a
-                href="https://richard-burd.github.io/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/home.svg`}
-                  alt={"Home icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
-              <a
-                href="https://github.com/Richard-Burd"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/github.svg`}
-                  alt={"GitHub icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
-              <a
-                href="mailto:richard@urbancruiseship.org"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+
+            <center className="grid grid-cols-5 content-center mx-32">
+              <SocialMediaIcon
+                icon="linkedin"
+                hyperLink="https://www.linkedin.com/in/richardburd/"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="home"
+                hyperLink="https://richard-burd.github.io/"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="github"
+                hyperLink="https://github.com/Richard-Burd/"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="mailto:richard@urbancruiseship.org"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="x"
+                anchorLink="https://twitter.com/Richard_A_Burd"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -427,19 +376,11 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
-              <a
-                href={`/organizing/contacts/leith`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="/organizing/contacts/leith"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -467,19 +408,11 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
-              <a
-                href={`/organizing/contacts/martha`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="/organizing/contacts/martha"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -500,19 +433,11 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
-              <a
-                href={`/organizing/contacts/colleen`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="/organizing/contacts/colleen"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -535,19 +460,11 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
             <center className="link-icon-set">
-              <a
-                href={`/organizing/contacts/catherine`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="duration-500 ease-in-out focus:opacity-90 hover:opacity-90 mx-2 sm:mx-8 opacity-40 transition"
-                  src={`/images/external-link-icons/orange/email.svg`}
-                  alt={"Email icon"}
-                  height={50}
-                  width={50}
-                />
-              </a>
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="/organizing/contacts/catherine"
+                {...socialMediaIconProps}
+              />
             </center>
           </div>
 
@@ -1037,27 +954,3 @@ export default function Bios() {
     </div>
   );
 }
-
-// export default function Bios() {
-//   return (
-//     <div>
-//       <div className="bg-gradient-to-l from-[#873f08] to-[#1a0c02] text-zinc-300 pb-72">
-//         <SecondaryNavbar {...navbarProps} />
-//         <div
-//           id="title-and-text-box"
-//           className="bg-neutral-950 m-11 p-8 rounded-6xl"
-//         >
-//           <div className="m-4 p-4 text-center text-7xl pt-serif-700 text-[#ffe9bf] italic">
-//             Bios
-//           </div>
-//           <div className="m-4 p-4 text-2xl">
-//             <i>RAM</i> is a research and education-based group of citizens which
-//             advocates for the development of recycling techniques which foster
-//             industrial improvement, new jobs, prosperity, awareness, health, a
-//             cleaner environment, and the elimination of landfilling.
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
