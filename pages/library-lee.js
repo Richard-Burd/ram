@@ -3088,10 +3088,10 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ Agendas
           </div>
-          <div className="">
+          <div className="documents-element">
             <Document
               title=""
-              leeTitle=""
+              leeTitle="Agendas [multiyear]"
               fileName="doc-346"
               description=""
               fileLabel={true}
@@ -3104,42 +3104,335 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ Campaigns
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Campaigns_1 (TVA Energy Efficiency)"
+              fileName="doc-347"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Campaigns_2 (Nashville Climate Coalition)"
+              fileName="doc-348"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Campaigns_3 (Questions for Candidates) [2-23-2015]"
+              fileName="doc-349"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Campaigns_4 (Zero-Waste Wish List) [12-14-2017]"
+              fileName="doc-350"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="legislation">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ Legislation
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Legislation_1 (solid waste system proposal) [9-23-2012]"
+              fileName="doc-351"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_2 (closed-loop system) [10-15-2012]"
+              fileName="doc-352"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_3 (Ordinance No. BL2013-59) [12-3-2013]"
+              fileName="doc-353"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_4 (RAM meets Metro Council) [3-5-2014]"
+              fileName="doc-354"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_5 (Proposed Landfill)"
+              fileName="doc-355"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_6 (Proposed Landfill Fact Sheet)"
+              fileName="doc-356"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_7 (Proposed Landfill Map)"
+              fileName="doc-357"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_8 (Proposed Landfill Application) [6-20-2012]"
+              fileName="doc-358"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_9 (Proposed Landfill Public Hearing) [3-13-2014]"
+              fileName="doc-359"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_10 (Proposed Landfill Letter to Flood) [3-26-2014]"
+              fileName="doc-360"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_11 (Proposed Landfill Letter to Flood 2) [3-27-2014]"
+              fileName="doc-361"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_12 (Proposed Landfill Memorandum) [6-30-2014]"
+              fileName="doc-362"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_13 (Proposed Solid Waste Lifecycle Legislation) [9-8-2014]"
+              fileName="doc-363"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_14 (Recycling Legislation) [1-13-2015]"
+              fileName="doc-364"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_15 (Resolution on Solid Waste Fees)"
+              fileName="doc-365"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_16 (Resolutions and Bills)"
+              fileName="doc-366"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Legislation_17 (Elections Map) [2015]"
+              fileName="doc-367"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="new-articles">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ New Article
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="News_Articles_1 (trash-free) [7-25-2010]"
+              fileName="doc-368"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="News_Articles_2 (overflow) [1-19-2012]"
+              fileName="doc-369"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="News_Articles_3 (recycling center)"
+              fileName="doc-370"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="News_Articles_4 (compost collection) [5-11-2012]"
+              fileName="doc-371"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="News_Articles_5 (Green Blueprint) [6-19-2015]"
+              fileName="doc-372"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="permaculture">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ Permaculture
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Permaculture_1 (principles) [2-3-2014]"
+              fileName="doc-373"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
-        <div id="ram-website">
+        {/* <div id="ram-website">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ RAM Website
           </div>
           <div className="documents-element"></div>
-        </div>
+        </div> */}
 
         <div id="recycling">
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-5 ➤ Recycling
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="Recycling_1 (electronic recycling) [2008]"
+              fileName="doc-374"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_2 (solid waste status) [7-26-2013]"
+              fileName="doc-375"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_3 (solid waste where it goes) [4-28-2014]"
+              fileName="doc-376"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_4 (Recycling Services)"
+              fileName="doc-377"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_5 (Recycling Services Response)"
+              fileName="doc-378"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_6 (Solid Waste where it goes) [7-28-2015]"
+              fileName="doc-379"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_7 (Resource Capture)"
+              fileName="doc-380"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_8 (Solid Waste where it goes) [10-16-2016]"
+              fileName="doc-381"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Recycling_9 (Solid Waste where it goes) [5-12-2017]"
+              fileName="doc-382"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
       </div>
 
@@ -3148,7 +3441,16 @@ export default function LibraryLee() {
           <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
             Binder-6 ➤ 511 Main St Nashville
           </div>
-          <div className="documents-element"></div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="ontheway"
+              fileName="doc-383"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
         </div>
 
         <div id="ash-landfill-expansion">
