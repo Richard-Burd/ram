@@ -82,83 +82,74 @@ export default function Literature() {
             </div>
             <div className="text-2xl">
               <div className="periodical-section mb-12">
-                <div className="section-title">BioCycle CONNECT</div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="biocycleconnect@biocycle.net"
-                    link="mailto:biocycleconnect@biocycle.net"
+                    text="BioCycle CONNECT"
+                    link="https://www.biocycle.net/"
                   />
                 </div>
                 <div className="ml-12">Specialty: Composting</div>
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title">Waste Dive</div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="wastemanagement@divenewsletter.com"
-                    link="mailto:wastemanagement@divenewsletter.com"
+                    text="Waste Dive"
+                    link="https://www.wastedive.com/"
                   />
                 </div>
+
                 <div className="ml-12">Specialty: Solid Waste</div>
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title">Recycling Today</div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="email@recyclingtoday.com"
-                    link="mailto:email@recyclingtoday.com"
+                    text="Recycling Today"
+                    link="https://www.recyclingtoday.com/"
                   />
                 </div>
-                <div className="ml-12">Specialty: Solid Waste</div>
+                <div className="ml-12">Specialty: Recycling</div>
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title">
-                  Waste360 Recycling and Organics Weekly
-                </div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="W360Recycling@go.informastrategicmarkets.com"
-                    link="mailto:W360Recycling@go.informastrategicmarkets.com"
+                    text="Waste360 Recycling and Organics Weekly"
+                    link="https://www.waste360.com/organics"
                   />
                 </div>
                 <div className="ml-12">Specialty: Material Recovery</div>
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title">
-                  Construction & Demolition Recycling
-                </div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="email@cdrecycler.com"
-                    link="mailto:email@cdrecycler.com"
+                    text="Construction & Demolition Recycling"
+                    link="https://www.cdrecycler.com/"
                   />
                 </div>
                 <div className="ml-12">Specialty: Demolition</div>
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title">Waste Today</div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="wastetodaymagazine.com"
+                    text="Waste Today"
                     link="http://wastetodaymagazine.com"
                   />
                 </div>
-                <div className="ml-12">Specialty: Government</div>
+                <div className="ml-12">Specialty: Disposal</div>
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title">Waste360 Daily Wire</div>
-                <div className="ml-12">
+                <div className="section-title italic">
                   <AnchorLink
-                    text="W360DailyWire@go.informastrategicmarkets.com"
-                    link="http://W360DailyWire@go.informastrategicmarkets.com"
+                    text="Waste360 Daily Wire"
+                    link="https://www.waste360.com"
                   />
                 </div>
+
                 <div className="ml-12">Specialty: Landfilling</div>
               </div>
             </div>
