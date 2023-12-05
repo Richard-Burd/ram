@@ -100,7 +100,7 @@ export default function ZeroWaste() {
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-8 rounded-6xl"
         >
-          <div className="my-4 py-4 text-center text-5xl pt-serif-700 text-[#fcffbf] italic">
+          <div className="my-4 py-4 text-center text-6xl pt-serif-700 text-[#fcffbf] italic">
             Zero-Waste
           </div>
           <div id="diversion" className="mx-4 pt-4 mb-24">
