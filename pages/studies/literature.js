@@ -82,7 +82,7 @@ export default function Literature() {
             </div>
             <div className="text-2xl">
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="BioCycle CONNECT"
                     link="https://www.biocycle.net/"
@@ -92,7 +92,7 @@ export default function Literature() {
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="Waste Dive"
                     link="https://www.wastedive.com/"
@@ -103,7 +103,7 @@ export default function Literature() {
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="Recycling Today"
                     link="https://www.recyclingtoday.com/"
@@ -113,7 +113,7 @@ export default function Literature() {
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="Waste360 Recycling and Organics Weekly"
                     link="https://www.waste360.com/organics"
@@ -123,7 +123,7 @@ export default function Literature() {
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="Construction & Demolition Recycling"
                     link="https://www.cdrecycler.com/"
@@ -133,7 +133,7 @@ export default function Literature() {
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="Waste Today"
                     link="http://wastetodaymagazine.com"
@@ -143,7 +143,7 @@ export default function Literature() {
               </div>
 
               <div className="periodical-section mb-12">
-                <div className="section-title italic">
+                <div className="section-title">
                   <AnchorLink
                     text="Waste360 Daily Wire"
                     link="https://www.waste360.com"
