@@ -2343,7 +2343,7 @@ export default function LibraryLee() {
             />
             <Document
               title=""
-              leeTitle="Solid_Waste_General_8 (RAM Recycling Switch) p1 of 2"
+              leeTitle="Solid_Waste_General_8 (RAM Recycling Switch)"
               fileName="doc-260"
               description=""
               fileLabel={true}
@@ -2729,7 +2729,7 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle="Pollution_1 (Letter to EPA) [5-21-2004] p1 of 2"
+              leeTitle="Pollution_1 (Letter to EPA) [5-21-2004]"
               fileName="doc-304"
               description=""
               fileLabel={true}
