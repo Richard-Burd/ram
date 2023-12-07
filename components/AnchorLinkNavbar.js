@@ -4,7 +4,7 @@ import React from "react"; // Import React module
 
 export default function AnchorLinkNavbar({ bgColor, titles, path }) {
   return (
-    <nav className="bg-neutral-950 px-1 py-2 border-y-slate-500 border-b-2">
+    <nav className="bg-neutral-950 px-1 py-1 border-y-slate-500 border-b-2">
       <div className="container flex justify-between">
         {/* Updated this div to allow wrapping of items */}
         <div className="flex flex-wrap flex-auto justify-items-stretch items-center">
