@@ -10,7 +10,7 @@ export const hyperlinkNavbarProps = {
   titles: [
     "Internalizing externalized material recovery benefits and disposal costs",
     "First state soil-based compost quality standards as an incentive class",
-    "First voluntary closure of a large, financially-viable, WTE incinerator with up-to-date air pollution control equipment",
+    "First voluntary closure of a large, financially-viable, WTE incinerator with up-to-date APC equipment",
     "No more treated incinerator ash outside landfills",
   ],
   path: "/successes/major-successes",
