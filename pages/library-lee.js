@@ -6239,6 +6239,144 @@ export default function LibraryLee() {
           </div>
         </div>
       </div>
+
+      <div id="binder-8">
+        <div id="richards-scans">
+          <div className="border-b-slate-900 border-b-2 m-4 mt-20 font-semibold text-4xl">
+            Binder-8 ➤ Richard&apos;s Scans
+          </div>
+          <div className="documents-element">
+            <Document
+              title=""
+              leeTitle="John Resume Foldout [7-1996]"
+              fileName="doc-684"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="John Resume 3 Pages [7-1996]"
+              fileName="doc-685"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Tax Disparity [10-2014]"
+              fileName="doc-686"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Creating a Level Playing Field"
+              fileName="doc-687"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Household Hazardous Waste Collection Flyer [6-1-1996]"
+              fileName="doc-688"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Remanufacturing Example: Making Toilet Paper Flyer"
+              fileName="doc-689"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Food Waste Seperation POW WOW Flyer "
+              fileName="doc-690"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Guelph Expierence by Wane Ardnt Flyer [1995] "
+              fileName="doc-691"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="10 Hidden Taxes Caused by Thermal Plant"
+              fileName="doc-692"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Optimizing Material Recovery Flyer 1"
+              fileName="doc-693"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Optimizing Material Recovery Flyer 2"
+              fileName="doc-694"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="The Tennessean Newspaper Clip [11-15-1999]"
+              fileName="doc-695"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Airborne & Solid Waste Emissions Booklet"
+              fileName="doc-696"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="AAR Cumulative Billings Booklet [11-11-1999]"
+              fileName="doc-697"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Metro Municipal Solid Waste [10-18-2003]"
+              fileName="doc-698"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <Document
+              title=""
+              leeTitle="Large Misc. Booklet"
+              fileName="doc-699"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
