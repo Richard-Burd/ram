@@ -6374,6 +6374,26 @@ export default function LibraryLee() {
               fileLabel={true}
               showLeeLabel={true}
             />
+            <Document
+              title=""
+              leeTitle="Massachusetts Dept. Env. Protection [7-1992]"
+              fileName="doc-700"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <p className="ml-4 mt-40 text-2xl">
+              NOTE: doc-701 below is missing p.2 - this will be fixed as soon as
+              I can scan it in!
+            </p>
+            <Document
+              title=""
+              leeTitle="Davidson County Solid Waste TAX DISPARITY [8-21-2012]"
+              fileName="doc-701"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
           </div>
         </div>
       </div>
