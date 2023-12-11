@@ -6248,7 +6248,7 @@ export default function LibraryLee() {
           <div className="documents-element">
             <Document
               title=""
-              leeTitle="John Resume Foldout [7-1996]"
+              leeTitle="John Solid Waste Management Resume [7-1996]"
               fileName="doc-684"
               description=""
               fileLabel={true}

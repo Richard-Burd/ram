@@ -8,8 +8,8 @@ export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
   titles: [
     "Massachusetts",
-    "Metro Nashville/Davidson County",
-    "Los Angeles, California",
+    "Metro Nashville/Davidson Co.",
+    "Los Angeles, CA",
     "Boards",
     "Committee",
     "Legislative",
@@ -48,7 +48,7 @@ export default function Departmental() {
           </div>
 
           <div
-            id="metro-nashville/davidson-county"
+            id="metro-nashville/davidson-co."
             className="my-4 px-4 py-4 mb-20"
           >
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
@@ -100,7 +100,7 @@ export default function Departmental() {
             </div>
           </div>
 
-          <div id="los-angeles,-california" className="my-4 px-4 py-4 mb-20">
+          <div id="los-angeles,-ca" className="my-4 px-4 py-4 mb-20">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               Los Angeles, California
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -127,7 +127,7 @@ export default function Departmental() {
                   </tr>
                   <tr id="row-2">
                     <td className="column-1 pr-3 align-top pb-4">
-                      Davison County Solid Waste Region
+                      Davison Co. Solid Waste Region
                     </td>
                     <td className="column-2 pr-3 align-top pb-4 whitespace-nowrap">
                       10 pages &nbsp;&nbsp;&nbsp;&nbsp;
@@ -183,7 +183,7 @@ export default function Departmental() {
                   </tr>
                   <tr id="row-2">
                     <td className="column-1 pr-3 align-top pb-4">
-                      Metro Nashville/Davidson County, Clerk
+                      Metro Nashville/Davidson Co., Clerk
                     </td>
                     <td className="column-2 pr-3 align-top pb-4 whitespace-nowrap">
                       9 pages + responses
@@ -191,7 +191,7 @@ export default function Departmental() {
                   </tr>
                   <tr id="row-3">
                     <td className="column-1 pr-3 align-top pb-4">
-                      Metro Council, Nashville/Davidson County
+                      Metro Council, Nashville/Davidson Co.
                     </td>
                     <table>
                       <tbody></tbody>
