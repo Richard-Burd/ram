@@ -98,8 +98,8 @@ export default function Contacts() {
                   <i>RAM</i> thanks the following:
                 </p>
                 <p className="mb-3">
-                  Vanderbilt University&apos;s Center for Public Policy
-                  Research, Davidson County, Council District 18 -- organized by
+                  Vanderbilt University&apos;s Center for Center for Health
+                  Services, Davidson County, Council District 18 -- organized by
                   SOCM (Save Our Cumberland Mountains)
                 </p>
                 <p className="mb-3">

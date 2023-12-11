@@ -7,11 +7,11 @@ import { navbarProps } from "@/pages/studies";
 
 export const hyperlinkNavbarProps = {
   bgColor: "bg-studiesBg",
-  titles: ["Reports", "Papers", "Periodicals"],
-  path: "/studies/literature",
+  titles: ["Value", "Scheduling Tours", "Remote Logistics", "Some Long Trips"],
+  path: "/studies/travels",
 };
 
-export default function Literature() {
+export default function Travels() {
   // manages the initial size of the figures
   const [width, setWidth] = useState("50%"); // Initial width
 
@@ -102,230 +102,225 @@ export default function Literature() {
                 Facilities toured in the following states, provinces, counties,
                 or cities:
               </div>
-              <table>
-                <tbody>
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1989</td>
-                    <td className="description align-top">
-                      New York, Connecticut, Rhode Island, Massachusetts, and
-                      New Jersey (5 facilities total + conference, in 10 days)
-                    </td>
-                  </tr>
+              <div className="bg-yellow-700 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl">
+                <table className="m-4">
+                  <tbody>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1989</td>
+                      <td className="description align-top">
+                        New York, Connecticut, Rhode Island, Massachusetts, and
+                        New Jersey (5 facilities total + conference, in 10 days)
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1989</td>
-                    <td className="description align-top">
-                      California (Bay Area) and Washington (34 facilities total,
-                      in 15 days)
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1989</td>
+                      <td className="description align-top">
+                        California (Bay Area) and Washington (34 facilities
+                        total, in 15 days)
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1990</td>
-                    <td className="description align-top">
-                      Cook County (Crestwood), Illinois
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1990</td>
+                      <td className="description align-top">
+                        Cook County (Crestwood), Illinois
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1990</td>
-                    <td className="description align-top">
-                      Gibson County (Humboldt), Tennessee
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1990</td>
+                      <td className="description align-top">
+                        Gibson County (Humboldt), Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1990</td>
-                    <td className="description align-top">
-                      Robertson County (Springfield), Tennessee
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1990</td>
+                      <td className="description align-top">
+                        Robertson County (Springfield), Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1990</td>
-                    <td className="description align-top">
-                      Lewis County (Lewisburg), Tennessee
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1990</td>
+                      <td className="description align-top">
+                        Lewis County (Lewisburg), Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1990</td>
-                    <td className="description align-top">
-                      Williamson County (Franklin), Tennessee
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1990</td>
+                      <td className="description align-top">
+                        Williamson County (Franklin), Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1991</td>
-                    <td className="description align-top">
-                      Florida and Georgia (25 facilities total, in 8 days)
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1991</td>
+                      <td className="description align-top">
+                        Florida and Georgia (25 facilities total, in 8 days)
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1991</td>
+                      <td className="description align-top">
+                        South Dakota, Iowa, Minnesota, Wisconsin, Illinois,
+                        Ontario, Canada, New York, and Ohio (25 facilities
+                        total, in 14 days)
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1991</td>
-                    <td className="description align-top">
-                      Florida and Georgia (25 facilities total, in 8 days)
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1992</td>
+                      <td className="description align-top">
+                        Fairfax County (Lorton), Virginia
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1991</td>
-                    <td className="description align-top">
-                      South Dakota, Iowa, Minnesota, Wisconsin, Illinois,
-                      Ontario, Canada, New York, and Ohio (25 facilities total,
-                      in 14 days)
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1992</td>
+                      <td className="description align-top">
+                        Sumner County (Gallatin), Tennessee
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1992</td>
-                    <td className="description align-top">
-                      Fairfax County (Lorton), Virginia
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1992</td>
+                      <td className="description align-top">
+                        Windsor, Maine (temporary facility, Common Ground
+                        Country Fair)
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1992</td>
-                    <td className="description align-top">
-                      Sumner County (Gallatin), Tennessee
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1992</td>
+                      <td className="description align-top">
+                        Ontario, Canada, Michigan, Ohio, Wisconsin, Minnesota,
+                        Nebraska, and Iowa (16 facilities total + conference + 3
+                        lectures + 4 interviews, in 17 days)
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1992</td>
-                    <td className="description align-top">
-                      Windsor, Maine (temporary facility, Common Ground Country
-                      Fair)
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">
+                        1992 & 1993
+                      </td>
+                      <td className="description align-top">
+                        Sevier County (Sevierville), Tennessee
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1992</td>
-                    <td className="description align-top">
-                      Ontario, Canada, Michigan, Ohio, Wisconsin, Minnesota,
-                      Nebraska, and Iowa (16 facilities total + conference + 3
-                      lectures + 4 interviews, in 17 days)
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1994</td>
+                      <td className="description align-top">
+                        Williamson County (Nolensville and Franklin), Tennessee
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1992 & 1993</td>
-                    <td className="description align-top">
-                      Sevier County (Sevierville), Tennessee
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1994</td>
+                      <td className="description align-top">
+                        Jackson County (Gainesboro), Tennessee
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1994</td>
-                    <td className="description align-top">
-                      Williamson County (Nolensville and Franklin), Tennessee
-                    </td>
-                  </tr>
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1996</td>
+                      <td className="description align-top">
+                        Michigan and Ontario, Canada (14 facilities total, in 9
+                        days)
+                      </td>
+                    </tr>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1994</td>
-                    <td className="description align-top">
-                      Jackson County (Gainesboro), Tennessee
-                    </td>
-                  </tr>
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1996</td>
-                    <td className="description align-top">
-                      Michigan and Ontario, Canada (14 facilities total, in 9
-                      days)
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">1997</td>
+                      <td className="description align-top">
+                        Morgan County, Tennessee
+                      </td>
+                    </tr>
+                    <br></br>
 
-                  <br></br>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">2000</td>
+                      <td className="description align-top">
+                        San Jose and Sunnyvale, California
+                      </td>
+                    </tr>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">1997</td>
-                    <td className="description align-top">
-                      Morgan County, Tennessee
-                    </td>
-                  </tr>
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">2000</td>
-                    <td className="description align-top">
-                      San Jose and Sunnyvale, California
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">2000</td>
+                      <td className="description align-top">
+                        Wayne County (Livonia), Michigan
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">2000</td>
-                    <td className="description align-top">
-                      Wayne County (Livonia), Michigan
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">2004</td>
+                      <td className="description align-top">
+                        Warren County (McMinnville), Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">2004</td>
-                    <td className="description align-top">
-                      Warren County (McMinnville), Tennessee
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">2011</td>
+                      <td className="description align-top">
+                        Sevier County (Sevierville), Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">2011</td>
-                    <td className="description align-top">
-                      Sevier County (Sevierville), Tennessee
-                    </td>
-                  </tr>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">2012</td>
+                      <td className="description align-top">
+                        (Western) Cheatham County, Tennessee
+                      </td>
+                    </tr>
 
-                  <br></br>
+                    <br></br>
 
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">2012</td>
-                    <td className="description align-top">
-                      (Western) Cheatham County, Tennessee
-                    </td>
-                  </tr>
-
-                  <br></br>
-
-                  <tr className="table-row">
-                    <td className="align-top pr-3 min-w-[90px]">2013</td>
-                    <td className="description align-top">
-                      Rutherford County (LaVergne), Tennessee
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                    <tr className="table-row">
+                      <td className="align-top pr-3 min-w-[90px]">2013</td>
+                      <td className="description align-top">
+                        Rutherford County (LaVergne), Tennessee
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>

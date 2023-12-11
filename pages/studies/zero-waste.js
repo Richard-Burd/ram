@@ -116,7 +116,6 @@ export default function ZeroWaste() {
               </p>
               <div className="mb-12">
                 <BrochureFig
-                  figureNumber="Fig-3"
                   fileName="net-zero-landfilling.jpg"
                   borderColor="#665c49"
                   width={width}
