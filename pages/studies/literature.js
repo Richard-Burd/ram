@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import AnchorLink from "@/components/AnchorLink";
+import HyperLink from "@/components/HyperLink";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import { navbarProps } from "@/pages/studies";
@@ -41,15 +42,22 @@ export default function Literature() {
                 Robin F. Ingenthron, Director of Recycling Programs, Division of
                 Solid Waste Management, and Willa S. Kuh, Director,
                 Massachusetts Department of Environmental Protection,{" "}
-                <i>Value Added by Recycling Industries in Massachusetts</i>,
-                July 27, 1992
+                <i>
+                  <HyperLink
+                    text="Value Added by Recycling Industries in Massachusetts"
+                    link="https://archives.lib.state.ma.us/server/api/core/bitstreams/69e179b4-0ea5-4e88-905a-45049d472677/content"
+                  />
+                </i>
+                , July 27, 1992
               </div>
 
               <div className="mb-8">
                 Tellus Institute with Sound Resource Management Group, Inc.,{" "}
                 <i>
-                  More Jobs, Less Pollution: Growing the Recycling Economy in
-                  the U.S.
+                  <HyperLink
+                    text="More Jobs, Less Pollution: Growing the Recycling Economy in the U.S."
+                    link="https://www.tellus.org/pub/More%20Jobs,%20Less%20Pollution%20-%20Growing%20the%20Recycling%20Economy%20in%20the%20US.pdf"
+                  />
                 </i>
                 , c. 2009. 64 pages. Clients: BlueGreen Alliance, Teamsters,
                 Service Employees International Union (SEIU), Natural Resources
