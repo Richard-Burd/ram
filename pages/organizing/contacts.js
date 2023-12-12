@@ -51,7 +51,7 @@ export default function Contacts() {
                   <td className="text-left pb-16 pl-12">John van der Harst</td>
                   <td className="pl-20 pb-16 ml-9">
                     <SocialMediaIcon
-                      anchorLink="/organizing/contacts/john"
+                      anchorLink="/organizing/contacts/davidson-county"
                       {...socialMediaIconProps}
                     />
                   </td>
@@ -62,7 +62,7 @@ export default function Contacts() {
                   <td className="text-left pb-16 pl-12">Leith Patton</td>
                   <td className="pl-20 pb-16 ml-9">
                     <SocialMediaIcon
-                      anchorLink="/organizing/contacts/leith"
+                      anchorLink="/organizing/contacts/jackson-county"
                       {...socialMediaIconProps}
                     />
                   </td>
@@ -73,7 +73,7 @@ export default function Contacts() {
                   <td className="text-left pb-16 pl-12">Martha Yanchyshyn</td>
                   <td className="pl-20 pb-16 ml-9">
                     <SocialMediaIcon
-                      anchorLink="/organizing/contacts/martha"
+                      anchorLink="/organizing/contacts/stewart-county"
                       {...socialMediaIconProps}
                     />
                   </td>
@@ -84,7 +84,7 @@ export default function Contacts() {
                   <td className="text-left pb-16 pl-12">Colleen McLanaghan</td>
                   <td className="pl-20 pb-16 ml-9">
                     <SocialMediaIcon
-                      anchorLink="/organizing/contacts/colleen"
+                      anchorLink="/organizing/contacts/wayne-county"
                       {...socialMediaIconProps}
                     />
                   </td>
@@ -97,7 +97,7 @@ export default function Contacts() {
                   <td className="text-left pb-16 pl-12">Catherine Murray</td>
                   <td className="pl-20 pb-16 ml-9">
                     <SocialMediaIcon
-                      anchorLink="/organizing/contacts/catherine"
+                      anchorLink="/organizing/contacts/washington-county"
                       {...socialMediaIconProps}
                     />
                   </td>
