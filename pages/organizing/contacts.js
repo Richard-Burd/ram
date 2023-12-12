@@ -1,6 +1,6 @@
 import Head from "next/head";
-import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
 import SocialMediaIcon from "@/components/SocialMediaIcon";
 import { navbarProps } from "@/pages/organizing";
 
@@ -14,11 +14,11 @@ export const hyperlinkNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: [
-    "Davidson County / John van der Harst",
-    "Jackson County / Leith Patton",
-    "Stewart County / Martha Yanchyshyn",
-    "Wayne County / Colleen McLanaghan",
-    "Washington County / Catherine Murray",
+    "Davidson County",
+    "Jackson County",
+    "Stewart County",
+    "Wayne County",
+    "Washington County",
   ],
   path: "/organizing/contacts",
 };
@@ -46,7 +46,7 @@ export default function Contacts() {
           <div className="container mx-auto px-4">
             <table className="">
               <tbody className="text-2xl">
-                <tr id="davidson-county-/-john-van-der-harst">
+                <tr id="davidson-county">
                   <td className="text-left font-bold pb-16">Davidson County</td>
                   <td className="text-left pb-16 pl-12">John van der Harst</td>
                   <td className="pl-20 pb-16 ml-9">
@@ -57,7 +57,7 @@ export default function Contacts() {
                   </td>
                 </tr>
 
-                <tr id="jackson-county-/-leith-patton">
+                <tr id="jackson-county">
                   <td className="text-left font-bold pb-16">Jackson County</td>
                   <td className="text-left pb-16 pl-12">Leith Patton</td>
                   <td className="pl-20 pb-16 ml-9">
@@ -68,7 +68,7 @@ export default function Contacts() {
                   </td>
                 </tr>
 
-                <tr id="stewart-county-/-martha-yanchyshyn">
+                <tr id="stewart-county">
                   <td className="text-left font-bold pb-16">Stewart County</td>
                   <td className="text-left pb-16 pl-12">Martha Yanchyshyn</td>
                   <td className="pl-20 pb-16 ml-9">
@@ -79,7 +79,7 @@ export default function Contacts() {
                   </td>
                 </tr>
 
-                <tr id="wayne-county-/-colleen-mclanaghan">
+                <tr id="wayne-county">
                   <td className="text-left font-bold pb-16">Wayne County</td>
                   <td className="text-left pb-16 pl-12">Colleen McLanaghan</td>
                   <td className="pl-20 pb-16 ml-9">
@@ -90,7 +90,7 @@ export default function Contacts() {
                   </td>
                 </tr>
 
-                <tr id="washington-county-/-catherine-murray">
+                <tr id="washington-county">
                   <td className="text-left font-bold pb-16">
                     Washington County
                   </td>

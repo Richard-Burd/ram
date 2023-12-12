@@ -1,12 +1,14 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import { hyperlinkNavbarProps } from "@/pages/organizing/contacts";
 import { navbarProps } from "@/pages/organizing";
 
-export default function Catherine() {
+export default function Colleen() {
   return (
     <div>
       <Head>
-        <title>Catherine Murray</title>
+        <title>Colleen McLanaghan</title>
         <meta
           name="keywords"
           content="contact, address, email, outreach, leadership"
@@ -14,12 +16,13 @@ export default function Catherine() {
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
+        <HyperLinkNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-6 rounded-6xl"
         >
           <div className="m-4 p-4 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
-            Catherine Murray
+            Colleen McLanaghan
           </div>
           <div className="pt-6 border-b-2 border-zinc-700"></div>
           <div>
@@ -33,29 +36,18 @@ export default function Catherine() {
                 <div>
                   <b>Mailing Address</b>:{" "}
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
-                  <div>Catherine Murray</div>
-                  <div>1716 King Springs Rd.</div>
-                  <div>Johnson City, TN 37601</div>
+                <div className="ml-6 mt-4 p-4 bg-[#211052] inline-block max-w-max rounded-3xl">
+                  <div>Colleen McLanaghan</div>
+                  <div>3340 J. B. Pigg Rd.</div>
+                  <div>Cypress Inn, TN 38452</div>
                   <div>U.S.A.</div>
                 </div>
                 <div className="mt-20">
                   <b>Telephone</b>, preferably as close as possible to
                   9:00-11:00 pm Central U.S. time (CST):
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
-                  <div>931-929-8163</div>{" "}
-                </div>
-                <div className="mt-20">
-                  <b>Email</b>, note that Catherine often does not read her
-                  email for extended periods, in order to think more thoroughly:
-                </div>
-                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
-                  <div>
-                    <a href="mailto:mtncat7@earthlink.net">
-                      mtncat7@earthlink.net
-                    </a>
-                  </div>
+                <div className="ml-6 mt-4 p-4 bg-[#211052] inline-block max-w-max rounded-3xl">
+                  <div>931-724-5495</div>{" "}
                 </div>
               </div>
             </div>
