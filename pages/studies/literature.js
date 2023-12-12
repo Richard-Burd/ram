@@ -34,7 +34,7 @@ export default function Literature() {
             Literature
           </div>
           <div id="reports" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Reports
             </div>
             <div className="text-2xl">
@@ -68,7 +68,7 @@ export default function Literature() {
           </div>
 
           <div id="papers" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Papers
             </div>
             <div className="text-2xl">
@@ -85,7 +85,7 @@ export default function Literature() {
           </div>
 
           <div id="periodicals" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Periodicals
             </div>
             <div className="text-2xl">

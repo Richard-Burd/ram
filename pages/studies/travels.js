@@ -34,7 +34,7 @@ export default function Travels() {
           </div>
 
           <div id="value" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Value
             </div>
             <div className="text-2xl">
@@ -49,7 +49,7 @@ export default function Travels() {
           </div>
 
           <div id="scheduling-tours" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Scheduling Tours
             </div>
             <div className="text-2xl">
@@ -69,7 +69,7 @@ export default function Travels() {
           </div>
 
           <div id="remote-logistics" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Remote Logistics
             </div>
             <div className="text-2xl">
@@ -94,7 +94,7 @@ export default function Travels() {
           </div>
 
           <div id="some-long-trips" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Some Long Trips
             </div>
             <div className="text-2xl">

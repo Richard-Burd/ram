@@ -104,7 +104,7 @@ export default function ZeroWaste() {
             Zero-Waste
           </div>
           <div id="diversion" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Diversion
             </div>
             <div className="text-2xl">
@@ -145,7 +145,7 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="plans" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Plans
             </div>
             <div className="text-2xl">
@@ -158,7 +158,7 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="scam-plan-steps" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Scam Plan Steps
             </div>
             <div className="bg-yellow-700 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl">
@@ -201,7 +201,7 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="preventative-steps-beforehand" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-2xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Preventative Steps Beforehand
             </div>
             <div className="text-2xl">

@@ -41,7 +41,7 @@ export default function Pilots() {
           </div>
 
           <div id="hands-on-vs.-just-talk" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Hands-On vs. Just Talk
             </div>
             <div className="text-2xl">
@@ -55,7 +55,7 @@ export default function Pilots() {
           </div>
 
           <div id="waste-stream-analysis" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Waste Stream Analysis
             </div>
             <div className="text-2xl">
@@ -97,7 +97,7 @@ export default function Pilots() {
           </div>
 
           <div id="wet/dry-system-pilots" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
               Wet/Dry System Pilots
             </div>
             <div className="text-2xl">
@@ -137,7 +137,7 @@ export default function Pilots() {
           </div>
 
           <div id="mixed-waste-processing" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
               Mixed-Waste Processing
             </div>
             <div className="text-2xl">
@@ -150,7 +150,7 @@ export default function Pilots() {
           </div>
 
           <div id="case-studies" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-3xl font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
               Case Studies
             </div>
             <div className="text-2xl">

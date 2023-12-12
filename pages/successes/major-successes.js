@@ -34,7 +34,7 @@ export default function MajorSuccesses() {
             id="internalizing-externalized-material-recovery-benefits-and-disposal-costs"
             className="mx-4 pt-4 text-2xl mb-24"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
               Internalizing externalized material recovery benefits and disposal
               costs
             </div>
@@ -142,7 +142,7 @@ export default function MajorSuccesses() {
             id="first-state-soil-based-compost-quality-standards-as-an-incentive-class"
             className="mx-4 pt-4 text-2xl mb-24"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
               First state soil-based compost quality standards as an incentive
               class
             </div>
@@ -230,7 +230,7 @@ export default function MajorSuccesses() {
             id="first-voluntary-closure-of-a-large,-financially-viable,-wte-incinerator-with-up-to-date-air-pollution-control-equipment"
             className="mx-4 pt-4 text-2xl mb-24"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
               First voluntary closure of a large, financially-viable, WTE
               incinerator with up-to-date air pollution control equipment
             </div>
@@ -357,7 +357,7 @@ export default function MajorSuccesses() {
             id="no-more-treated-incinerator-ash-outside-landfills"
             className="mx-4 pt-4 text-2xl mb-24"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2">
+            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
               No more treated incinerator ash outside landfills
             </div>
             <p>
