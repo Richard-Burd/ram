@@ -205,3 +205,25 @@ body {
 .list-alpha-upper {
   list-style-type: upper-alpha;
 }
+
+/* This should be removed or revised down the line */
+/* This lets an alphaneumaric list start with an 'H' instead of and 'A' */
+/* This was made during the 'move-fast-and-break-things phase */
+/* Start of specialized ordering for /pages/studies/methodology */
+.list-alpha-upper-h {
+  list-style-type: none; /* Remove default numbering */
+  counter-reset: list-counter 7; /* Start at 'H' */
+  padding-left: 1em; /* Adjust as needed */
+}
+
+.list-alpha-upper-h li {
+  counter-increment: list-counter;
+  position: relative;
+}
+
+.list-alpha-upper-h li::before {
+  content: counter(list-counter, upper-alpha) ". ";
+  position: absolute;
+  left: -1.3em; /* Same as padding-left of the list */
+}
+/* End of specialized ordering for /pages/studies/methodology */
