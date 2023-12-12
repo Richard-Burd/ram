@@ -33,7 +33,7 @@ export default function John() {
                 <div>
                   <b>Mailing Address</b>:{" "}
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>John van der Harst</div>
                   <div>1407 Roberts Ave.</div>
                   <div>Nashville, TN 37206</div>
@@ -43,14 +43,14 @@ export default function John() {
                   <b>Telephone</b>, preferably as close as possible to
                   9:00-11:00 pm Central U.S. time (CST):
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>615-227-3499</div>{" "}
                 </div>
                 <div className="mt-20">
                   <b>Email</b>, note that John often does not read his email for
                   extended periods, in order to think more thoroughly:
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>
                     <a href="mailto:johnvanderharst@gmail.com">
                       johnvanderharst@gmail.com

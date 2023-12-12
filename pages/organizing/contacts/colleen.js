@@ -33,7 +33,7 @@ export default function Colleen() {
                 <div>
                   <b>Mailing Address</b>:{" "}
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>Colleen McLanaghan</div>
                   <div>3340 J. B. Pigg Rd.</div>
                   <div>Cypress Inn, TN 38452</div>
@@ -43,7 +43,7 @@ export default function Colleen() {
                   <b>Telephone</b>, preferably as close as possible to
                   9:00-11:00 pm Central U.S. time (CST):
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>931-724-5495</div>{" "}
                 </div>
               </div>

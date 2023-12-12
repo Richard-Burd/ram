@@ -26,7 +26,9 @@ export default function Donors() {
           </div>
           <div className="container mx-auto px-4">
             <div id="section-1" className="mx-8 my-8 text-2xl">
-              <div className="title font-semibold underline">Participation</div>
+              <div className="title font-semibold underline text-4xl">
+                Participation
+              </div>
               <div className="paragraph">
                 <p className="bg-[#211052] rounded-3xl my-4 p-4">
                   This represents irreplaceable time, and is the most
@@ -37,7 +39,7 @@ export default function Donors() {
               </div>
             </div>
             <div id="section-2" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline">
+              <div className="title font-semibold underline text-4xl">
                 Expenses covered
               </div>
               <div className="paragraph">
@@ -100,7 +102,7 @@ export default function Donors() {
             </div>
 
             <div id="section-2" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline">
+              <div className="title font-semibold underline text-4xl">
                 Monetary gifts
               </div>
               <div className="paragraph">

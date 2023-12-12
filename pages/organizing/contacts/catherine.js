@@ -33,7 +33,7 @@ export default function Catherine() {
                 <div>
                   <b>Mailing Address</b>:{" "}
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>Catherine Murray</div>
                   <div>1716 King Springs Rd.</div>
                   <div>Johnson City, TN 37601</div>
@@ -43,14 +43,14 @@ export default function Catherine() {
                   <b>Telephone</b>, preferably as close as possible to
                   9:00-11:00 pm Central U.S. time (CST):
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>931-929-8163</div>{" "}
                 </div>
                 <div className="mt-20">
                   <b>Email</b>, note that Catherine often does not read her
                   email for extended periods, in order to think more thoroughly:
                 </div>
-                <div className="ml-6 mt-4 p-4 bg-slate-800 inline-block max-w-max rounded-3xl">
+                <div className="ml-6 mt-4 p-4 bg-contractAddressBg inline-block max-w-max rounded-3xl">
                   <div>
                     <a href="mailto:mtncat7@earthlink.net">
                       mtncat7@earthlink.net
