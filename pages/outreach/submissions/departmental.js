@@ -8,7 +8,7 @@ export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
   titles: [
     "Massachusetts",
-    "Metro Nashville/Davidson Co.",
+    "Metro Nashville",
     "Los Angeles, CA",
     "Boards",
     "Committee",
@@ -47,10 +47,7 @@ export default function Departmental() {
             </div>
           </div>
 
-          <div
-            id="metro-nashville/davidson-co."
-            className="my-4 px-4 py-4 mb-20"
-          >
+          <div id="metro-nashville" className="my-4 px-4 py-4 mb-20">
             <div className="text-4xl standard-font-1 border-b-2 border-zinc-200 mt-2 mb-2">
               Metro Nashville/Davidson County
             </div>

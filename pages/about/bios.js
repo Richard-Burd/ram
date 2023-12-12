@@ -165,6 +165,11 @@ export default function Bios() {
             </div>
             <center className="grid grid-cols-3 content-center mx-64">
               <SocialMediaIcon
+                icon="recycle"
+                hyperLink="https://ram-website-images-and-documents.s3.us-east-2.amazonaws.com/doc-684.pdf"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
                 icon="doc"
                 hyperLink="https://ram-website-images-and-documents.s3.us-east-2.amazonaws.com/doc-685.pdf"
                 {...socialMediaIconProps}
@@ -172,11 +177,6 @@ export default function Bios() {
               <SocialMediaIcon
                 icon="email"
                 anchorLink="/organizing/contacts/john"
-                {...socialMediaIconProps}
-              />
-              <SocialMediaIcon
-                icon="recycle"
-                hyperLink="https://ram-website-images-and-documents.s3.us-east-2.amazonaws.com/doc-684.pdf"
                 {...socialMediaIconProps}
               />
             </center>
