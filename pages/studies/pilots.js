@@ -9,7 +9,7 @@ import { navbarProps } from "@/pages/studies";
 export const hyperlinkNavbarProps = {
   bgColor: "bg-studiesBg",
   titles: [
-    "Hands-On vs. Just Talk",
+    "Hands-On",
     "Waste Stream Analysis",
     "Wet/Dry System Pilots",
     "Mixed-Waste Processing",
@@ -40,7 +40,7 @@ export default function Pilots() {
             Pilots
           </div>
 
-          <div id="hands-on-vs.-just-talk" className="mx-4 pt-4 mb-24">
+          <div id="hands-on" className="mx-4 pt-4 mb-24">
             <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
               Hands-On vs. Just Talk
             </div>
@@ -160,7 +160,7 @@ export default function Pilots() {
               </div>
 
               <div className="image mt-4 mb-8">
-                <BrochureFig fileName="recovery.jpg" />
+                <BrochureFig fileName="recovery.jpg" borderColor="#665c49" />
               </div>
 
               <div className="mb-8">
