@@ -134,7 +134,7 @@ export default function Methodology() {
               </div>
 
               <div className="mb-8">
-                Forth and finally, today&apos;s municipalities typically focus
+                Fourth and finally, today&apos;s municipalities typically focus
                 nearly exclusively on single-family residential wastes. Causes
                 for this include:
               </div>
