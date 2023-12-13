@@ -53,6 +53,7 @@ export default function Methodology() {
                 id="fig-25"
                 fileName="tax-disparity.jpg"
                 borderColor="#665c49"
+                originalWidth="50%"
               />
             </div>
           </div>
@@ -77,8 +78,7 @@ export default function Methodology() {
                 <BrochureFig
                   fileName="iceberg.jpg"
                   borderColor="#665c49"
-                  // width={width}
-                  // onClick={toggleSize}
+                  originalWidth="50%"
                 />
               </div>
 
@@ -97,8 +97,7 @@ export default function Methodology() {
                 <BrochureFig
                   fileName="re-manufacture.jpg"
                   borderColor="#665c49"
-                  // width={width}
-                  // onClick={toggleSize}
+                  originalWidth="50%"
                 />
               </div>
 
@@ -106,8 +105,7 @@ export default function Methodology() {
                 <BrochureFig
                   fileName="solid-waste-choices.jpg"
                   borderColor="#665c49"
-                  // width={width}
-                  // onClick={toggleSize}
+                  originalWidth="50%"
                 />
               </div>
 
@@ -115,8 +113,7 @@ export default function Methodology() {
                 <BrochureFig
                   fileName="jobs.jpg"
                   borderColor="#665c49"
-                  // width={width}
-                  // onClick={toggleSize}
+                  originalWidth="50%"
                 />
               </div>
 
@@ -179,8 +176,7 @@ export default function Methodology() {
                     <BrochureFig
                       fileName="wet-dry-short.jpg"
                       borderColor="black"
-                      // width={width}
-                      // onClick={toggleSize}
+                      originalWidth="50%"
                     />
                   </div>
                 </ol>
@@ -259,8 +255,7 @@ export default function Methodology() {
                         <BrochureFig
                           fileName="heavy-molded.2.jpg"
                           borderColor="black"
-                          // width={width}
-                          // onClick={toggleSize}
+                          originalWidth="50%"
                         />
                       </div>
 
@@ -268,8 +263,7 @@ export default function Methodology() {
                         <BrochureFig
                           fileName="heavy-molded.1.jpg"
                           borderColor="black"
-                          // width={width}
-                          // onClick={toggleSize}
+                          originalWidth="50%"
                         />
                       </div>
 

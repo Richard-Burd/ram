@@ -119,8 +119,7 @@ export default function ZeroWaste() {
                 <BrochureFig
                   fileName="net-zero-landfilling.jpg"
                   borderColor="#665c49"
-                  width={width}
-                  onClick={toggleSize}
+                  originalWidth="50%"
                 />
               </div>
 
@@ -140,7 +139,6 @@ export default function ZeroWaste() {
                   figureNumber=""
                   fileName="typical-solid-waste-destinations.jpg"
                   borderColor="#665c49"
-                  width={"100%"}
                 />
               </div>
             </div>

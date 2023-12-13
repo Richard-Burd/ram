@@ -72,6 +72,7 @@ export default function Brochures() {
             </div>
 
             <BrochureFig
+              originalWidth="50%"
               figureNumber="Fig-1"
               fileName="solid-waste-destination.jpg"
             />
@@ -83,7 +84,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-2" fileName="iceberg.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-2"
+              fileName="iceberg.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -93,6 +98,7 @@ export default function Brochures() {
             </div>
 
             <BrochureFig
+              originalWidth="50%"
               figureNumber="Fig-3"
               fileName="net-zero-landfilling.jpg"
             />
@@ -104,7 +110,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-4" fileName="composting.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-4"
+              fileName="composting.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -112,7 +122,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-5" fileName="trommel.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-5"
+              fileName="trommel.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -120,7 +134,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-6" fileName="ants.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-6"
+              fileName="ants.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -128,7 +146,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-7" fileName="gravel.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-7"
+              fileName="gravel.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -148,7 +170,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-8" fileName="entire-thermal.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-8"
+              fileName="entire-thermal.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -159,7 +185,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-9" fileName="metro-to-thermal.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-9"
+              fileName="metro-to-thermal.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -168,7 +198,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-10" fileName="human-intake.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-10"
+              fileName="human-intake.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -176,7 +210,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-11" fileName="wet-dry-pow.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-11"
+              fileName="wet-dry-pow.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -185,7 +223,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-12" fileName="recovery.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-12"
+              fileName="recovery.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -195,7 +237,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-13" fileName="trash.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-13"
+              fileName="trash.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -216,6 +262,7 @@ export default function Brochures() {
             </div>
 
             <BrochureFig
+              originalWidth="50%"
               figureNumber="Fig-14"
               fileName="solid-waste-2015.jpg"
             />
@@ -227,7 +274,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-15" fileName="buckets.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-15"
+              fileName="buckets.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -242,7 +293,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-16" fileName="complaints.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-16"
+              fileName="complaints.jpg"
+            />
 
             <div className="text-bloc mt-8">
               <p className="mb-4">
@@ -251,7 +306,11 @@ export default function Brochures() {
               </p>
             </div>
 
-            <BrochureFig figureNumber="Fig-17" fileName="aar.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-17"
+              fileName="aar.jpg"
+            />
 
             <br></br>
             <br></br>
@@ -262,30 +321,71 @@ export default function Brochures() {
             <br></br>
             <br></br>
 
-            <BrochureFig figureNumber="Fig-18" fileName="composting.jpg" />
-            <br></br>
-            <BrochureFig figureNumber="Fig-19" fileName="davidson-map.jpg" />
-            <br></br>
-            <BrochureFig figureNumber="Fig-20" fileName="heavy-molded.1.jpg" />
-            <br></br>
-            <BrochureFig figureNumber="Fig-21" fileName="heavy-molded.2.jpg" />
-            <br></br>
-            <BrochureFig figureNumber="Fig-22" fileName="jobs.jpg" />
-            <br></br>
-            <BrochureFig figureNumber="Fig-23" fileName="re-manufacture.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-18"
+              fileName="composting.jpg"
+            />
             <br></br>
             <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-19"
+              fileName="davidson-map.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-20"
+              fileName="heavy-molded.1.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-21"
+              fileName="heavy-molded.2.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-22"
+              fileName="jobs.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-23"
+              fileName="re-manufacture.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
               figureNumber="Fig-24"
               fileName="solid-waste-choices.jpg"
             />
             <br></br>
-            <BrochureFig figureNumber="Fig-25" fileName="tax-disparity.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-25"
+              fileName="tax-disparity.jpg"
+            />
             <br></br>
-            <BrochureFig figureNumber="Fig-26" fileName="tree.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-26"
+              fileName="tree.jpg"
+            />
             <br></br>
-            <BrochureFig figureNumber="Fig-27" fileName="trees.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-27"
+              fileName="trees.jpg"
+            />
             <br></br>
-            <BrochureFig figureNumber="Fig-28" fileName="wet-dry-short.jpg" />
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-28"
+              fileName="wet-dry-short.jpg"
+            />
           </div>
         </div>
       </div>
