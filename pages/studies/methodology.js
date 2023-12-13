@@ -177,7 +177,7 @@ export default function Methodology() {
                   </li>
                   <div id="fig-28" className="image mt-4 mb-8">
                     <BrochureFig
-                      fileName="jobs.jpg"
+                      fileName="wet-dry-short.jpg"
                       borderColor="black"
                       // width={width}
                       // onClick={toggleSize}
