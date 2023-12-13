@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
+import AnchorLink from "@/components/AnchorLink";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
 
@@ -225,7 +226,12 @@ export default function ZeroWaste() {
                 <li id="3" className="pt-3 pb-2">
                   <p>
                     At a minimum, plans need to include the following types of
-                    facilities:
+                    facilities (Letters match corresponding items on the{" "}
+                    <AnchorLink
+                      text="Methodology page"
+                      link="/studies/methodology#key-must-haves"
+                    />
+                    ):
                   </p>
                   <div className="bg-yellow-700 my-4 px-4 py-4 bg-opacity-30 rounded-2xl">
                     <table>

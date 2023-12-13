@@ -180,8 +180,16 @@ export default function LongerHistory() {
           <div id="line-13" className="mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2004</div>
             <div className="paragraph">
-              <i>Immaterial John</i> is shown at the Nashville Film Festival.
-              Mary Hance writes a review of it for The Tennessean.
+              <p className="mb-3">
+                <i>Immaterial John</i> is shown at the Nashville Film Festival.
+                Mary Hance writes a review of it for The Tennessean.
+              </p>
+              <p className="mb-3">
+                Ty Crawford arranges a <i>RAM</i> presentation by John at
+                Brentwood High School's Environmental Club, in Williamson
+                County. Jeremy Doochin does likewise at Hume-Fogg Academic
+                Magnet High School, in Davidson County.
+              </p>
             </div>
           </div>
           <div id="line-14" className="mx-8 my-14 text-2xl">
