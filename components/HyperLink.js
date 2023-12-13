@@ -4,14 +4,16 @@
 
 import Link from "next/link";
 
-export default function HyperLink({ text, link }) {
+export default function HyperLink({ text, link, theme = "dark" }) {
+  const textColor = theme === "light" ? "text-blue-700" : "text-blue-300";
+
   return (
     <>
       <Link
         href={link}
         target="_blank"
         rel="noreferrer"
-        className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+        className={`${textColor} duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline transition`}
       >
         <strong>{text}</strong>
       </Link>

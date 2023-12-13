@@ -1,4 +1,5 @@
 import LibrarycardCatalog from "@/components/LibraryCardCatalog";
+import HyperLink from "@/components/HyperLink";
 
 export default function LibraryLee() {
   return (
@@ -7,58 +8,25 @@ export default function LibraryLee() {
         📚 Library of Lee's Scanned Documents 📄
       </div>
       <div className="mx-4 text-2xl text-stone-800 px-10 pt-20">
-        Each of the items below are documents that Lee scanned in. Each instance
-        contains a document's preview picture (of the first page) a clickable
-        PDF document showing all pages within the document, and a title /
-        description for each one. The title and description are optional. The
-        first two documents have them in order to show how the title and
-        description would be displayed. The rest have no title or description.
-        <br></br>
-        <br></br>
-        <b>NOTE:</b> the{" "}
-        <text className="text-red-900 font-bold">red text </text>above the
-        images below that say things like:<br></br>
-        <text className="text-red-900 px-6">
-          Agendas_and_minutes (agenda) [12/9/1992]{" "}
-        </text>{" "}
-        <br></br>
-        are only tempoary and will not be on the final website. These are the
-        labels that Lee put on all the documents he scanned in from the{" "}
-        <a
-          href="https://drive.google.com/drive/u/1/folders/1syzldHRu9hgyGNEcuDR9ynVuVvfIzS0E"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-700 underline"
-        >
-          seven binders of original scans
-        </a>{" "}
-        which he received from John. These original names are preserved in the
-        code so as to make finding documents easier.
-        <br></br>
-        <br></br>
-        <b>NOTE:</b> the{" "}
-        <text className="text-red-900 font-bold">red text </text>on the images
-        below that say things like
-        <text className="text-red-900 young-serif-font italic font-semibold">
-          {" "}
-          doc-1{" "}
-        </text>{" "}
-        are only tempoary and will not be on the final website. These are labels
-        for all documents (doc) and figures (fig) we plan to put on the website.
-        This makes it easy for the crew to discuss moving such-and-such doc or
-        fig to a given place in the website.
+        Each of the items below are documents that Lee scanned in. The last
+        section (Binder 8) contain the documents that Richard scanned in. The
+        titles for each document are the original titles Lee gave when he
+        scanned them in. Richard's titles are his best attempt to name what was
+        in his inventory. Richard has several documents at his office that are
+        not scanned in because they were repeats already found in Lee's 7
+        binders.
         <br></br>
         <br></br>
         The below documents are sorted according to these{" "}
-        <a
-          href="https://drive.google.com/drive/u/1/folders/1syzldHRu9hgyGNEcuDR9ynVuVvfIzS0E"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-700 underline font-semibold"
-        >
-          seven binders of original scans
-        </a>{" "}
-        that Lee received from John.
+        <HyperLink
+          link="https://drive.google.com/drive/u/1/folders/1syzldHRu9hgyGNEcuDR9ynVuVvfIzS0E"
+          text="seven binders of original scans"
+          theme="light"
+        />{" "}
+        that Lee received from John. Between Lee and Richard, there are 701 PDF
+        files listed below. Their preview images are not shown because there are
+        701 preview images that would all load at once whenever this page is
+        loaded, and this would quiclky use up our free tier of image hosting.
       </div>
       <div id="binder-1">
         <div id="Agendas and Minutes">
