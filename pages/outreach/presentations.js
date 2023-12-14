@@ -22,14 +22,38 @@ export default function Presentations() {
           <div className="text-2xl roboto-font-400 text-zinc-950 m-6 pt-12 pb-16 px-6 bg-[#b8d1c8] bg-opacity-70 rounded-6xl">
             <BrochureFig
               originalWidth="50%"
-              figureNumber="Fig-1"
-              fileName="solid-waste-destination.jpg"
+              figureNumber="Fig-1.1"
+              fileName="Fig-1.1.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-1.2"
+              fileName="Fig-1.2.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-1.3"
+              fileName="Fig-1.3.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-1.4"
+              fileName="Fig-1.4.jpg"
             />
             <br></br>
             <BrochureFig
               originalWidth="50%"
               figureNumber="Fig-2"
               fileName="iceberg.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-2.1"
+              fileName="Fig-2.1.jpg"
             />
             <br></br>
             <BrochureFig
@@ -68,9 +92,41 @@ export default function Presentations() {
             <br></br>
             <BrochureFig
               originalWidth="50%"
-              figureNumber="Fig-14"
-              fileName="solid-waste-2015.jpg"
+              figureNumber="Fig-14.1"
+              fileName="Fig-14.1.jpg"
             />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-14.2"
+              fileName="Fig-14.2.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-14.3"
+              fileName="Fig-14.3.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-14.4"
+              fileName="Fig-14.4.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-14.5"
+              fileName="Fig-14.5.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-14.6"
+              fileName="Fig-14.6.jpg"
+            />
+            <br></br>
+            <br></br>
             <br></br>
             <BrochureFig
               originalWidth="50%"
@@ -88,6 +144,12 @@ export default function Presentations() {
               originalWidth="50%"
               figureNumber="Fig-17"
               fileName="aar.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-17.1"
+              fileName="Fig-17.1.jpg"
             />
             <br></br>
             <BrochureFig figureNumber="Fig-18" fileName="composting.jpg" />
@@ -146,6 +208,66 @@ export default function Presentations() {
               originalWidth="50%"
               figureNumber="Fig-28"
               fileName="wet-dry-short.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-29"
+              fileName="Fig-29.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-29.1"
+              fileName="Fig-29.1.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-29.2"
+              fileName="Fig-29.2.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-30"
+              fileName="Fig-30.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-31"
+              fileName="Fig-31.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-32"
+              fileName="Fig-32.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-33.1"
+              fileName="Fig-33.1.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-33.2"
+              fileName="Fig-33.2.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-33.3"
+              fileName="Fig-33.3.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-33.4"
+              fileName="Fig-33.4.jpg"
             />
           </div>
         </div>

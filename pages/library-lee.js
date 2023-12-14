@@ -6357,6 +6357,22 @@ export default function LibraryLee() {
               fileLabel={true}
               showLeeLabel={true}
             />
+            <LibrarycardCatalog
+              title=""
+              leeTitle="Solid Waste Staten Island Ferry Davidson County [all editions]"
+              fileName="doc-702"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
+            <LibrarycardCatalog
+              title=""
+              leeTitle="Solid Waste Destinations - Annual Totals / Davidson County [all editions]"
+              fileName="doc-703"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
           </div>
         </div>
       </div>
