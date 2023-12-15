@@ -156,8 +156,14 @@ export default function Presentations() {
             <br></br>
             <BrochureFig
               originalWidth="50%"
-              figureNumber="Fig-19"
-              fileName="davidson-map.jpg"
+              figureNumber="Fig-19.1"
+              fileName="Fig-19.1.jpg"
+            />
+            <br></br>
+            <BrochureFig
+              originalWidth="50%"
+              figureNumber="Fig-19.2"
+              fileName="Fig-19.2.jpg"
             />
             <br></br>
             <BrochureFig
