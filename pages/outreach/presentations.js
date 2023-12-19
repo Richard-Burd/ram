@@ -4,7 +4,7 @@ import { navbarProps } from "@/pages/outreach";
 
 import Brochure from "@/components/Brochure";
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   bgColor: "bg-outreachBg",
   titles: ["Printable Brochures", "Brochure Exhibits"],
   path: "/outreach/brochures",
@@ -15,11 +15,11 @@ export default function Presentations() {
     <div>
       <SecondaryNavbar {...navbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
+        <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
           Presentations
         </div>
         <div id="brochure-exhibits">
-          <div className="text-2xl roboto-font-400 text-zinc-950 m-6 pt-12 pb-16 px-6 bg-[#b8d1c8] bg-opacity-70 rounded-6xl">
+          <div className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950">
             <BrochureFig
               originalWidth="50%"
               figureNumber="Fig-1.1"

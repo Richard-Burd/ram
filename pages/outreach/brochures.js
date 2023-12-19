@@ -5,7 +5,7 @@ import { navbarProps } from "@/pages/outreach";
 
 import Brochure from "@/components/Brochure";
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   bgColor: "bg-outreachBg",
   titles: ["Printable Brochures", "Brochure Exhibits"],
   path: "/outreach/brochures",
@@ -15,16 +15,16 @@ export default function Brochures() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+      <FragmentIdentifierNavbar {...hierarchyProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
+        <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
           Brochures
         </div>
         <div id="printable-brochures">
-          <div className="text-4xl pt-serif-700 italic tracking-wider opacity-95 text-zinc-100 border-b-2 border-zinc-100 mt-2 mx-6">
+          <div className="pt-serif-700 mx-6 mt-2 border-b-2 border-zinc-100 text-4xl italic tracking-wider text-zinc-100 opacity-95">
             Printable Brochures
           </div>
-          <div className="flex ml-1">
+          <div className="ml-1 flex">
             <Brochure
               title="RAM's Tri-Fold Brochure"
               fileName="fig-3"
@@ -40,10 +40,10 @@ export default function Brochures() {
           </div>
         </div>
         <div id="brochure-exhibits">
-          <div className="text-4xl pt-serif-700 italic tracking-wider text-zinc-100 border-b-2 border-zinc-100 mt-2 mx-6 pt-32">
+          <div className="pt-serif-700 mx-6 mt-2 border-b-2 border-zinc-100 pt-32 text-4xl italic tracking-wider text-zinc-100">
             Brochure Exhibits
           </div>
-          <div className="text-2xl roboto-font-400 text-zinc-950 pb-16 pt-12 m-6 px-6 bg-[#b8d1c8] bg-opacity-70 rounded-6xl">
+          <div className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950">
             <div className="text-bloc mb-8">
               <p className="mb-4">
                 Everyone contributes to the generation of waste that, as a
@@ -59,7 +59,7 @@ export default function Brochures() {
                 must be alignment of public desire, government will, and
                 economic feasibility.
               </p>
-              <p className="italic mb-4">
+              <p className="mb-4 italic">
                 “If you’ve got a customer that wants something, it’s going to
                 help. If you have the government, the regulators, that want
                 something, it’s going to help. And if the company can make money

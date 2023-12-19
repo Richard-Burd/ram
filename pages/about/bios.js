@@ -10,7 +10,7 @@ const socialMediaIconProps = {
   activeBackgroundColor: `#ffe3c2`,
 };
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-aboutBg",
   titles: [
@@ -61,19 +61,19 @@ export default function Bios() {
           content="team, bio, background, about us, biography, persons"
         />
       </Head>
-      <div className="bg-gradient-to-l from-[#b8580b] to-[#120700] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#b8580b] to-[#120700] pb-72 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-6 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-6"
         >
-          <div className="m-4 p-4 text-center text-5xl pt-serif-700 text-[#ffe9bf] italic">
+          <div className="pt-serif-700 m-4 p-4 text-center text-5xl italic text-[#ffe9bf]">
             Some Notable RAM Members
           </div>
 
           <div id="john-van-der-harst">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               John van der Harst
             </div>
             <div className={crewDescriptionTestLayoutStyles}>
@@ -145,7 +145,7 @@ export default function Bios() {
                   href="https://www.urbancruiseship.org"
                   target="_blank"
                   rel="noreferrer"
-                  className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 >
                   <strong>Urban Cruise Ship</strong>
                 </a>
@@ -156,14 +156,14 @@ export default function Bios() {
                   href="https://urbanfootnotes.org"
                   target="_blank"
                   rel="noreferrer"
-                  className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 >
                   <strong>Urban Foot Notes</strong>
                 </a>
                 , aims to reduce transportation and construction waste.
               </div>
             </div>
-            <center className="grid grid-cols-3 content-center mx-64">
+            <center className="mx-64 grid grid-cols-3 content-center">
               <SocialMediaIcon
                 icon="recycle"
                 hyperLink="https://ram-website-images-and-documents.s3.us-east-2.amazonaws.com/doc-684.pdf"
@@ -183,10 +183,10 @@ export default function Bios() {
           </div>
 
           <div id="karen-cisler" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Karen Cisler
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Karen is <i>RAM's</i> Secretary, taking over from Leslie Allen.
                 She has attended many meetings, provided transportation to
@@ -204,10 +204,10 @@ export default function Bios() {
           </div>
 
           <div id="ursula-king" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Ursula King
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Ursula worked hard with John to pass state legislation allowing
                 Davidson County to charge for all costs associated with solid
@@ -226,10 +226,10 @@ export default function Bios() {
           </div>
 
           <div id="jeff-brousal" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Jeff Brousal
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Jeff tried to sensitize the Davidson County Solid Waste Region
                 Board to the hazards of solid waste disposal. He has assisted in
@@ -247,11 +247,11 @@ export default function Bios() {
           </div>
 
           <div id="lee-nelson" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Lee Nelson
             </div>
             {/* <div className={crewDescriptionTestLayoutStyles}> */}
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Lee has been digitally archiving many notebooks full of{" "}
                 <i>RAM</i> material for over two years. <i>RAM's</i> dense hard
@@ -265,7 +265,7 @@ export default function Bios() {
                   href="https://www.urbancruiseship.org"
                   target="_blank"
                   rel="noreferrer"
-                  className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 >
                   <strong>Urban Cruise Ship&apos;s</strong>
                 </a>
@@ -276,7 +276,7 @@ export default function Bios() {
               <div className="my-4"></div>
               <div>More details are anticipated soon.</div>
             </div>
-            <center className="grid grid-cols-3 content-center mx-64">
+            <center className="mx-64 grid grid-cols-3 content-center">
               <SocialMediaIcon
                 icon="linkedin"
                 hyperLink="https://www.linkedin.com/in/lee-nelson-b5701981"
@@ -296,11 +296,11 @@ export default function Bios() {
           </div>
 
           <div id="richard-burd" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Richard Burd
             </div>
             {/* <div className={crewDescriptionTestLayoutStyles}> */}
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Richard is <i>RAM&apos;s</i> webmaster, and is taking material
                 Lee has digitally archived and adjusting its resolution levels
@@ -315,7 +315,7 @@ export default function Bios() {
                   href="https://www.urbanfootnotes.org"
                   target="_blank"
                   rel="noreferrer"
-                  className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 >
                   <strong>Urban Foot Notes</strong>
                 </a>
@@ -324,7 +324,7 @@ export default function Bios() {
                   href="https://www.urbancruiseship.org"
                   target="_blank"
                   rel="noreferrer"
-                  className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 >
                   <strong>Urban Cruise Ship</strong>
                 </a>
@@ -334,7 +334,7 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
 
-            <center className="grid grid-cols-5 content-center mx-32">
+            <center className="mx-32 grid grid-cols-5 content-center">
               <SocialMediaIcon
                 icon="linkedin"
                 hyperLink="https://www.linkedin.com/in/richardburd/"
@@ -364,10 +364,10 @@ export default function Bios() {
           </div>
 
           <div id="leith-patton" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Leith Patton
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Leith agreed to be <i>RAM&apos;s</i> contact person in Jackson
                 County following the death of Sandy Hepler. During the last year
@@ -395,10 +395,10 @@ export default function Bios() {
           </div>
 
           <div id="martha-yanchyshyn" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Martha Yanchyshyn
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Martha has agreed to be <i>RAM&apos;s</i> contact person in
                 Stewart County. She had toured Sevier County's co-composting
@@ -427,10 +427,10 @@ export default function Bios() {
           </div>
 
           <div id="colleen-mclanaghan" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Colleen McLanaghan
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Colleen continues to be <i>RAM&apos;s</i> contact person in
                 Wayne County after the death of her husband, Randy Nocton, who
@@ -452,10 +452,10 @@ export default function Bios() {
           </div>
 
           <div id="catherine-murray" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Catherine Murray
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Catherine agreed to be <i>RAM&apos;s</i> contact person in
                 Washington County, with the understanding that she specializes
@@ -478,15 +478,15 @@ export default function Bios() {
             </center>
           </div>
 
-          <div className="m-4 p-4 text-center text-5xl pt-serif-700 text-[#ffe9bf] italic mt-40">
+          <div className="pt-serif-700 m-4 mt-40 p-4 text-center text-5xl italic text-[#ffe9bf]">
             Some Notable Past RAM Members
           </div>
 
           <div id="anna-haislip" className="pt-2">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Anna Haislip
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Anna became involved with <i>RAM</i> in 2011, along with Karen
                 Cisler and Michael Goff, after a presentation by John at a
@@ -510,10 +510,10 @@ export default function Bios() {
           </div>
 
           <div id="andrew-evans" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Andrew Evans
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Andy attended meetings of Davidson County's Solid Waste Region
                 Board, Metro Council, and education sessions for members of
@@ -529,10 +529,10 @@ export default function Bios() {
           </div>
 
           <div id="a.-c.-(sandy)-loyd" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               A. C. (Sandy) Loyd
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 The late Alexander Cicero (Sandy) Loyd (1918-2004) was a
                 Co-Incorporator of <i>RAM</i>. He was <i>RAM&apos;s</i>{" "}
@@ -565,10 +565,10 @@ export default function Bios() {
           </div>
 
           <div id="sherry-force" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Sherry Force
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 The late Sharon Holland (Sherry) Force (1948-2012) accompanied
                 John in conducting solid waste education sessions for Board and
@@ -600,10 +600,10 @@ export default function Bios() {
           </div>
 
           <div id="joe-shedlock" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Joe Shedlock
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 The late Joseph Gerard (Joe) Shedlock (1955-2018) joined{" "}
                 <i>RAM</i> after leaving an older solid waste-related 501(c)(3)
@@ -627,10 +627,10 @@ export default function Bios() {
           </div>
 
           <div id="leslie-allen" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Leslie Allen
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 As Leslie had done before, she dove into supporting <i>RAM</i>{" "}
                 at what proved to be an unsustainable level. She hosted many{" "}
@@ -650,10 +650,10 @@ export default function Bios() {
           </div>
 
           <div id="suzanna-lonce" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Suzanna Lonce
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Suzanna assisted in several key education sessions, which proved
                 very effective tools to change minds on the issue of
@@ -674,10 +674,10 @@ export default function Bios() {
           </div>
 
           <div id="randy-nocton" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Randy Nocton
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 The late Randy Nocton agreed to be <i>RAM&apos;s</i> contact
                 person in Wayne County after moving there from Davidson County.
@@ -711,10 +711,10 @@ export default function Bios() {
           </div>
 
           <div id="sandy-hepler" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Sandy Hepler
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 The late John S. (Sandy) Hepler agreed to be <i>RAM&apos;s</i>{" "}
                 contact person in Jackson County. a role which extended past his
@@ -744,10 +744,10 @@ export default function Bios() {
           </div>
 
           <div id="don-miller" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Don Miller
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Don was a co-incorporator of <i>RAM</i>. He hosted{" "}
                 <i>RAM&apos;s</i> second meeting, in late 1992, in Sumner
@@ -774,10 +774,10 @@ export default function Bios() {
           </div>
 
           <div id="pixie-lewis" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Pixie Lewis
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Evelyn (Pixie) Lewis drove Martha Yanchyshyn and John on a field
                 trip to the Bedminster co-composting plant in Sevier County. She
@@ -791,10 +791,10 @@ export default function Bios() {
           </div>
 
           <div id="connie-collopy" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Connie Collopy
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Connie attended events like John's court case, press
                 conferences, Metro Council's vote on its incinerator's air
@@ -810,10 +810,10 @@ export default function Bios() {
           </div>
 
           <div id="connie-kaylor" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Connie Kaylor
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Connie typed <i>RAM</i> newsletter articles. She also drove to
                 Murfreesboro with John to meet with Recycle Rutherford.
@@ -829,10 +829,10 @@ export default function Bios() {
           </div>
 
           <div id="connie-lehman" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Connie Lehman
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Connie had volunteered to update <i>RAM&apos;s</i> mailing list
                 -- an arduous task. That task was postponed -- as it turned out,
@@ -845,10 +845,10 @@ export default function Bios() {
           </div>
 
           <div id="dan-sweeton" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Dan Sweeton
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 The late Daville (Dan) Sweeton agreed to be <i>RAM&apos;s</i>{" "}
                 contact person in Wilson County. His death ended that role.
@@ -866,10 +866,10 @@ export default function Bios() {
           </div>
 
           <div id="michael-traugot" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Michael Traugot
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Michael agreed to be <i>RAM&apos;s</i> contact person in
                 Lawrence County until relinquishing that role after 10 years.
@@ -883,10 +883,10 @@ export default function Bios() {
           </div>
 
           <div id="ethel-spiller" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Ethel Spiller
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Ethel agreed to be <i>RAM&apos;s</i> contact person in Robertson
                 County, until she felt the need to retire from that role due to
@@ -902,10 +902,10 @@ export default function Bios() {
           </div>
 
           <div id="pat-mcalpine" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Pat McAlpine
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Pat agreed to be <i>RAM&apos;s</i> contact person in Humphreys
                 County, retiring from that role due to advanced age, after 16
@@ -920,10 +920,10 @@ export default function Bios() {
           </div>
 
           <div id="myles-jakubowski" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Myles Jakubowski
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Myles agreed to be <i>RAM&apos;s</i> contact person in Putnam
                 County until he bowed out of that role after 10 years.
@@ -938,10 +938,10 @@ export default function Bios() {
           </div>
 
           <div id="robert-cox" className="pt-40">
-            <div className="text-4xl standard-font-1 border-b-2 border-zinc-700 mt-2 -mb-2">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
               Robert Cox
             </div>
-            <div className="my-7 standard-font-3 text-justify text-lg">
+            <div className="standard-font-3 my-7 text-justify text-lg">
               <div>
                 Robert went with Sandy Loyd and John van der Harst to the U.S.
                 Conference of Mayors/National Association of Counties seminar on

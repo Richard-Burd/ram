@@ -6,7 +6,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/studies";
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: ["Reports", "Papers", "Periodicals"],
   path: "/studies/literature",
@@ -22,19 +22,19 @@ export default function Literature() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
+      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-6xl pt-serif-700 text-[#fcffbf] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-6xl italic text-[#fcffbf]">
             Literature
           </div>
-          <div id="reports" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="reports" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Reports
             </div>
             <div className="text-2xl">
@@ -67,8 +67,8 @@ export default function Literature() {
             </div>
           </div>
 
-          <div id="papers" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="papers" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Papers
             </div>
             <div className="text-2xl">
@@ -84,8 +84,8 @@ export default function Literature() {
             </div>
           </div>
 
-          <div id="periodicals" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="periodicals" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Periodicals
             </div>
             <div className="text-2xl">

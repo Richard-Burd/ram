@@ -2,7 +2,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { anchorlinkNavbarProps } from "@/pages/outreach/submissions";
+import { hierarchyProps } from "@/pages/outreach/submissions";
 
 export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
@@ -14,7 +14,7 @@ export default function Regulatory() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...anchorlinkNavbarProps} />
+      <TertiaryNavbar {...hierarchyProps} />
       <FragmentIdentifierNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">

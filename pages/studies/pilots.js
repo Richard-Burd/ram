@@ -6,7 +6,7 @@ import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: [
     "Hands-On",
@@ -28,20 +28,20 @@ export default function Pilots() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
+      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-6xl pt-serif-700 text-[#fcffbf] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-6xl italic text-[#fcffbf]">
             Pilots
           </div>
 
-          <div id="hands-on" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="hands-on" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Hands-On vs. Just Talk
             </div>
             <div className="text-2xl">
@@ -55,7 +55,7 @@ export default function Pilots() {
           </div>
 
           <div id="waste-stream-analysis" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Waste Stream Analysis
             </div>
             <div className="text-2xl">
@@ -75,9 +75,9 @@ export default function Pilots() {
 
           <div
             id="waste-stream-analysis-list"
-            className="bg-yellow-700 mx-4 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl"
+            className="mx-4 my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-2 py-4 text-2xl"
           >
-            <ol className="list-decimal list-outside mx-12">
+            <ol className="mx-12 list-outside list-decimal">
               <li id="1" className="mb-4">
                 Surprises await. E.g. When one bag was opened and dumped, what
                 came out first was a car-engine's quantity of oil, followed by
@@ -85,7 +85,7 @@ export default function Pilots() {
                 definitely has a role in market options. And household hazardous
                 waste drop-off options. Maybe HHW collection options as well.
               </li>
-              <li id="2" className="pt-3 pb-2">
+              <li id="2" className="pb-2 pt-3">
                 Not all glass breaks during compaction, but when it does, it
                 explodes into lots of little shards that can embed into other
                 materials, like paper. If collection and processing were
@@ -97,7 +97,7 @@ export default function Pilots() {
           </div>
 
           <div id="wet/dry-system-pilots" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-20 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Wet/Dry System Pilots
             </div>
             <div className="text-2xl">
@@ -112,24 +112,24 @@ export default function Pilots() {
 
           <div
             id="waste-stream-analysis-list"
-            className="bg-yellow-700 mx-4 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl"
+            className="mx-4 my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-2 py-4 text-2xl"
           >
-            <ol className="list-decimal list-outside mx-12">
+            <ol className="mx-12 list-outside list-decimal">
               <li id="1" className="mb-4">
                 Counter unexperienced claims with experienced ones,
               </li>
-              <li id="2" className="pt-3 pb-2">
+              <li id="2" className="pb-2 pt-3">
                 Gain knowledge that will allow realistic expectations to be held
                 and met,
               </li>
-              <li id="3" className="pt-3 pb-2">
+              <li id="3" className="pb-2 pt-3">
                 Try out various education and signage options, some of which are
                 illustrated below, and
               </li>
-              <div className="image mt-4 mb-8">
+              <div className="image mb-8 mt-4">
                 <BrochureFig fileName="buckets.jpg" />
               </div>
-              <li id="4" className="pt-3 pb-2">
+              <li id="4" className="pb-2 pt-3">
                 Experiment with various source separation and processing
                 options.
               </li>
@@ -137,7 +137,7 @@ export default function Pilots() {
           </div>
 
           <div id="mixed-waste-processing" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-20 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Mixed-Waste Processing
             </div>
             <div className="text-2xl">
@@ -150,7 +150,7 @@ export default function Pilots() {
           </div>
 
           <div id="case-studies" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-20 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Case Studies
             </div>
             <div className="text-2xl">
@@ -159,7 +159,7 @@ export default function Pilots() {
                 <i>RAM</i> members have participated in:
               </div>
 
-              <div className="image mt-4 mb-8">
+              <div className="image mb-8 mt-4">
                 <BrochureFig fileName="recovery.jpg" borderColor="#665c49" />
               </div>
 

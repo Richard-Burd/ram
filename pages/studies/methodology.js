@@ -6,7 +6,7 @@ import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: ["Zero Waste", "Key Realizations", "Key Must-Haves"],
   path: "/studies/methodology",
@@ -22,20 +22,20 @@ export default function Methodology() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
+      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-6xl pt-serif-700 text-[#fcffbf] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-6xl italic text-[#fcffbf]">
             Methodology
           </div>
 
-          <div id="zero-waste" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="zero-waste" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Zero Waste
             </div>
 
@@ -48,7 +48,7 @@ export default function Methodology() {
               </div>
             </div>
 
-            <div className="image mt-4 mb-8">
+            <div className="image mb-8 mt-4">
               <BrochureFig
                 id="fig-25"
                 fileName="tax-disparity.jpg"
@@ -59,7 +59,7 @@ export default function Methodology() {
           </div>
 
           <div id="key-realizations" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Key Realizations
             </div>
 
@@ -74,7 +74,7 @@ export default function Methodology() {
                 mining required for U.S. goods happens outside the U.S.
               </div>
 
-              <div id="fig-2" className="image mt-4 mb-8">
+              <div id="fig-2" className="image mb-8 mt-4">
                 <BrochureFig
                   fileName="iceberg.jpg"
                   borderColor="#665c49"
@@ -93,7 +93,7 @@ export default function Methodology() {
                 additional remanufacturing fed by recovered feedstocks.
               </div>
 
-              <div id="fig-23" className="image mt-4 mb-8">
+              <div id="fig-23" className="image mb-8 mt-4">
                 <BrochureFig
                   fileName="re-manufacture.jpg"
                   borderColor="#665c49"
@@ -101,7 +101,7 @@ export default function Methodology() {
                 />
               </div>
 
-              <div id="fig-24" className="image mt-4 mb-8">
+              <div id="fig-24" className="image mb-8 mt-4">
                 <BrochureFig
                   fileName="solid-waste-choices.jpg"
                   borderColor="#665c49"
@@ -109,7 +109,7 @@ export default function Methodology() {
                 />
               </div>
 
-              <div id="fig-22" className="image mt-4 mb-8">
+              <div id="fig-22" className="image mb-8 mt-4">
                 <BrochureFig
                   fileName="jobs.jpg"
                   borderColor="#665c49"
@@ -138,26 +138,26 @@ export default function Methodology() {
 
               <div
                 id="nothing"
-                className="bg-yellow-700 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl"
+                className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-2 py-4 text-2xl"
               >
-                <ol className="list-decimal list-outside mx-12">
-                  <li id="1" className="pt-3 pb-2">
+                <ol className="mx-12 list-outside list-decimal">
+                  <li id="1" className="pb-2 pt-3">
                     Disposal companies promote this heavily, to divert attention
                     away from more lucrative disposal of commercial wastes.
                   </li>
-                  <li id="2" className="pt-3 pb-2">
+                  <li id="2" className="pb-2 pt-3">
                     Many environmental activists fall for this trick because
                     they do not do their homework.
                   </li>
-                  <li id="3" className="pt-3 pb-2">
+                  <li id="3" className="pb-2 pt-3">
                     Most voters -- who influence officeholders -- live in single
                     family homes.
                   </li>
-                  <li id="4" className="pt-3 pb-2">
+                  <li id="4" className="pb-2 pt-3">
                     Municipalities often collect MSW from only single family
                     residences.
                   </li>
-                  <li id="5" className="pt-3 pb-2">
+                  <li id="5" className="pb-2 pt-3">
                     Disposal interests keep the focus on this sector by focusing
                     on gimmicks like "Pay-As-You-Throw" (PAYT), with its endless
                     complications, and preservation of disposal. PAYT tricks
@@ -172,7 +172,7 @@ export default function Methodology() {
                     typically scarce involve composting, aggregates,
                     heavy-molded/extruded products, and pyrolysis.
                   </li>
-                  <div id="fig-28" className="image mt-4 mb-8">
+                  <div id="fig-28" className="image mb-8 mt-4">
                     <BrochureFig
                       fileName="wet-dry-short.jpg"
                       borderColor="black"
@@ -185,27 +185,27 @@ export default function Methodology() {
           </div>
 
           <div id="key-must-haves" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-20 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-20 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Key Must-Haves
             </div>
             <div className="text-2xl">
-              <ol className="list-decimal list-outside mx-6">
-                <li id="1" className="pt-3 pb-2">
+              <ol className="mx-6 list-outside list-decimal">
+                <li id="1" className="pb-2 pt-3">
                   All wastes must be processed, even if that only requires
                   quality control.
                 </li>
-                <li id="2" className="pt-3 pb-2">
+                <li id="2" className="pb-2 pt-3">
                   For adequate capacity, All waste processing facilities must be
                   sized to handle maximum expected inputs over the coming
                   decade, at least.
                 </li>
-                <li id="3" className="pt-3 pb-2">
+                <li id="3" className="pb-2 pt-3">
                   To avoid downtime, All facilities must be designed
                   sufficiently robustly to handle all types of wastes delivered
                   to them.
                 </li>
 
-                <li id="4" className="pt-3 pb-2">
+                <li id="4" className="pb-2 pt-3">
                   <p>
                     Facilities must include, at a minimum, the following
                     (letters match corresponding items on the Zero-Waste page):
@@ -213,10 +213,10 @@ export default function Methodology() {
 
                   <div
                     id="nothing"
-                    className="bg-yellow-700 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl"
+                    className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-2 py-4 text-2xl"
                   >
-                    <ol id="A" className="list-alpha-upper list-outside mx-12">
-                      <li className="pt-4 pb-2">
+                    <ol id="A" className="list-alpha-upper mx-12 list-outside">
+                      <li className="pb-2 pt-4">
                         Dry waste sorting/recovery facilities, for both MSW and
                         C&D wastes, typically separately, as C&D sorting systems
                         have been developed already as a specialty. Residues
@@ -225,7 +225,7 @@ export default function Methodology() {
                         glass would go to Aggregates (C below).
                       </li>
 
-                      <li id="B" className="pt-4 pb-2">
+                      <li id="B" className="pb-2 pt-4">
                         Wet waste composting/anaerobic digestion facilities.
                         Inorganic residues screened out from the compost would
                         go to Dry waste sorting/recovery facilities (A above),
@@ -238,12 +238,12 @@ export default function Methodology() {
                         detest a hoof/foot-irritating component.
                       </li>
 
-                      <li id="C" className="pt-4 pb-2">
+                      <li id="C" className="pb-2 pt-4">
                         Aggregate sorting/recovery facilities. This would market
                         these to contractors as a substitute for mined gravels.
                       </li>
 
-                      <li id="D" className="pt-4 pb-2">
+                      <li id="D" className="pb-2 pt-4">
                         Heavy molded/extruded products facilities, which often
                         create composites out of thermoplastics as binders and
                         other wastes as fillers (e.g. Trex, which combines film
@@ -251,7 +251,7 @@ export default function Methodology() {
                         as examples below,
                       </li>
 
-                      <div id="fig-21" className="image mt-4 mb-8">
+                      <div id="fig-21" className="image mb-8 mt-4">
                         <BrochureFig
                           fileName="heavy-molded.2.jpg"
                           borderColor="black"
@@ -259,7 +259,7 @@ export default function Methodology() {
                         />
                       </div>
 
-                      <div id="fig-20" className="image mt-4 mb-8">
+                      <div id="fig-20" className="image mb-8 mt-4">
                         <BrochureFig
                           fileName="heavy-molded.1.jpg"
                           borderColor="black"
@@ -267,7 +267,7 @@ export default function Methodology() {
                         />
                       </div>
 
-                      <li id="E" className="pt-4 pb-2">
+                      <li id="E" className="pb-2 pt-4">
                         Pyrolysis or other energy/fuels production facilities
                         (e.g. Enerkem, which makes methanol and cellulosic
                         alcohol out of waste) for wastes that can not be dealt
@@ -279,14 +279,14 @@ export default function Methodology() {
                         to C, and residual chars to D for use as fillers.
                       </li>
 
-                      <li id="F" className="pt-4 pb-2">
+                      <li id="F" className="pb-2 pt-4">
                         Hazardous waste collection and processing facilities,
                         which emphasize re-use as much as possible. Contractors
                         and individuals can sign waivers and take out discards
                         from others that they can use instead of new products.
                       </li>
 
-                      <li id="G" className="pt-4 pb-2">
+                      <li id="G" className="pb-2 pt-4">
                         Another essential component is a contractual requirement
                         that all residues coming from facilities A-F must be
                         part of the feedstock for other facilities A-F. Not
@@ -296,26 +296,26 @@ export default function Methodology() {
                   </div>
                 </li>
 
-                <li id="5" className="pt-3 pb-2">
+                <li id="5" className="pb-2 pt-3">
                   <p>Other key must-haves include:</p>
 
                   <div
                     id="nothing"
-                    className="bg-yellow-700 my-4 py-4 bg-opacity-30 rounded-2xl text-2xl"
+                    className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 py-4 text-2xl"
                   >
-                    <ol className="list-alpha-upper-h list-outside mx-8">
-                      <li id="H" className="pt-4 pb-2">
+                    <ol className="list-alpha-upper-h mx-8 list-outside">
+                      <li id="H" className="pb-2 pt-4">
                         Successful marketing of all recovered commodities --
                         material recovery is measured in internalized value.
                       </li>
 
-                      <li id="I" className="pt-4 pb-2">
+                      <li id="I" className="pb-2 pt-4">
                         Maximizing local market development -- to see results --
                         and be able to incorporate value into internalized
                         disposal fees with a minimum of dispute over valuation.
                       </li>
 
-                      <li id="J" className="pt-4 pb-2">
+                      <li id="J" className="pb-2 pt-4">
                         All economic, environmental, and health costs and
                         benefits need to be internalized for both material
                         recovery, and hypothetical disposal. Flow control needs
@@ -332,7 +332,7 @@ export default function Methodology() {
                         their cooperation.
                       </li>
 
-                      <li id="K" className="pt-4 pb-2">
+                      <li id="K" className="pb-2 pt-4">
                         Collection needs to be coordinated with processing (A-F
                         above). Franchising should be considered, where a single
                         collection and processing entity is obligated to produce

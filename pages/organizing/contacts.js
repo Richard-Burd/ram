@@ -10,7 +10,7 @@ const socialMediaIconProps = {
   activeBackgroundColor: `#ad9eff`,
 };
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: [
@@ -33,23 +33,23 @@ export default function Contacts() {
           content="team, cohort, leadership, about us, people, persons"
         />
       </Head>
-      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-6 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-6"
         >
-          <div className="m-4 p-4 pb-12 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
+          <div className="pt-serif-700 m-4 p-4 pb-12 text-center text-7xl italic text-[#d4bfff]">
             Contacts
           </div>
           <div className="container mx-auto px-4">
             <table className="">
               <tbody className="text-2xl">
                 <tr id="davidson-county">
-                  <td className="text-left font-bold pb-16">Davidson County</td>
-                  <td className="text-left pb-16 pl-12">John van der Harst</td>
-                  <td className="pl-20 pb-16 ml-9">
+                  <td className="pb-16 text-left font-bold">Davidson County</td>
+                  <td className="pb-16 pl-12 text-left">John van der Harst</td>
+                  <td className="ml-9 pb-16 pl-20">
                     <SocialMediaIcon
                       anchorLink="/organizing/contacts/davidson-county"
                       {...socialMediaIconProps}
@@ -58,9 +58,9 @@ export default function Contacts() {
                 </tr>
 
                 <tr id="jackson-county">
-                  <td className="text-left font-bold pb-16">Jackson County</td>
-                  <td className="text-left pb-16 pl-12">Leith Patton</td>
-                  <td className="pl-20 pb-16 ml-9">
+                  <td className="pb-16 text-left font-bold">Jackson County</td>
+                  <td className="pb-16 pl-12 text-left">Leith Patton</td>
+                  <td className="ml-9 pb-16 pl-20">
                     <SocialMediaIcon
                       anchorLink="/organizing/contacts/jackson-county"
                       {...socialMediaIconProps}
@@ -69,9 +69,9 @@ export default function Contacts() {
                 </tr>
 
                 <tr id="stewart-county">
-                  <td className="text-left font-bold pb-16">Stewart County</td>
-                  <td className="text-left pb-16 pl-12">Martha Yanchyshyn</td>
-                  <td className="pl-20 pb-16 ml-9">
+                  <td className="pb-16 text-left font-bold">Stewart County</td>
+                  <td className="pb-16 pl-12 text-left">Martha Yanchyshyn</td>
+                  <td className="ml-9 pb-16 pl-20">
                     <SocialMediaIcon
                       anchorLink="/organizing/contacts/stewart-county"
                       {...socialMediaIconProps}
@@ -80,9 +80,9 @@ export default function Contacts() {
                 </tr>
 
                 <tr id="wayne-county">
-                  <td className="text-left font-bold pb-16">Wayne County</td>
-                  <td className="text-left pb-16 pl-12">Colleen McLanaghan</td>
-                  <td className="pl-20 pb-16 ml-9">
+                  <td className="pb-16 text-left font-bold">Wayne County</td>
+                  <td className="pb-16 pl-12 text-left">Colleen McLanaghan</td>
+                  <td className="ml-9 pb-16 pl-20">
                     <SocialMediaIcon
                       anchorLink="/organizing/contacts/wayne-county"
                       {...socialMediaIconProps}
@@ -91,11 +91,11 @@ export default function Contacts() {
                 </tr>
 
                 <tr id="washington-county">
-                  <td className="text-left font-bold pb-16">
+                  <td className="pb-16 text-left font-bold">
                     Washington County
                   </td>
-                  <td className="text-left pb-16 pl-12">Catherine Murray</td>
-                  <td className="pl-20 pb-16 ml-9">
+                  <td className="pb-16 pl-12 text-left">Catherine Murray</td>
+                  <td className="ml-9 pb-16 pl-20">
                     <SocialMediaIcon
                       anchorLink="/organizing/contacts/washington-county"
                       {...socialMediaIconProps}

@@ -72,7 +72,7 @@ import { navbarProps } from "@/pages/studies";
 //   );
 // }
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: [
     "Diversion",
@@ -93,19 +93,19 @@ export default function ZeroWaste() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
+      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-6xl pt-serif-700 text-[#fcffbf] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-6xl italic text-[#fcffbf]">
             Zero-Waste
           </div>
-          <div id="diversion" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="diversion" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Diversion
             </div>
             <div className="text-2xl">
@@ -144,7 +144,7 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="plans" className="mx-4 pt-4">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Plans
             </div>
             <div className="text-2xl">
@@ -156,27 +156,27 @@ export default function ZeroWaste() {
               </p>
             </div>
           </div>
-          <div id="scam-plan-steps" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="scam-plan-steps" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Scam Plan Steps
             </div>
-            <div className="bg-yellow-700 my-4 px-2 py-4 bg-opacity-30 rounded-2xl text-2xl">
-              <ol className="list-decimal list-outside mx-12">
+            <div className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-2 py-4 text-2xl">
+              <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   A Scope of Work is assembled by government bureaucrats who
                   aren&apos;t as committed to change as the activists, or if
                   they&apos;re really lazy or bought by disposal companies,
                   don&apos;t want change at all.
                 </li>
-                <li id="2" className="pt-3 pb-2">
+                <li id="2" className="pb-2 pt-3">
                   Salespersons for consultants come running, with slick
                   presentations, promising to deliver.
                 </li>
-                <li id="3" className="pt-3 pb-2">
+                <li id="3" className="pb-2 pt-3">
                   Lots of money is asked for, to bring in &quot;experts&quot;
                   from elsewhere.
                 </li>
-                <li id="4" className="pt-3 pb-2">
+                <li id="4" className="pb-2 pt-3">
                   After contract signing, the consultants assemble a relatively
                   standardized plan used by many in the industry, that preserves
                   their positioning to make money off future lucrative disposal
@@ -185,34 +185,34 @@ export default function ZeroWaste() {
                   custom plan. Their input sessions with the public end up being
                   PR shows.
                 </li>
-                <li id="5" className="pt-3 pb-2">
+                <li id="5" className="pb-2 pt-3">
                   When activists start seeing evidence of such content, they
                   become upset that the plan does NOT call for zero waste. It
                   still contains disposal. Lots of it. Consultants have clever
                   come-back lines, like &quot;Achieving 100% zero waste would be
                   prohibitively expensive,&quot; which is not true.
                 </li>
-                <li id="6" className="pt-3 pb-2">
+                <li id="6" className="pb-2 pt-3">
                   At that point, what can activists do? The money has been
                   spent.
                 </li>
               </ol>
             </div>
           </div>
-          <div id="preventative-steps-beforehand" className="mx-4 pt-4 mb-24">
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 text-4xl font-bold mb-2">
+          <div id="preventative-steps-beforehand" className="mx-4 mb-24 pt-4">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Preventative Steps Beforehand
             </div>
             <div className="text-2xl">
               <p className="mb-8">To prevent plan scams as much as possible:</p>
             </div>
-            <div className="my-4 px-2 py-4 bg-opacity-30  text-2xl">
-              <ol className="list-decimal list-outside mx-12">
+            <div className="my-4 bg-opacity-30 px-2 py-4  text-2xl">
+              <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   RAM has tried to explain zero waste methodology in the next
                   page of this website, so activists can read and understand it.
                 </li>
-                <li id="2" className="pt-3 pb-2">
+                <li id="2" className="pb-2 pt-3">
                   Activists need to insist that any Scope of Work requires
                   consultants to describe how 100% zero waste would certainly be
                   achieved, in an environmentally responsible and acceptable
@@ -221,7 +221,7 @@ export default function ZeroWaste() {
                   can be afforded, that decision is for the clients to make. NOT
                   the consultants.
                 </li>
-                <li id="3" className="pt-3 pb-2">
+                <li id="3" className="pb-2 pt-3">
                   <p>
                     At a minimum, plans need to include the following types of
                     facilities (Letters match corresponding items on the{" "}
@@ -231,44 +231,44 @@ export default function ZeroWaste() {
                     />
                     ):
                   </p>
-                  <div className="bg-yellow-700 my-4 px-4 py-4 bg-opacity-30 rounded-2xl">
+                  <div className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-4 py-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">A.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">A.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Dry waste sorting/recovery facilities, for both MSW
                             and C&D wastes, typically separately,
                           </td>
                         </tr>
                         <tr id="row-2">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">B.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">B.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Wet waste composting/anaerobic digestion facilities,
                           </td>
                         </tr>
                         <tr id="row-3">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">C.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">C.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Aggregate sorting/recovery facilities,
                           </td>
                         </tr>
                         <tr id="row-4">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">D.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">D.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Heavy molded/extruded products facilities, which
                             often create composites out of unrecyclable plastics
                             as binders and other wastes as fillers (e.g. Trex),
                           </td>
                         </tr>
                         <tr id="row-5">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">E.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">E.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Pyrolysis or other energy/fuels production
                             facilities (e.g. Enerkem) for only wastes that can
                             not be dealt with by facility types A-D. This does
@@ -277,18 +277,18 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-6">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">F.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">F.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Hazardous waste collection and processing
                             facilities, which emphasize re-use as much as
                             possible.
                           </td>
                         </tr>
                         <tr id="row-7">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">G.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">G.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Another essential component is a contractual
                             requirement that all residues coming from facilities
                             A-F must be part of the feedstock for other
@@ -299,38 +299,38 @@ export default function ZeroWaste() {
                     </table>
                   </div>
                 </li>
-                <li id="4" className="pt-3 pb-2">
+                <li id="4" className="pb-2 pt-3">
                   <p>Other key must-have plan elements include:</p>
-                  <div className="bg-yellow-700 my-4 px-4 py-4 bg-opacity-30 rounded-2xl">
+                  <div className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-4 py-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">H.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">H.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Marketing of all recovered commodities,
                           </td>
                         </tr>
                         <tr id="row-2">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">I.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">I.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Maximizing local market development,
                           </td>
                         </tr>
                         <tr id="row-3">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">J.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">J.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             All economic, environmental, and health costs and
                             benefits need to be internalized for both material
                             recovery, and hypothetical disposal,
                           </td>
                         </tr>
                         <tr id="row-4">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">K.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">K.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Collection needs to be coordinated with processing
                             (A-F above). Franchising should be considered, where
                             a single collection and processing entity is
@@ -343,26 +343,26 @@ export default function ZeroWaste() {
                     </table>
                   </div>
                 </li>
-                <li id="5" className="pt-3 pb-2">
+                <li id="5" className="pb-2 pt-3">
                   To save money and eyewash, certain elements consultants
                   typically include in their plans need to be banned, for all
                   plan providers:
-                  <div className="bg-yellow-700 my-4 px-4 py-4 bg-opacity-30 rounded-2xl">
+                  <div className="my-4 rounded-2xl bg-yellow-700 bg-opacity-30 px-4 py-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">L.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">L.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Any photographs of the municipality or other scenery
                             not necessary for the understanding of elements,
                             like facilities, in the plan,
                           </td>
                         </tr>
                         <tr id="row-2">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">M.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">M.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             Any branding, naming, color schemes, or education
                             programming. These are best created locally,
                             including through schools or contests. Plenty of
@@ -370,9 +370,9 @@ export default function ZeroWaste() {
                           </td>
                         </tr>
                         <tr id="row-3">
-                          <td className="column-1 pr-3 align-top pb-4"></td>
-                          <td className="column-2 pr-3 align-top pb-4">N.</td>
-                          <td className="column-3 pr-3 align-top pb-4">
+                          <td className="column-1 pb-4 pr-3 align-top"></td>
+                          <td className="column-2 pb-4 pr-3 align-top">N.</td>
+                          <td className="column-3 pb-4 pr-3 align-top">
                             &#34;Pay-As-You-Throw&#34; (PAYT), or its
                             confusingly euphemistic identical twin
                             "Save-As-You-Throw," applied to residential

@@ -3,7 +3,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/organizing";
 
-export const hyperlinkNavbarProps = {
+export const hierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: ["RAM Meetings", "Coalition Meetings", "Documents for these"],
@@ -22,7 +22,7 @@ export default function Contacts() {
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hierarchyProps} />
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-6"
