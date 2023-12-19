@@ -2,8 +2,6 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { primaryHierarchyProps } from "@/pages/outreach";
 
-import Brochure from "@/components/Brochure";
-
 export const secondaryHierarchyProps = {
   bgColor: "bg-outreachBg",
   titles: ["Printable Brochures", "Brochure Exhibits"],

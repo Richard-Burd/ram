@@ -2,7 +2,6 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const primaryHierarchyProps = {
-  // bgColor: "bg-[#d299ff]",
   bgColor: "bg-organizingBg",
   titles: ["Contacts", "Meetings", "Donors", "Legal"],
   path: "/organizing",

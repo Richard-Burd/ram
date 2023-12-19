@@ -1,9 +1,7 @@
-import Link from "next/link";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const primaryHierarchyProps = {
-  // bgColor: "bg-[#3dff51]",
   bgColor: "bg-outreachBg",
   titles: [
     "Presentations",

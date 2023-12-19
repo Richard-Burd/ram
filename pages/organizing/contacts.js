@@ -11,7 +11,6 @@ const socialMediaIconProps = {
 };
 
 export const secondaryHierarchyProps = {
-  // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: [
     "Davidson County",

@@ -4,7 +4,6 @@ import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { primaryHierarchyProps } from "@/pages/organizing";
 
 export const secondaryHierarchyProps = {
-  // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: ["RAM Meetings", "Coalition Meetings", "Documents for these"],
   path: "/organizing/meetings",

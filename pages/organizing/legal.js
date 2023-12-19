@@ -1,25 +1,8 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-// import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { primaryHierarchyProps } from "@/pages/organizing";
 
-// export const secondaryHierarchyProps = {
-//   // bgColor: "bg-[#ff8938]",
-//   bgColor: "bg-organizingBg",
-//   titles: [
-//     <>
-//       <i>RAM</i> Meetings
-//     </>,
-//     "Documents for these",
-//     "Coalition meetings",
-//     "Documents for these",
-//   ],
-//   path: "/successes/major-successes",
-// };
-
 export default function Legal() {
-  const crewDescriptionTestLayoutStyles =
-    "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
       <Head>
@@ -31,7 +14,6 @@ export default function Legal() {
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
         <SecondaryNavbar {...primaryHierarchyProps} />
-        {/* <FragmentIdentifierNavbar {...secondaryHierarchyProps} /> */}
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-6"

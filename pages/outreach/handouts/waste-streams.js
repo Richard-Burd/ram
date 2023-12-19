@@ -5,7 +5,6 @@ import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
 export const tertiaryNavbarProps = {
-  // bgColor: "bg-[#ff8938]",
   bgColor: "bg-outreachBg",
   titles: ["2012", "2013", "2014", "2015", "2016"],
   path: "/outreach/handouts/waste-streams",

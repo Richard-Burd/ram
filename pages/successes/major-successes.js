@@ -5,7 +5,6 @@ import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { primaryHierarchyProps } from "@/pages/successes";
 
 export const secondaryHierarchyProps = {
-  // bgColor: "bg-[#ff8938]",
   bgColor: "bg-successesBg",
   titles: [
     "Internalizing externalized material recovery benefits and disposal costs",

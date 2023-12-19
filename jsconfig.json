@@ -3,5 +3,9 @@
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "include": [
+    "**/*",
+    "/workspaces/ram/utils/italicizeRam.js" // Add the missing file here
+  ]
 }
