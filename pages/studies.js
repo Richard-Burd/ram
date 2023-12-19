@@ -2,7 +2,7 @@ import Link from "next/link";
 import Carousel from "@/components/Carousel";
 import Document from "@/components/Document";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import LogoAndPageTitle from "@/components/LogoAndPageTitle";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const navbarProps = {
   bgColor: "bg-studiesBg",
@@ -15,7 +15,7 @@ export default function Studies() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <LogoAndPageTitle
+      <PrimaryMastHead
         title="Studies"
         titleColor="text-[#f8ffbf]"
         subtitle="Travels, pilots"

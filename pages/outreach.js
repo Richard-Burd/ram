@@ -1,6 +1,6 @@
 import Link from "next/link";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import LogoAndPageTitle from "@/components/LogoAndPageTitle";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const navbarProps = {
   // bgColor: "bg-[#3dff51]",
@@ -20,7 +20,7 @@ export default function Outreach() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <LogoAndPageTitle
+      <PrimaryMastHead
         title="Outreach"
         titleColor="text-[#c2ffbf]"
         subtitle="Education, publications"

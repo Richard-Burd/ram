@@ -1,5 +1,5 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import LogoAndPageTitle from "@/components/LogoAndPageTitle";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const navbarProps = {
   // bgColor: "bg-[#d299ff]",
@@ -13,7 +13,7 @@ export default function Organizing() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <LogoAndPageTitle
+      <PrimaryMastHead
         title="Organizing"
         titleColor="text-[#d4bfff]"
         subtitle="Join us"

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/organizing";
 
 export const hyperlinkNavbarProps = {
@@ -28,7 +28,7 @@ export default function Contacts() {
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
-        <AnchorLinkNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-6 rounded-6xl"

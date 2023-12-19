@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import AnchorLink from "@/components/AnchorLink";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/studies";
 
@@ -24,7 +24,7 @@ export default function Methodology() {
     <div>
       <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] text-zinc-300 pb-16">
         <SecondaryNavbar {...navbarProps} />
-        <AnchorLinkNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
 
         <div
           id="title-and-text-box"

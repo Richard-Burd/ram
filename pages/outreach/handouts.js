@@ -1,28 +1,35 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import TertiaryNavbar from "@/components/TertiaryNavbar";
+import SecondaryMastHead from "@/components/SecondaryMasthead";
 import { navbarProps } from "@/pages/outreach";
 
-export const hyperlinkNavbarProps = {
+export const anchorlinkNavbarProps = {
   bgColor: "bg-outreachBg",
   titles: ["General", "Waste Streams", "Methodology", "Markets", "Plans"],
   path: "/outreach/handouts",
 };
 
-export default function Submissions() {
+const description = (
+  <div>
+    <p>...comming soon! This page is under construction.</p>
+  </div>
+);
+
+export default function Handouts() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <HyperLinkNavbar {...hyperlinkNavbarProps} />
+      <TertiaryNavbar {...anchorlinkNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
-          Handouts
-        </div>
-        <div
-          id="comming-soon-placeholder"
-          className="m-4 p-4 text-2xl text-zinc-200"
-        >
-          ...comming soon! This page is under construction.
-        </div>
+        <SecondaryMastHead
+          title="Handouts"
+          description={description}
+          titles={anchorlinkNavbarProps.titles}
+          titleColor="text-[#c2ffbf]"
+          buttonsColor="bg-outreachBg"
+          path={anchorlinkNavbarProps.path}
+          marginBetweenButtons="mt-4"
+        />
       </div>
     </div>
   );

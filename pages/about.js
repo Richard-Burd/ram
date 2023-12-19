@@ -3,7 +3,7 @@ import Document from "@/components/Document";
 import FigureTwo from "@/components/FigureTwo";
 import DocumentTwo from "@/components/DocumentTwo";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import LogoAndPageTitle from "@/components/LogoAndPageTitle";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const navbarProps = {
   // bgColor: "bg-[#ff8938]",
@@ -17,7 +17,7 @@ export default function About() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <LogoAndPageTitle
+      <PrimaryMastHead
         title="About Us"
         titleColor="text-[#ffe9bf]"
         subtitle="Our History"

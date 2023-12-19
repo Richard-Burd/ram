@@ -1,13 +1,8 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
-import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import TertiaryNavbar from "@/components/TertiaryNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/outreach";
-
-export const hyperlinkNavbarProps = {
-  bgColor: "bg-outreachBg",
-  titles: ["General", "Waste Streams", "Methodology", "Markets", "Plans"],
-  path: "/outreach/handouts",
-};
+import { anchorlinkNavbarProps } from "@/pages/outreach/handouts";
 
 export const tertiaryNavbarProps = {
   // bgColor: "bg-[#ff8938]",
@@ -20,8 +15,8 @@ export default function WasteStreams() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <HyperLinkNavbar {...hyperlinkNavbarProps} />
-      <AnchorLinkNavbar {...tertiaryNavbarProps} />
+      <TertiaryNavbar {...anchorlinkNavbarProps} />
+      <FragmentIdentifierNavbar {...tertiaryNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Waste Streams

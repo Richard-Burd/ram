@@ -1,5 +1,5 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import LogoAndPageTitle from "@/components/LogoAndPageTitle";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const navbarProps = {
   // bgColor: "bg-[#33caff]",
@@ -19,7 +19,7 @@ export default function Successes() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <LogoAndPageTitle
+      <PrimaryMastHead
         title="Successes"
         titleColor="text-[#bfe6ff]"
         subtitle="Listed"

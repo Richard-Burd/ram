@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/successes";
 
 export const hyperlinkNavbarProps = {
@@ -21,7 +21,7 @@ export default function MajorSuccesses() {
     <div>
       <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
         <SecondaryNavbar {...navbarProps} />
-        <AnchorLinkNavbar {...hyperlinkNavbarProps} />
+        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-8 rounded-6xl"

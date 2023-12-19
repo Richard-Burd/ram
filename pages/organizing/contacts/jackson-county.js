@@ -1,6 +1,6 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import HyperLinkNavbar from "@/components/HyperLinkNavbar";
+import TertiaryNavbar from "@/components/TertiaryNavbar";
 import { hyperlinkNavbarProps } from "@/pages/organizing/contacts";
 import { navbarProps } from "@/pages/organizing";
 
@@ -16,7 +16,7 @@ export default function Leith() {
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
         <SecondaryNavbar {...navbarProps} />
-        <HyperLinkNavbar {...hyperlinkNavbarProps} />
+        <TertiaryNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
           className="bg-neutral-950 m-11 p-6 rounded-6xl"

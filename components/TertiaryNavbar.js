@@ -1,7 +1,7 @@
 import Link from "next/link";
 import TertiaryNavbarButton from "./TertiaryNavbarButton";
 
-export default function HyperLinkNavbar({ bgColor, titles, path }) {
+export default function TertiaryNavbar({ bgColor, titles, path }) {
   return (
     <nav className="bg-neutral-950 text-white px-1 py-2 border-y-slate-500 border-b-2">
       <div className="container flex justify-between">

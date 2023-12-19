@@ -1,5 +1,5 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import AnchorLinkNavbar from "@/components/AnchorLinkNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import BrochureFig from "@/components/BrochureFig";
 import { navbarProps } from "@/pages/outreach";
 
@@ -15,7 +15,7 @@ export default function Brochures() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <AnchorLinkNavbar {...hyperlinkNavbarProps} />
+      <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
           Brochures

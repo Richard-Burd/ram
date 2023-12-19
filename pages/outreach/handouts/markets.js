@@ -1,28 +1,16 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import { navbarProps } from "@/pages/outreach";
+import { anchorlinkNavbarProps } from "@/pages/outreach/handouts";
 
-export const hyperlinkNavbarProps = {
-  bgColor: "bg-outreachBg",
-  titles: [
-    "General",
-    "Regulatory",
-    "Departmental",
-    "Board",
-    "Committee",
-    "Legislative",
-  ],
-  path: "/outreach/submissions",
-};
-
-export default function Submissions() {
+export default function Markets() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...hyperlinkNavbarProps} />
+      <TertiaryNavbar {...anchorlinkNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
-          Submissions
+          Markets
         </div>
         <div
           id="comming-soon-placeholder"
