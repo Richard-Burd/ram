@@ -1,8 +1,8 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
-import { hierarchyProps } from "@/pages/organizing/contacts";
-import { navbarProps } from "@/pages/organizing";
+import { secondaryHierarchyProps } from "@/pages/organizing/contacts";
+import { primaryHierarchyProps } from "@/pages/organizing";
 
 export default function Colleen() {
   return (
@@ -15,8 +15,8 @@ export default function Colleen() {
         />
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <TertiaryNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <TertiaryNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-6"

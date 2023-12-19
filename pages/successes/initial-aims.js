@@ -1,18 +1,18 @@
 import Link from "next/link";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import { navbarProps } from "@/pages/successes";
+import { primaryHierarchyProps } from "@/pages/successes";
 
 export default function InitialAims() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
-        <SecondaryNavbar {...navbarProps} />
+      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
+        <SecondaryNavbar {...primaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-5xl pt-serif-700 text-[#bfe6ff] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-5xl italic text-[#bfe6ff]">
             Initial Aims
           </div>
           <div className="mx-4 text-2xl">
@@ -20,7 +20,7 @@ export default function InitialAims() {
               Of the list of Successes on the{" "}
               <Link
                 href="/successes/brief-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Brief History</strong>
@@ -28,7 +28,7 @@ export default function InitialAims() {
               and{" "}
               <Link
                 href="/successes/longer-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Longer History</strong>
@@ -49,14 +49,14 @@ export default function InitialAims() {
               needs into opportunities, and then deliver solutions. This
               preparation resulted from two primary focuses:
             </p>
-            <div className="bg-blue-700 m-4 px-2 py-4 bg-opacity-30 rounded-2xl">
-              <ol className="list-decimal list-outside mx-12">
+            <div className="m-4 rounded-2xl bg-blue-700 bg-opacity-30 px-2 py-4">
+              <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   <i>RAM</i> focused steadfastly on figuring out how to{" "}
                   <b>minimize disposal</b>, the best way possible, in line with
                   its Mission Statement.
                 </li>
-                <li id="2" className="pt-3 pb-2">
+                <li id="2" className="pb-2 pt-3">
                   <i>RAM</i> focused on high-quality <b>talent management</b>,
                   aimed at best utilizing what became available, as efficiently,
                   humanely, and sustainably, as ever-limiting circumstances
@@ -70,12 +70,12 @@ export default function InitialAims() {
               Both of these two are interrelated. Perhaps the most important
               characteristics of those with high quality talent are:
             </p>
-            <div className="bg-blue-700 m-4 px-2 py-4 bg-opacity-30 rounded-2xl">
-              <ol className="list-alpha-upper list-outside mx-12">
+            <div className="m-4 rounded-2xl bg-blue-700 bg-opacity-30 px-2 py-4">
+              <ol className="list-alpha-upper mx-12 list-outside">
                 <li id="A" className="">
                   having a focus on, and yearning for, <b>success</b>, and
                 </li>
-                <li id="B" className="pt-3 pb-2">
+                <li id="B" className="pb-2 pt-3">
                   having the <b>work ethic</b> to make that happen.
                 </li>
               </ol>

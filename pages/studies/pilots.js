@@ -4,9 +4,9 @@ import AnchorLink from "@/components/AnchorLink";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import BrochureFig from "@/components/BrochureFig";
-import { navbarProps } from "@/pages/studies";
+import { primaryHierarchyProps } from "@/pages/studies";
 
-export const hierarchyProps = {
+export const secondaryHierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: [
     "Hands-On",
@@ -29,8 +29,8 @@ export default function Pilots() {
   return (
     <div>
       <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"

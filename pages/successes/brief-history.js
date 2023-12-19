@@ -1,20 +1,20 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import { navbarProps } from "@/pages/successes";
+import { primaryHierarchyProps } from "@/pages/successes";
 
 export default function BriefHistory() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
-        <SecondaryNavbar {...navbarProps} />
+      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
+        <SecondaryNavbar {...primaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-5xl pt-serif-700 text-[#bfe6ff] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-5xl italic text-[#bfe6ff]">
             Brief History of Some RAM Successes
           </div>
           <div className="mx-12 text-2xl">
-            <ol className="list-decimal list-outside">
+            <ol className="list-outside list-decimal">
               <li id="1" className="pt-3">
                 Set a high standard for studying issues by touring over 200
                 facilities in 19 states and Ontario. 1989-present.
@@ -32,8 +32,8 @@ export default function BriefHistory() {
               </li>
 
               <li id="4" className="py-3">
-                Calculated economic impact of recycling all easily available basic materials in
-                basic Davidson County, Tennessee, 1993.
+                Calculated economic impact of recycling all easily available
+                basic materials in basic Davidson County, Tennessee, 1993.
               </li>
 
               <li id="5" className="py-3">
@@ -43,9 +43,9 @@ export default function BriefHistory() {
               </li>
 
               <li id="6" className="py-3">
-                Led an effort that resulted in Tennessee being the first U.S. state
-                with soil-based compost quality standards as an incentive class
-                (Type A), 1993-final vote June 2, 1998.
+                Led an effort that resulted in Tennessee being the first U.S.
+                state with soil-based compost quality standards as an incentive
+                class (Type A), 1993-final vote June 2, 1998.
               </li>
 
               <li id="7" className="py-3">
@@ -68,8 +68,8 @@ export default function BriefHistory() {
 
               <li id="10" className="py-3">
                 Supportive material sent to Cedar Rapids, Iowa, was successfully
-                used to end consideration of an incineration and ash reutilization
-                proposal, 1994.
+                used to end consideration of an incineration and ash
+                reutilization proposal, 1994.
               </li>
 
               <li id="11" className="py-3">
@@ -99,14 +99,15 @@ export default function BriefHistory() {
               </li>
 
               <li id="16" className="py-3">
-                Helped mobilize successful opposition to a construction and demolition landfill
-                proposed for a former quarry off McCrory Ln., Davidson County,
-                Tennessee, Council District 35, 2006.
+                Helped mobilize successful opposition to a construction and
+                demolition landfill proposed for a former quarry off McCrory
+                Ln., Davidson County, Tennessee, Council District 35, 2006.
               </li>
 
               <li id="17" className="py-3">
-                Helped stop construction and demolition landfill and outdoor transfer station proposed in
-                Davidson County, Tennessee, Council District 22, 2012.
+                Helped stop construction and demolition landfill and outdoor
+                transfer station proposed in Davidson County, Tennessee, Council
+                District 22, 2012.
               </li>
 
               <li id="18" className="py-3">
@@ -115,13 +116,13 @@ export default function BriefHistory() {
               </li>
 
               <li id="19" className="py-3">
-                Calculated an appropriate disposal tax levels in eight different ways,
-                2012.
+                Calculated an appropriate disposal tax levels in eight different
+                ways, 2012.
               </li>
 
               <li id="20" className="py-3">
-                Submitted legislation to achieve an independent disposal
-                tax valuation and applications of such a valuation, 2012.
+                Submitted legislation to achieve an independent disposal tax
+                valuation and applications of such a valuation, 2012.
               </li>
 
               <li id="21" className="py-3">

@@ -4,7 +4,7 @@ import Document from "@/components/Document";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import PrimaryMastHead from "@/components/PrimaryMastHead";
 
-export const navbarProps = {
+export const primaryHierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: ["Zero-Waste", "Methodology", "Literature", "Travels", "Pilots"],
   path: "/studies",
@@ -14,7 +14,7 @@ export const navbarProps = {
 export default function Studies() {
   return (
     <div>
-      <SecondaryNavbar {...navbarProps} />
+      <SecondaryNavbar {...primaryHierarchyProps} />
       <PrimaryMastHead
         title="Studies"
         titleColor="text-[#f8ffbf]"
@@ -22,18 +22,18 @@ export default function Studies() {
         swooshColor="yellow"
         backgroundColor="to-[#8a8500] from-[#0f0f00]"
         buttonsColor="bg-studiesBg"
-        {...navbarProps}
+        {...primaryHierarchyProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
-        <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
-          <p className="text-4xl font-semibold mb-10">
+        <div className=" mx-8 max-w-screen-md pt-20 text-stone-200">
+          <p className="mb-10 text-4xl font-semibold">
             This "Studies" page will have the following subsections:
           </p>
-          <ul className="mx-6 sm:mx-10 list-square list-outside text-base">
+          <ul className="mx-6 list-outside list-square text-base sm:mx-10">
             <li className="pt-3 text-2xl">
               A page or subsection called{" "}
               <Link
-                className="text-blue-300 underline font-semibold"
+                className="font-semibold text-blue-300 underline"
                 href="/pilots"
               >
                 Pilots
@@ -42,7 +42,7 @@ export default function Studies() {
             <li className="pt-3 text-2xl">
               A page or subsection called{" "}
               <Link
-                className="text-blue-300 underline font-semibold"
+                className="font-semibold text-blue-300 underline"
                 href="/travels"
               >
                 Travels
@@ -50,10 +50,10 @@ export default function Studies() {
             </li>
           </ul>
         </div>
-        <div className="mt-20 text-center font-semibold text-4xl text-stone-200">
+        <div className="mt-20 text-center text-4xl font-semibold text-stone-200">
           🎠 Carousel 🎠
         </div>
-        <div className="mx-4 text-2xl text-stone-200 px-10 pt-2 text-justify">
+        <div className="mx-4 px-10 pt-2 text-justify text-2xl text-stone-200">
           Below is an example of something called a website "Carousel." it lets
           you pan left and right and see all of the items inside of it. This is
           one potential way we could display documents, figures, and other

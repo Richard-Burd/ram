@@ -2,7 +2,7 @@ import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import SocialMediaIcon from "@/components/SocialMediaIcon";
-import { navbarProps } from "@/pages/about";
+import { primaryHierarchyProps } from "@/pages/about";
 import Image from "next/image";
 
 const socialMediaIconProps = {
@@ -10,7 +10,7 @@ const socialMediaIconProps = {
   activeBackgroundColor: `#ffe3c2`,
 };
 
-export const hierarchyProps = {
+export const secondaryHierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-aboutBg",
   titles: [
@@ -62,8 +62,8 @@ export default function Bios() {
         />
       </Head>
       <div className="bg-gradient-to-l from-[#b8580b] to-[#120700] pb-72 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-6"

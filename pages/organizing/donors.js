@@ -1,9 +1,9 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
-import { navbarProps } from "@/pages/organizing";
+import { primaryHierarchyProps } from "@/pages/organizing";
 
-export const hierarchyProps = {
+export const secondaryHierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: ["Participation", "Expenses covered", "Monetary gifts"],
@@ -23,8 +23,8 @@ export default function Donors() {
         />
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-6"

@@ -2,7 +2,7 @@ import Link from "next/link";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import PrimaryMastHead from "@/components/PrimaryMastHead";
 
-export const navbarProps = {
+export const primaryHierarchyProps = {
   // bgColor: "bg-[#3dff51]",
   bgColor: "bg-outreachBg",
   titles: [
@@ -19,7 +19,7 @@ export const navbarProps = {
 export default function Outreach() {
   return (
     <div>
-      <SecondaryNavbar {...navbarProps} />
+      <SecondaryNavbar {...primaryHierarchyProps} />
       <PrimaryMastHead
         title="Outreach"
         titleColor="text-[#c2ffbf]"
@@ -27,11 +27,11 @@ export default function Outreach() {
         swooshColor="green"
         backgroundColor="to-[#14993c] from-[#08120b]"
         buttonsColor="bg-outreachBg" // "bg-[#8aff8c]"
-        {...navbarProps}
+        {...primaryHierarchyProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
-        <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
-          <p className="text-4xl font-semibold mb-10">
+        <div className=" mx-8 max-w-screen-md pt-20 text-stone-200">
+          <p className="mb-10 text-4xl font-semibold">
             This "Outreach" page is under development.
           </p>
           {/* <ul className="mx-6 sm:mx-10 list-square list-outside text-base">

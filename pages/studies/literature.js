@@ -4,9 +4,9 @@ import AnchorLink from "@/components/AnchorLink";
 import HyperLink from "@/components/HyperLink";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
-import { navbarProps } from "@/pages/studies";
+import { primaryHierarchyProps } from "@/pages/studies";
 
-export const hierarchyProps = {
+export const secondaryHierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: ["Reports", "Papers", "Periodicals"],
   path: "/studies/literature",
@@ -23,8 +23,8 @@ export default function Literature() {
   return (
     <div>
       <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"

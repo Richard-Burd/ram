@@ -1,23 +1,23 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
-import { navbarProps } from "@/pages/successes";
+import { primaryHierarchyProps } from "@/pages/successes";
 
 export default function LongHistory() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
-        <SecondaryNavbar {...navbarProps} />
+      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
+        <SecondaryNavbar {...primaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-5xl pt-serif-700 text-[#bfe6ff] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-5xl italic text-[#bfe6ff]">
             <div className="pb-4">Longer History of</div>
             <div>
               Some <i>RAM</i> Successes
             </div>
           </div>
           <div className="mx-12 text-2xl">
-            <ol className="list-decimal list-outside">
+            <ol className="list-outside list-decimal">
               <li id="1" className="py-5">
                 Set a high standard for studying issues by touring over 200
                 facilities in 19 states and Ontario, 1989-present. 196 of these

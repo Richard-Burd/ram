@@ -5,7 +5,7 @@ import DocumentTwo from "@/components/DocumentTwo";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import PrimaryMastHead from "@/components/PrimaryMastHead";
 
-export const navbarProps = {
+export const primaryHierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-aboutBg",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
@@ -16,7 +16,7 @@ export const navbarProps = {
 export default function About() {
   return (
     <div>
-      <SecondaryNavbar {...navbarProps} />
+      <SecondaryNavbar {...primaryHierarchyProps} />
       <PrimaryMastHead
         title="About Us"
         titleColor="text-[#ffe9bf]"
@@ -24,7 +24,7 @@ export default function About() {
         swooshColor="orange"
         backgroundColor="to-[#b8580b] from-[#120700]"
         buttonsColor="bg-aboutBg" //"bg-[#ffd28a]"
-        {...navbarProps}
+        {...primaryHierarchyProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
         <div className="mx-8 max-w-screen-md pt-20 text-stone-200">

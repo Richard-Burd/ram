@@ -2,7 +2,7 @@ import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import SocialMediaIcon from "@/components/SocialMediaIcon";
-import { navbarProps } from "@/pages/organizing";
+import { primaryHierarchyProps } from "@/pages/organizing";
 
 const socialMediaIconProps = {
   icon: "email",
@@ -10,7 +10,7 @@ const socialMediaIconProps = {
   activeBackgroundColor: `#ad9eff`,
 };
 
-export const hierarchyProps = {
+export const secondaryHierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
   titles: [
@@ -34,8 +34,8 @@ export default function Contacts() {
         />
       </Head>
       <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-6"

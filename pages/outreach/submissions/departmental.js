@@ -1,8 +1,8 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
-import { navbarProps } from "@/pages/outreach";
-import { hierarchyProps } from "@/pages/outreach/submissions";
+import { primaryHierarchyProps } from "@/pages/outreach";
+import { secondaryHierarchyProps } from "@/pages/outreach/submissions";
 
 export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
@@ -20,8 +20,8 @@ export const thisNavbarProps = {
 export default function Departmental() {
   return (
     <div>
-      <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...hierarchyProps} />
+      <SecondaryNavbar {...primaryHierarchyProps} />
+      <TertiaryNavbar {...secondaryHierarchyProps} />
       <FragmentIdentifierNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">

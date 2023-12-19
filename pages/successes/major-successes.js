@@ -2,9 +2,9 @@ import Link from "next/link";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
-import { navbarProps } from "@/pages/successes";
+import { primaryHierarchyProps } from "@/pages/successes";
 
-export const hierarchyProps = {
+export const secondaryHierarchyProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-successesBg",
   titles: [
@@ -20,8 +20,8 @@ export default function MajorSuccesses() {
   return (
     <div>
       <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
-        <SecondaryNavbar {...navbarProps} />
-        <FragmentIdentifierNavbar {...hierarchyProps} />
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
           className="m-11 rounded-6xl bg-neutral-950 p-8"
