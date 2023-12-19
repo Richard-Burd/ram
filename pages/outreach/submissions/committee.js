@@ -2,7 +2,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/outreach";
-import { hyperlinkNavbarProps } from "@/pages/outreach/submissions";
+import { anchorlinkNavbarProps } from "@/pages/outreach/submissions";
 
 export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
@@ -14,10 +14,10 @@ export default function Committee() {
   return (
     <div>
       <SecondaryNavbar {...navbarProps} />
-      <TertiaryNavbar {...hyperlinkNavbarProps} />
+      <TertiaryNavbar {...anchorlinkNavbarProps} />
       <FragmentIdentifierNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="p-8 text-center text-7xl pt-serif-700 text-[#c2ffbf] italic">
+        <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
           Committee
         </div>
         <div
@@ -28,24 +28,24 @@ export default function Committee() {
         </div>
         <div
           id="items-list"
-          className="m-4 p-4 text-2xl opacity-70 text-zinc-200"
+          className="m-4 p-4 text-2xl text-zinc-200 opacity-70"
         >
           <div className="w-full">
             <table className="m-4">
               <tbody>
                 <tr id="row-1">
-                  <td className="column-1 align-top pb-4 w-full whitespace-normal">
+                  <td className="column-1 w-full whitespace-normal pb-4 align-top">
                     Curbside Recycling Bidding and Alternatives
                   </td>
-                  <td className="column-2 align-top pb-4 w-full whitespace-normal">
+                  <td className="column-2 w-full whitespace-normal pb-4 align-top">
                     5 pages
                   </td>
                 </tr>
                 <tr id="row-2">
-                  <td className="column-1 pr-3 align-top pb-4">
+                  <td className="column-1 pb-4 pr-3 align-top">
                     Report to Mayor
                   </td>
-                  <td className="column-2 pr-3 align-top pb-4 whitespace-nowrap">
+                  <td className="column-2 whitespace-nowrap pb-4 pr-3 align-top">
                     5 pages
                   </td>
                 </tr>
