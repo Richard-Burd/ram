@@ -27,11 +27,11 @@ export default function About() {
         {...navbarProps}
       />
       <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
-        <div className=" text-stone-200 mx-8 pt-20 max-w-screen-md">
-          <p className="text-4xl font-semibold mb-10">
+        <div className="mx-8 max-w-screen-md pt-20 text-stone-200">
+          <p className="mb-10 text-4xl font-semibold">
             This "About" page will have the following items:
           </p>
-          <ul className="mx-6 sm:mx-10 list-square list-outside text-base">
+          <ul className="mx-6 list-outside list-square text-base sm:mx-10">
             {/* <li className="pt-3 text-2xl">John's Bio</li> */}
             <li className="pt-3 text-2xl">List of Donors</li>
             <ul>
@@ -56,7 +56,7 @@ export default function About() {
         />
         <br></br>
         <br></br>
-        <div className="mx-4 text-2xl px-10 pt-20 text-zinc-100">
+        <div className="mx-4 px-10 pt-20 text-2xl text-zinc-100">
           The images below are the same as above, the only difference is that
           they do not have a background color, as the background is transparent.
           This is just an alternative way to display content.
