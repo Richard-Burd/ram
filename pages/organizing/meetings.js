@@ -6,13 +6,7 @@ import { navbarProps } from "@/pages/organizing";
 export const hyperlinkNavbarProps = {
   // bgColor: "bg-[#ff8938]",
   bgColor: "bg-organizingBg",
-  titles: [
-    <text>
-      <i>RAM</i> Meetings
-    </text>,
-    "Coalition Meetings",
-    "Documents for these",
-  ],
+  titles: ["RAM Meetings", "Coalition Meetings", "Documents for these"],
   path: "/organizing/meetings",
 };
 
@@ -26,14 +20,14 @@ export default function Contacts() {
           content="team, cohort, leadership, about us, people, persons"
         />
       </Head>
-      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
         <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-6 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-6"
         >
-          <div className="m-4 p-4 mt-8 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
+          <div className="pt-serif-700 m-4 mt-8 p-4 text-center text-7xl italic text-[#d4bfff]">
             Meetings
           </div>
           <div className="container mx-auto px-4">

@@ -1,7 +1,14 @@
 import Head from "next/head";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { navbarProps } from "@/pages/organizing";
-import Image from "next/image";
+
+export const hyperlinkNavbarProps = {
+  // bgColor: "bg-[#ff8938]",
+  bgColor: "bg-organizingBg",
+  titles: ["Participation", "Expenses covered", "Monetary gifts"],
+  path: "/organizing/donors",
+};
 
 export default function Donors() {
   const crewDescriptionTestLayoutStyles =
@@ -15,22 +22,23 @@ export default function Donors() {
           content="team, cohort, leadership, about us, people, persons"
         />
       </Head>
-      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] text-zinc-300 pb-72">
+      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
+        <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-6 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-6"
         >
-          <div className="m-4 p-4 mt-8 text-center text-7xl pt-serif-700 text-[#d4bfff] italic">
+          <div className="pt-serif-700 m-4 mt-8 p-4 text-center text-7xl italic text-[#d4bfff]">
             Donors
           </div>
           <div className="container mx-auto px-4">
-            <div id="section-1" className="mx-8 my-8 text-2xl">
-              <div className="title font-semibold underline text-4xl">
+            <div id="participation" className="mx-8 my-8 text-2xl">
+              <div className="title text-4xl font-semibold underline">
                 Participation
               </div>
               <div className="paragraph">
-                <p className="bg-[#211052] rounded-3xl my-4 p-4">
+                <p className="my-4 rounded-3xl bg-[#211052] p-4">
                   This represents irreplaceable time, and is the most
                   appreciated donation. The list is long, and partly for that
                   reason, currently remains under development. <i>RAM</i>{" "}
@@ -38,12 +46,12 @@ export default function Donors() {
                 </p>
               </div>
             </div>
-            <div id="section-2" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline text-4xl">
+            <div id="expenses-covered" className="mx-8 my-14 text-2xl">
+              <div className="title text-4xl font-semibold underline">
                 Expenses covered
               </div>
               <div className="paragraph">
-                <p className="bg-[#211052] rounded-3xl my-4 p-4">
+                <p className="my-4 rounded-3xl bg-[#211052] p-4">
                   The point where a person deserves to be listed here is
                   subjective. Here is a list of some of these who have given a
                   lot:
@@ -101,12 +109,12 @@ export default function Donors() {
               </div>
             </div>
 
-            <div id="section-2" className="mx-8 my-14 text-2xl">
-              <div className="title font-semibold underline text-4xl">
+            <div id="monetary-gifts" className="mx-8 my-14 text-2xl">
+              <div className="title text-4xl font-semibold underline">
                 Monetary gifts
               </div>
               <div className="paragraph">
-                <p className="bg-[#211052] rounded-3xl my-4 p-4">
+                <p className="my-4 rounded-3xl bg-[#211052] p-4">
                   <p>Listed in order they were recorded.</p>{" "}
                   <p>
                     Donors with more than one donation are listed only once,

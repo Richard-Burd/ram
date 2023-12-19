@@ -19,22 +19,22 @@ export const hyperlinkNavbarProps = {
 export default function MajorSuccesses() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] text-zinc-300 pb-16">
+      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
         <SecondaryNavbar {...navbarProps} />
         <FragmentIdentifierNavbar {...hyperlinkNavbarProps} />
         <div
           id="title-and-text-box"
-          className="bg-neutral-950 m-11 p-8 rounded-6xl"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          <div className="my-4 py-4 text-center text-5xl pt-serif-700 text-[#bfe6ff] italic">
+          <div className="pt-serif-700 my-4 py-4 text-center text-5xl italic text-[#bfe6ff]">
             Major Successes
           </div>
 
           <div
             id="internalizing-externalized-material-recovery-benefits-and-disposal-costs"
-            className="mx-4 pt-4 text-2xl mb-24"
+            className="mx-4 mb-24 pt-4 text-2xl"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Internalizing externalized material recovery benefits and disposal
               costs
             </div>
@@ -46,7 +46,7 @@ export default function MajorSuccesses() {
               preceding{" "}
               <Link
                 href="/successes/brief-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Brief History</strong>
@@ -54,7 +54,7 @@ export default function MajorSuccesses() {
               and{" "}
               <Link
                 href="/successes/longer-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Longer History</strong>
@@ -62,14 +62,14 @@ export default function MajorSuccesses() {
               pages, and what is on the subsequent{" "}
               <Link
                 href="/successes/current-campaigns"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Current Campaigns</strong>
               </Link>{" "}
               page.
             </p>
-            <div className="bg-blue-700 px-12 py-6 bg-opacity-30 rounded-2xl mt-8">
+            <div className="mt-8 rounded-2xl bg-blue-700 bg-opacity-30 px-12 py-6">
               <p className="mb-8">
                 Acquaintance with the concept for this -- and the application of
                 it -- came as a result of John van der Harst doing work for the
@@ -140,9 +140,9 @@ export default function MajorSuccesses() {
 
           <div
             id="first-state-soil-based-compost-quality-standards-as-an-incentive-class"
-            className="mx-4 pt-4 text-2xl mb-24"
+            className="mx-4 mb-24 pt-4 text-2xl"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               First state soil-based compost quality standards as an incentive
               class
             </div>
@@ -159,7 +159,7 @@ export default function MajorSuccesses() {
               In addition to what has been described on the{" "}
               <Link
                 href="/successes/brief-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Brief History</strong>
@@ -167,7 +167,7 @@ export default function MajorSuccesses() {
               and{" "}
               <Link
                 href="/successes/longer-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Longer History</strong>
@@ -179,7 +179,7 @@ export default function MajorSuccesses() {
               that a wide variety of citizens could make sense of them was
               important. Two rounds of commenting took a lot of time.
             </p>
-            <div className="bg-blue-700 px-12 py-6 bg-opacity-30 rounded-2xl mt-8">
+            <div className="mt-8 rounded-2xl bg-blue-700 bg-opacity-30 px-12 py-6">
               <p className="mb-8">
                 A brief primer: For heavy metal levels, soil-based standards are
                 typically derived by multiplying levels found in typical soils
@@ -227,10 +227,10 @@ export default function MajorSuccesses() {
           </div>
 
           <div
-            id="first-voluntary-closure-of-a-large,-financially-viable,-wte-incinerator-with-up-to-date-air-pollution-control-equipment"
-            className="mx-4 pt-4 text-2xl mb-24"
+            id="first-voluntary-closure-of-a-large,-financially-viable,-wte-incinerator-with-up-to-date-apc-equipment"
+            className="mx-4 mb-24 pt-4 text-2xl"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               First voluntary closure of a large, financially-viable, WTE
               incinerator with up-to-date air pollution control equipment
             </div>
@@ -238,7 +238,7 @@ export default function MajorSuccesses() {
               Some more details not found on the{" "}
               <Link
                 href="/successes/brief-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Brief History</strong>
@@ -246,7 +246,7 @@ export default function MajorSuccesses() {
               and{" "}
               <Link
                 href="/successes/longer-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Longer History</strong>
@@ -355,16 +355,16 @@ export default function MajorSuccesses() {
 
           <div
             id="no-more-treated-incinerator-ash-outside-landfills"
-            className="mx-4 pt-4 text-2xl mb-24"
+            className="mx-4 mb-24 pt-4 text-2xl"
           >
-            <div className="border-b-2 border-zinc-300 mt-2 pb-1 font-bold mb-2 text-4xl">
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               No more treated incinerator ash outside landfills
             </div>
             <p>
               What was included on the preceding{" "}
               <Link
                 href="/successes/brief-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Brief History</strong>
@@ -372,7 +372,7 @@ export default function MajorSuccesses() {
               and{" "}
               <Link
                 href="/successes/longer-history"
-                className="duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline text-blue-300 transition"
+                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
                 // target="_blank"
               >
                 <strong>Longer History</strong>
@@ -382,8 +382,8 @@ export default function MajorSuccesses() {
               important to know is 1) the nature of incinerator ash, and 2) what
               treating it can lead to.
             </p>
-            <div className="bg-blue-700 px-12 py-6 bg-opacity-30 rounded-2xl mt-8">
-              <ol className="list-decimal list-outside mx-2">
+            <div className="mt-8 rounded-2xl bg-blue-700 bg-opacity-30 px-12 py-6">
+              <ol className="mx-2 list-outside list-decimal">
                 <li id="1" className="mb-16">
                   <p className="mb-4">
                     Solid waste is burned to reduce volume. While landfilling
