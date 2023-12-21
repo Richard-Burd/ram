@@ -2,6 +2,7 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import { primaryHierarchyProps } from "@/pages/outreach";
 
 import Brochure from "@/components/Brochure";
+import BrochureFig from "@/components/BrochureFig";
 
 export const secondaryHierarchyProps = {
   bgColor: "bg-outreachBg",
@@ -32,6 +33,19 @@ export default function Brochures() {
               fileLabel={false}
             />
           </div>
+        </div>
+        <div
+          id="figures-list"
+          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+        >
+          <BrochureFig figureNumber="Fig-5" fileName="trommel.jpg" />
+          <br></br>
+          <BrochureFig figureNumber="Fig-6" fileName="ants.jpg" />
+          <br></br>
+          <BrochureFig figureNumber="Fig-7" fileName="gravel.jpg" />
+          <br></br>
+          <BrochureFig figureNumber="Fig-13" fileName="trash.jpg" />
+          <br></br>
         </div>
       </div>
     </div>

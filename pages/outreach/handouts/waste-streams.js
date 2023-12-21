@@ -2,13 +2,13 @@ import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import DocumentTwo from "@/components/DocumentTwo";
-import Document from "@/components/Document";
+import BrochureFig from "@/components/BrochureFig";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
 export const tertiaryNavbarProps = {
   bgColor: "bg-outreachBg",
-  titles: ["2012", "2013", "2014", "2015", "2016"],
+  titles: ["2003", "2012", "2013", "2014", "2015", "2016"],
   path: "/outreach/handouts/waste-streams",
 };
 
@@ -33,6 +33,7 @@ export default function WasteStreams() {
           className="m-4 p-4 text-2xl text-zinc-200 opacity-70"
         >
           <ul className="m-4 list-outside list-square p-4">
+            <li className="mb-4">2003</li>
             <li className="mb-4">2012</li>
             <li className="mb-4">2013</li>
             <li className="mb-4">2014</li>
@@ -40,7 +41,74 @@ export default function WasteStreams() {
             <li className="mb-4">2016</li>
           </ul>
         </div>
-        <div id="handouts list" className="ml-20">
+
+        <div
+          id="figures-list"
+          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+        >
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-1.1"
+            fileName="Fig-1.1.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-1.2"
+            fileName="Fig-1.2.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-1.3"
+            fileName="Fig-1.3.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-1.4"
+            fileName="Fig-1.4.jpg"
+          />
+          <br></br>
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-14.1"
+            fileName="Fig-14.1.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-14.2"
+            fileName="Fig-14.2.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-14.3"
+            fileName="Fig-14.3.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-14.4"
+            fileName="Fig-14.4.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-14.5"
+            fileName="Fig-14.5.jpg"
+          />
+          <br></br>
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-14.6"
+            fileName="Fig-14.6.jpg"
+          />
+        </div>
+
+        <div id="documents-list" className="ml-20">
           <DocumentTwo
             title="Solid Waste Destinations"
             fileName="doc-703"

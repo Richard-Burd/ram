@@ -4,14 +4,14 @@ import BrochureFig from "@/components/BrochureFig";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
-export default function Markets() {
+export default function Cards() {
   return (
     <div>
       <SecondaryNavbar {...primaryHierarchyProps} />
       <TertiaryNavbar {...secondaryHierarchyProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
         <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
-          Markets
+          Cards
         </div>
         <div
           id="comming-soon-placeholder"
@@ -23,25 +23,25 @@ export default function Markets() {
           id="figures-list"
           className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
         >
+          <br></br>
           <BrochureFig
             originalWidth="50%"
-            figureNumber="Fig-21"
-            fileName="heavy-molded.2.jpg"
+            figureNumber="Fig-30"
+            fileName="Fig-30.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
-            figureNumber="Fig-20"
-            fileName="heavy-molded.1.jpg"
+            figureNumber="Fig-31"
+            fileName="Fig-31.jpg"
           />
-          <br></br>
-          <BrochureFig figureNumber="Fig-23" fileName="re-manufacture.jpg" />
           <br></br>
           <BrochureFig
             originalWidth="50%"
-            figureNumber="Fig-24"
-            fileName="solid-waste-choices.jpg"
+            figureNumber="Fig-32"
+            fileName="Fig-32.jpg"
           />
+          <br></br>
           <br></br>
         </div>
       </div>

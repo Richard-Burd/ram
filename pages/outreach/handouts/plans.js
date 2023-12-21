@@ -1,5 +1,6 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
+import BrochureFig from "@/components/BrochureFig";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
@@ -17,6 +18,17 @@ export default function Plans() {
           className="m-4 p-4 text-2xl text-zinc-200"
         >
           ...comming soon! This page is under construction.
+        </div>
+        <div
+          id="figures-list"
+          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+        >
+          <BrochureFig
+            originalWidth="50%"
+            figureNumber="Fig-22"
+            fileName="jobs.jpg"
+          />
+          <br></br>
         </div>
       </div>
     </div>

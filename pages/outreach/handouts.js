@@ -6,7 +6,15 @@ import { primaryHierarchyProps } from "@/pages/outreach";
 
 export const secondaryHierarchyProps = {
   bgColor: "bg-outreachBg",
-  titles: ["General", "Waste Streams", "Methodology", "Markets", "Plans"],
+  titles: [
+    "General",
+    "Political",
+    "Waste Streams",
+    "Methodology",
+    "Markets",
+    "Plans",
+    "Cards",
+  ],
   path: "/outreach/handouts",
 };
 
@@ -31,7 +39,8 @@ export default function Handouts() {
           path={secondaryHierarchyProps.path}
           marginBetweenButtons="mt-4"
         />
-        <div id="handouts list" className="ml-20">
+
+        <div id="handouts-list" className="ml-20">
           <DocumentTwo
             title="Airborne & Solid Waste Emissions"
             fileName="doc-696"
