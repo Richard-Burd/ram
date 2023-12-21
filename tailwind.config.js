@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "lower-right-offset": "2px 2px 10px rgba(0, 0, 0, 0.80)",
+      },
       colors: {
         homeBg: "#ff1122",
         aboutBg: "#ff6c07",

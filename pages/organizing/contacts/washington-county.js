@@ -43,15 +43,14 @@ export default function Catherine() {
                   <div>U.S.A.</div>
                 </div>
                 <div className="mt-20">
-                  <b>Telephone</b>, preferably as close as possible to
-                  9:00-11:00 pm Central U.S. time (CST):
+                  <b>Telephone</b>, preferably not too early or late:
                 </div>
                 <div className="ml-6 mt-4 inline-block max-w-max rounded-3xl bg-[#211052] p-4">
                   <div>931-929-8163</div>{" "}
                 </div>
                 <div className="mt-20">
-                  <b>Email</b>, note that Catherine often does not read her
-                  email for extended periods, in order to think more thoroughly:
+                  <b>Email</b>, To minimize resource consumption, including
+                  time, please send only respectful, personal communication to:
                 </div>
                 <div className="ml-6 mt-4 inline-block max-w-max rounded-3xl bg-[#211052] p-4">
                   <div>

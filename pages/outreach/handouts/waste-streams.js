@@ -1,6 +1,8 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
+import DocumentTwo from "@/components/DocumentTwo";
+import Document from "@/components/Document";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
@@ -37,6 +39,56 @@ export default function WasteStreams() {
             <li className="mb-4">2015</li>
             <li className="mb-4">2016</li>
           </ul>
+        </div>
+        <div id="handouts list" className="ml-20">
+          <DocumentTwo
+            title="Solid Waste Destinations"
+            fileName="doc-703"
+            description="Trajectories patterened after Metro landfilling, audits, & sales taxes."
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Net Zero Landfilling"
+            fileName="doc-36"
+            description="What would happen to a typical waste stream."
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Household Hazardous Waste Collection Day"
+            fileName="doc-299"
+            description="June 1st, 1996."
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Solid Waste Stream Trends - September 6th, 2004"
+            fileName="doc-318"
+            description=""
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Solid Waste Stream Trends - July 23rd, 2006"
+            fileName="doc-331"
+            description=""
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="2012 Davidson County Solid Waste - Where it went"
+            fileName="doc-345"
+            description=""
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Staten Island Ferry (All versions)"
+            fileName="doc-702"
+            description="This is a collection of all six version of this graphic"
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Creating a Level Playing Field"
+            fileName="doc-687"
+            description="Wet/dry recovery methods require up-front costs to government, but yeild far greater indirect benefits"
+            fileLabel={true}
+          />
         </div>
       </div>
     </div>
