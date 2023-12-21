@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        "lower-right-offset": "2px 2px 10px rgba(0, 0, 0, 0.80)",
+        // right bottom blur  spread color
+        "lower-right-offset": "2px 4px 7px rgba(0, 0, 0, 0.95)",
       },
       colors: {
         homeBg: "#ff1122",
