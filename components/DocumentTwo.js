@@ -9,16 +9,6 @@ export default function Document({
   return (
     <div id="overall-container">
       <div id="some-other-item" className="parent">
-        <div id="document-number">
-          {fileLabel && (
-            <div className="absolute bottom-0 left-0 right-0 z-20 -translate-y-7 translate-x-9">
-              <div className="young-serif-font text-3xl font-semibold italic text-red-800 text-opacity-70">
-                {fileName}
-              </div>
-            </div>
-          )}
-        </div>
-
         <div
           id="title-description-image-container-&-document-label"
           className={`mx-4 my-12 flex items-start p-4 text-slate-200 ${
@@ -37,7 +27,6 @@ export default function Document({
                 download
                 target="_blank"
                 rel="noopener noreferrer"
-                // style={{ minWidth: "150px", maxWidth: "150px" }}
                 className=""
                 draggable="false"
               >
