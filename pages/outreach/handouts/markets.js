@@ -1,6 +1,7 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import BrochureFig from "@/components/BrochureFig";
+import DocumentTwo from "@/components/DocumentTwo";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
@@ -13,6 +14,16 @@ export default function Markets() {
         <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
           Markets
         </div>
+
+        <div id="handouts-list" className="ml-20">
+          <DocumentTwo
+            title="Remanufacturing Example"
+            fileName="doc-689"
+            description="Making toilet paper"
+            fileLabel={true}
+          />
+        </div>
+
         <div
           id="comming-soon-placeholder"
           className="m-4 p-4 text-2xl text-zinc-200"

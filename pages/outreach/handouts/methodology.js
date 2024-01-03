@@ -1,6 +1,7 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import BrochureFig from "@/components/BrochureFig";
+import DocumentTwo from "@/components/DocumentTwo";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
@@ -13,12 +14,29 @@ export default function Methodology() {
         <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
           Methodology
         </div>
+
         <div
           id="comming-soon-placeholder"
           className="m-4 p-4 text-2xl text-zinc-200"
         >
           ...comming soon! This page is under construction.
         </div>
+
+        <div id="handouts-list" className="ml-20">
+          <DocumentTwo
+            title="Household Hazardous Waste Collection Day"
+            fileName="doc-688"
+            description="This occured in Nashville TN on June 1st, 1996."
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Pow Wow Participants"
+            fileName="doc-690"
+            description="Food vs. Everything Else"
+            fileLabel={true}
+          />
+        </div>
+
         <div className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950">
           <BrochureFig
             originalWidth="50%"

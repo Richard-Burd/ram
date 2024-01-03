@@ -1,6 +1,7 @@
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import TertiaryNavbar from "@/components/TertiaryNavbar";
 import BrochureFig from "@/components/BrochureFig";
+import DocumentTwo from "@/components/DocumentTwo";
 import { primaryHierarchyProps } from "@/pages/outreach";
 import { secondaryHierarchyProps } from "@/pages/outreach/handouts";
 
@@ -19,6 +20,22 @@ export default function Political() {
         >
           ...comming soon! This page is under construction.
         </div>
+
+        <div id="handouts-list" className="ml-20">
+          <DocumentTwo
+            title="Summary of Ten Hidden Taxes Caused by the Thermal Plant"
+            fileName="doc-692"
+            description="A $39 million retrofit proposal to keep incinerator burning past 1999"
+            fileLabel={true}
+          />
+          <DocumentTwo
+            title="Get rid of thermal plant, recycling advocates urge"
+            fileName="doc-695"
+            description="Article by Jim East on November 15th, 1999 in the The Tennessean"
+            fileLabel={true}
+          />
+        </div>
+
         <div
           id="figures-list"
           className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
