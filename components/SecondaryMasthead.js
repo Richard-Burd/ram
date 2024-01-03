@@ -14,16 +14,16 @@ export default function SecondaryMastHead({
   return (
     <div>
       <div
-        className={`${titleColor} pt-12 pb-14 text-center text-7xl pt-serif-700 italic`}
+        className={`${titleColor} pt-serif-700 pb-14 pt-12 text-center text-7xl italic`}
       >
         {title}
       </div>
       <div className="flex w-full">
-        <div className="text-slate-200 text-2xl mx-12 max-w-md">
+        <div className="mx-12 max-w-md text-2xl text-slate-200">
           {description}
         </div>
-        <div className="flex justify-center w-full">
-          <div className={`text-center`}>
+        <div className="flex w-full justify-center">
+          <div className="pr-10 text-center">
             <div className="mt-0">
               {titles.map((title) => (
                 <div className={`${marginBetweenButtons}`}>
@@ -40,7 +40,7 @@ export default function SecondaryMastHead({
                       transition={{ duration: 0.25 }}
                     >
                       <div
-                        className={` m-2 p-2 text-4xl text-black text-opacity-90 roboto-font-500`}
+                        className={` roboto-font-500 m-2 p-2 text-4xl text-black text-opacity-90`}
                       >
                         {title}
                       </div>

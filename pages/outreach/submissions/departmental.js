@@ -10,9 +10,9 @@ export const thisNavbarProps = {
     "Massachusetts",
     "Metro Nashville",
     "Los Angeles, CA",
-    "Boards",
-    "Committee",
-    "Legislative",
+    // "Boards",
+    // "Committee",
+    // "Legislative",
   ],
   path: "/outreach/submissions/departmental",
 };

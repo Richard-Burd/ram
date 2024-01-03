@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Construction() {
   return (
     <div>
-      <div className="mt-20 text-center font-semibold text-4xl">
+      <div className="mt-20 text-center text-4xl font-semibold">
         🚧 This website is under construction 🚧
       </div>
       <div className="mt-8 px-8 text-justify text-2xl">
@@ -12,7 +12,7 @@ export default function Construction() {
       </div>
       <div className="p-8 text-2xl">
         Here is a page with different{" "}
-        <Link className="text-blue-700 underline font-semibold" href="/fonts">
+        <Link className="font-semibold text-blue-700 underline" href="/fonts">
           fonts
         </Link>{" "}
         that we can use on this website
@@ -20,27 +20,27 @@ export default function Construction() {
       <div className="px-8 pb-10 text-2xl">
         📚 Here is the{" "}
         <Link
-          className="text-blue-700 underline font-semibold"
+          className="font-semibold text-blue-700 underline"
           href="/library-lee"
         >
-          library
+          doc library
         </Link>{" "}
         that contains all documents scanned in by Lee. 📄
       </div>
-      {/* <div className="px-8 pb-10 text-2xl">
+      <div className="px-8 pb-10 text-2xl">
         🖼️ Here is the{" "}
         <Link
-          className="text-blue-700 underline font-semibold"
+          className="font-semibold text-blue-700 underline"
           href="/figures-richard"
         >
-          gallery
+          figure gallery
         </Link>{" "}
         that contains all figures scanned in by Richard. 🖼️
-      </div> */}
+      </div>
       <div className="px-8 pb-32 text-2xl">
         🚗 This{" "}
         <Link
-          className="text-blue-700 underline font-semibold"
+          className="font-semibold text-blue-700 underline"
           href="/parking-lot"
         >
           parking lot

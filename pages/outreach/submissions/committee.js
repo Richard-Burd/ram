@@ -6,7 +6,7 @@ import { secondaryHierarchyProps } from "@/pages/outreach/submissions";
 
 export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
-  titles: ["Curbside Recycling Bidding and Alternatives", "Report to Mayor"],
+  titles: ["Report to Mayor", "Curbside Recycling Bidding and Alternatives"],
   path: "/outreach/submissions/committee",
 };
 
@@ -35,7 +35,7 @@ export default function Committee() {
               <tbody>
                 <tr id="row-1">
                   <td className="column-1 w-full whitespace-normal pb-4 align-top">
-                    Curbside Recycling Bidding and Alternatives
+                    Report to Mayor
                   </td>
                   <td className="column-2 w-full whitespace-normal pb-4 align-top">
                     5 pages
@@ -43,7 +43,7 @@ export default function Committee() {
                 </tr>
                 <tr id="row-2">
                   <td className="column-1 pb-4 pr-3 align-top">
-                    Report to Mayor
+                    Curbside Recycling Bidding and Alternatives
                   </td>
                   <td className="column-2 whitespace-nowrap pb-4 pr-3 align-top">
                     5 pages

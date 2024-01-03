@@ -9,7 +9,7 @@ export const secondaryHierarchyProps = {
     "General",
     "Regulatory",
     "Departmental",
-    "Board",
+    "Boards",
     "Committee",
     "Legislative",
   ],
