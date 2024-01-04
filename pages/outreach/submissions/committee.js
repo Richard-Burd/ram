@@ -6,7 +6,10 @@ import { secondaryHierarchyProps } from "@/pages/outreach/submissions";
 
 export const thisNavbarProps = {
   bgColor: "bg-outreachBg",
-  titles: ["Report to Mayor", "Curbside Recycling Bidding and Alternatives"],
+  titles: [
+    "Report to the Mayor",
+    "Curbside Recycling Bidding and Alternatives",
+  ],
   path: "/outreach/submissions/committee",
 };
 
@@ -26,7 +29,44 @@ export default function Committee() {
         >
           ...comming soon! This page is under construction.
         </div>
+
+        <div id="report-to-the-mayor" className="mx-8 mb-24 pt-4 text-zinc-200">
+          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            Report to the Mayor
+          </div>
+          <div className="text-2xl">
+            <p className="mb-8">
+              Preliminary report to the Mayor. Submitted to the Mayor of the
+              Metropolitan Government of Nashville and Davidson County,
+              Tennessee (Metro). 5 pages, June 1989.
+            </p>
+          </div>
+        </div>
+
         <div
+          id="curbside-recycling-bidding-and-alternatives"
+          className="mx-8 mb-24 pt-4 text-zinc-200"
+        >
+          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            Curbside Recycling Bidding and Alternatives
+          </div>
+          <div className="text-2xl">
+            <p className="mb-8">
+              Draft and Final{" "}
+              <i>
+                Invitation to Bid and Request for Qualifications and Evaluation
+                of Bids
+              </i>{" "}
+              for residential curbside recycling services. Referenced 33 errors.
+              Included alternatives and a 20-year cost/impact comparison of
+              curbside recycling, incinerator expansion, and 4 bids for
+              mixed-waste processing. Submitted to the Metro (Mayor's) Recycling
+              Committee. 5 pages total, October 1989 and August 1990.
+            </p>
+          </div>
+        </div>
+
+        {/* <div
           id="items-list"
           className="m-4 p-4 text-2xl text-zinc-200 opacity-70"
         >
@@ -52,7 +92,7 @@ export default function Committee() {
               </tbody>
             </table>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

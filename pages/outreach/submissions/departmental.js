@@ -33,7 +33,85 @@ export default function Departmental() {
         >
           ...comming soon! This page is under construction.
         </div>
-        <div
+
+        <div id="massachusetts" className="mx-8 mb-24 pt-4 text-zinc-200">
+          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            Massachusetts
+          </div>
+          <div className="text-2xl">
+            <p className="mb-8">
+              <i>
+                Better Options Abound, a paper on The Compatibility of Recycling
+                and Incineration.
+              </i>{" "}
+              Submitted to the Commonwealth of Massachusetts, Dept. of
+              Environmental Protection, Div. of Solid Waste Management, Boston,
+              Massachusetts. 4 pages, August 1991.
+            </p>
+          </div>
+        </div>
+
+        <div id="metro-nashville" className="mx-8 mb-24 pt-4 text-zinc-200">
+          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            Metro Nashville/Davidson County
+          </div>
+          <div className="text-2xl">
+            <p className="mb-8">
+              Proposal to reclassify residential yard wastes as
+              no-longer-collectable matter. Submitted to the Metropolitan
+              Government of Nashville and Davidson County, Dept. of Public Works
+              (Metro Public Works). 1 page, May 1989.
+            </p>
+            <p className="mb-8">
+              Home composting bins for the Mayor and Department's Environmental
+              Engineer, built out of shipping pallets. Delivered. Two bins
+              total, August 1989.
+            </p>
+            <p className="mb-8">
+              Feasibility of a pilot wet/dry recycling/composting program.
+              Submitted to Metro Public Works. 4 pages, November 1992.
+            </p>
+            <p className="mb-8">
+              Data needed to evaluate conversion of Metro's WTE incinerator to a
+              gas-fired cogeneration plant. Submitted to Metro Public Works. 2
+              pages, May 1993.
+            </p>
+            <p className="mb-8">
+              Consulting services providable by R. Cave & Associates Engineering
+              LTD., Oakville, Ontario. Submitted to Metro Public Works. 3 pages,
+              October 1995.
+            </p>
+            <p className="mb-8">
+              Adding cardboard and dropping glass from residential curbside
+              recycling, March 1, 1998, by Metro Public Works. Memo submitted to
+              interested parties. 4 pages, July 1998.
+            </p>
+            <p className="mb-8">
+              <i>
+                Sudden Switch -- Glass-out and cardboard-in for Metro's curbside
+                recycling.
+              </i>{" "}
+              4 pages, undated (but obviously after August 1998, which was the
+              last data set displayed).
+            </p>
+          </div>
+        </div>
+
+        <div id="los-angeles,-ca" className="mx-8 mb-24 pt-4 text-zinc-200">
+          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            Los Angeles, California
+          </div>
+          <div className="text-2xl">
+            <p className="mb-8">
+              Proposed administrative process for conversion to wet/dry material
+              recovery methods. Submitted to the City of Los Angeles,
+              California, Bureau of Sanitation, Solid Resources Planning &
+              Recycling Div. 1 page, June 1996.
+            </p>
+          </div>
+        </div>
+
+        {/* <div
           id="items-list"
           className="m-4 p-4 text-2xl text-zinc-200 opacity-70"
         >
@@ -198,7 +276,7 @@ export default function Departmental() {
               </table>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
