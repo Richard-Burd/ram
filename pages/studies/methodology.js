@@ -50,8 +50,8 @@ export default function Methodology() {
 
             <div className="image mb-8 mt-4">
               <BrochureFig
-                id="fig-25"
-                fileName="tax-disparity.jpg"
+                id="fig-34"
+                fileName="Fig-34.jpg"
                 borderColor="#665c49"
                 originalWidth="50%"
               />

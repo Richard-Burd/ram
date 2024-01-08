@@ -266,7 +266,7 @@ export default function Donors() {
                   Davidson Count
                 </p>
                 <p className="mb-3">Lisa Larson, Davidson County</p>
-                <p className="mb-3">Sizwe Herring, Davidson County</p>
+                <p className="mb-3">The late Sizwe Herring, Davidson County</p>
                 <p className="mb-3">
                   About 60 attenders of fundraiser at Leith Patton&apos;s house
                   (cash), Davidson County
@@ -281,7 +281,7 @@ export default function Donors() {
                 </p>
                 <p className="mb-3">Harold Stokes, Wayne County, Michigan</p>
                 <p className="mb-3">Ed McArdle, Wayne County, Michigan</p>
-                <p className="mb-3">Jane Hussain, Davidson County</p>
+                <p className="mb-3">Jane Steinfels Hussain, Davidson County</p>
                 <p className="mb-3">Barbara Clinton, Davidson County</p>
                 <p className="mb-3">
                   Joyce and Richard Rouse, Williamson County

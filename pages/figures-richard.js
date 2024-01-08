@@ -306,6 +306,12 @@ export default function FiguresRichard() {
           figureNumber="Fig-33.4"
           fileName="Fig-33.4.jpg"
         />
+        {/* <br></br>
+        <BrochureFig
+          originalWidth="50%"
+          figureNumber="Fig-34"
+          fileName="Fig-34.jpg"
+        /> */}
       </div>
       <div className="pb-48"></div>
     </div>
