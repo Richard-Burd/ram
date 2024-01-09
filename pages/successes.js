@@ -12,7 +12,7 @@ export const primaryHierarchyProps = {
     "Current Campaigns",
   ],
   path: "/successes",
-  topMargin: `my-2.5`,
+  topMarginForEachHierarchyButton: `my-2.5`,
 };
 
 export default function Successes() {

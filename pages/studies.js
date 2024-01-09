@@ -8,7 +8,7 @@ export const primaryHierarchyProps = {
   bgColor: "bg-studiesBg",
   titles: ["Zero-Waste", "Methodology", "Literature", "Travels", "Pilots"],
   path: "/studies",
-  topMargin: `my-2.5`,
+  topMarginForEachHierarchyButton: `my-2.5`,
 };
 
 export default function Studies() {

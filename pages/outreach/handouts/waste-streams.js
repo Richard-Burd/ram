@@ -44,28 +44,32 @@ export default function WasteStreams() {
 
         <div
           id="figures-list"
-          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+          className="roboto-font-400 m-6 rounded-6xl bg-neutral-950 px-6 pb-16 pt-12 text-2xl text-zinc-950"
         >
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-1.1"
             fileName="Fig-1.1.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-1.2"
             fileName="Fig-1.2.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-1.3"
             fileName="Fig-1.3.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-1.4"
             fileName="Fig-1.4.jpg"
           />
@@ -73,36 +77,42 @@ export default function WasteStreams() {
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-14.1"
             fileName="Fig-14.1.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-14.2"
             fileName="Fig-14.2.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-14.3"
             fileName="Fig-14.3.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-14.4"
             fileName="Fig-14.4.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-14.5"
             fileName="Fig-14.5.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-14.6"
             fileName="Fig-14.6.jpg"
           />

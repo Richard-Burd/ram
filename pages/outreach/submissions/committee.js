@@ -16,57 +16,65 @@ export const thisNavbarProps = {
 export default function Committee() {
   return (
     <div>
-      <SecondaryNavbar {...primaryHierarchyProps} />
-      <TertiaryNavbar {...secondaryHierarchyProps} />
-      <FragmentIdentifierNavbar {...thisNavbarProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
-          Committee
-        </div>
+        <SecondaryNavbar {...primaryHierarchyProps} />
+        <TertiaryNavbar {...secondaryHierarchyProps} />
+        <FragmentIdentifierNavbar {...thisNavbarProps} />
         <div
-          id="comming-soon-placeholder"
-          className="m-4 p-4 text-2xl text-zinc-200"
+          id="title-and-text-box"
+          className="m-11 rounded-6xl bg-neutral-950 p-8"
         >
-          ...comming soon! This page is under construction.
-        </div>
+          <div className="pt-serif-700 p-8 text-center text-7xl italic text-[#c2ffbf]">
+            Committee
+          </div>
+          <div
+            id="comming-soon-placeholder"
+            className="m-4 p-4 text-2xl text-zinc-200"
+          >
+            ...comming soon! This page is under construction.
+          </div>
 
-        <div id="report-to-the-mayor" className="mx-8 mb-24 pt-4 text-zinc-200">
-          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
-            Report to the Mayor
+          <div
+            id="report-to-the-mayor"
+            className="mx-8 mb-24 pt-4 text-zinc-200"
+          >
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+              Report to the Mayor
+            </div>
+            <div className="text-2xl">
+              <p className="mb-8">
+                Preliminary report to the Mayor. Submitted to the Mayor of the
+                Metropolitan Government of Nashville and Davidson County,
+                Tennessee (Metro). 5 pages, June 1989.
+              </p>
+            </div>
           </div>
-          <div className="text-2xl">
-            <p className="mb-8">
-              Preliminary report to the Mayor. Submitted to the Mayor of the
-              Metropolitan Government of Nashville and Davidson County,
-              Tennessee (Metro). 5 pages, June 1989.
-            </p>
-          </div>
-        </div>
 
-        <div
-          id="curbside-recycling-bidding-and-alternatives"
-          className="mx-8 mb-24 pt-4 text-zinc-200"
-        >
-          <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
-            Curbside Recycling Bidding and Alternatives
+          <div
+            id="curbside-recycling-bidding-and-alternatives"
+            className="mx-8 mb-24 pt-4 text-zinc-200"
+          >
+            <div className="mb-2 mt-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+              Curbside Recycling Bidding and Alternatives
+            </div>
+            <div className="text-2xl">
+              <p className="mb-8">
+                Draft and Final{" "}
+                <i>
+                  Invitation to Bid and Request for Qualifications and
+                  Evaluation of Bids
+                </i>{" "}
+                for residential curbside recycling services. Referenced 33
+                errors. Included alternatives and a 20-year cost/impact
+                comparison of curbside recycling, incinerator expansion, and 4
+                bids for mixed-waste processing. Submitted to the Metro
+                (Mayor's) Recycling Committee. 5 pages total, October 1989 and
+                August 1990.
+              </p>
+            </div>
           </div>
-          <div className="text-2xl">
-            <p className="mb-8">
-              Draft and Final{" "}
-              <i>
-                Invitation to Bid and Request for Qualifications and Evaluation
-                of Bids
-              </i>{" "}
-              for residential curbside recycling services. Referenced 33 errors.
-              Included alternatives and a 20-year cost/impact comparison of
-              curbside recycling, incinerator expansion, and 4 bids for
-              mixed-waste processing. Submitted to the Metro (Mayor's) Recycling
-              Committee. 5 pages total, October 1989 and August 1990.
-            </p>
-          </div>
-        </div>
 
-        {/* <div
+          {/* <div
           id="items-list"
           className="m-4 p-4 text-2xl text-zinc-200 opacity-70"
         >
@@ -93,6 +101,7 @@ export default function Committee() {
             </table>
           </div>
         </div> */}
+        </div>
       </div>
     </div>
   );

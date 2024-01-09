@@ -21,10 +21,11 @@ export default function Plans() {
         </div>
         <div
           id="figures-list"
-          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+          className="roboto-font-400 m-6 rounded-6xl bg-neutral-950 px-6 pb-16 pt-12 text-2xl text-zinc-950"
         >
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-22"
             fileName="jobs.jpg"
           />

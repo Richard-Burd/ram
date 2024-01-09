@@ -37,43 +37,57 @@ export default function Methodology() {
           />
         </div>
 
-        <div className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950">
+        <div className="roboto-font-400 m-6 rounded-6xl bg-neutral-950 px-6 pb-16 pt-12 text-2xl text-zinc-950">
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-3"
             fileName="net-zero-landfilling.jpg"
           />
           <br></br>
-          <BrochureFig figureNumber="Fig-4" fileName="composting.jpg" />
+          <BrochureFig
+            figureNumber="Fig-4"
+            borderColor="#496649"
+            fileName="composting.jpg"
+          />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-11"
             fileName="wet-dry-pow.jpg"
           />
           <br></br>
-          <BrochureFig figureNumber="Fig-12" fileName="recovery.jpg" />
+          <BrochureFig
+            figureNumber="Fig-12"
+            borderColor="#496649"
+            fileName="recovery.jpg"
+          />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-15"
             fileName="buckets.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-24"
             fileName="solid-waste-choices.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-25"
             fileName="tax-disparity.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-28"
             fileName="wet-dry-short.jpg"
           />

@@ -3,9 +3,9 @@ import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const primaryHierarchyProps = {
   bgColor: "bg-organizingBg",
-  titles: ["Contacts", "Meetings", "Donors", "Legal"],
+  titles: ["Contacts", "Meetings", "Donors", "Membership", "Legal"],
   path: "/organizing",
-  topMargin: `mt-7`,
+  topMarginForEachHierarchyButton: `my-2.5`,
 };
 
 export default function Organizing() {

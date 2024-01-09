@@ -11,13 +11,13 @@ export default function PrimaryMastHead({
   backgroundColor,
   buttonsColor,
   path,
-  topMargin,
+  topMarginForEachHierarchyButton,
 }) {
   return (
     <div>
       <div
         // "bg-gradient-to-r" was replaced with "bg-gradient-24" for diagnoal effect
-        className={`bg-gradient-24 ${backgroundColor} from-50% flex border-y-slate-500 border-b-2`}
+        className={`bg-gradient-24 ${backgroundColor} flex border-b-2 border-y-slate-500 from-50%`}
       >
         {/* <Image
             className="ml-8 py-8"
@@ -39,15 +39,15 @@ export default function PrimaryMastHead({
 
         <div className="flex w-full">
           {/* "items-center" removed & replaced w/"py-7" */}
-          <div className="flex justify-center py-7 w-full">
+          <div className="flex w-full justify-center py-7">
             <div className={`text-center`}>
-              <div className={`${titleColor} text-7xl pt-serif-700 italic`}>
+              <div className={`${titleColor} pt-serif-700 text-7xl italic`}>
                 {title}
               </div>
               {/* <div className="roboto-font-500 text-3xl">{subtitle}</div> */}
               <div className="mt-4">
                 {titles.map((title) => (
-                  <div className={`${topMargin}`}>
+                  <div className={`${topMarginForEachHierarchyButton}`}>
                     <Link
                       href={`${path}/${title.toLowerCase().replace(/ /g, "-")}`}
                     >
@@ -61,7 +61,7 @@ export default function PrimaryMastHead({
                         transition={{ duration: 0.25 }}
                       >
                         <div
-                          className={` m-2 p-2 text-4xl text-black text-opacity-90 roboto-font-500`}
+                          className={` roboto-font-500 m-2 p-2 text-4xl text-black text-opacity-90`}
                         >
                           {title}
                         </div>

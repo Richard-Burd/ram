@@ -11,7 +11,7 @@ export const primaryHierarchyProps = {
     "Submissions",
   ],
   path: "/outreach",
-  topMargin: `my-2.5`,
+  topMarginForEachHierarchyButton: `my-2.5`,
 };
 
 export default function Outreach() {

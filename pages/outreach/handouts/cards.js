@@ -21,23 +21,26 @@ export default function Cards() {
         </div>
         <div
           id="figures-list"
-          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+          className="roboto-font-400 m-6 rounded-6xl bg-neutral-950 px-6 pb-16 pt-12 text-2xl text-zinc-950"
         >
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-30"
             fileName="Fig-30.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-31"
             fileName="Fig-31.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-32"
             fileName="Fig-32.jpg"
           />

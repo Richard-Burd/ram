@@ -32,24 +32,31 @@ export default function Markets() {
         </div>
         <div
           id="figures-list"
-          className="roboto-font-400 m-6 rounded-6xl bg-[#b8d1c8] bg-opacity-70 px-6 pb-16 pt-12 text-2xl text-zinc-950"
+          className="roboto-font-400 m-6 rounded-6xl bg-neutral-950 px-6 pb-16 pt-12 text-2xl text-zinc-950"
         >
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-21"
             fileName="heavy-molded.2.jpg"
           />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-20"
             fileName="heavy-molded.1.jpg"
           />
           <br></br>
-          <BrochureFig figureNumber="Fig-23" fileName="re-manufacture.jpg" />
+          <BrochureFig
+            figureNumber="Fig-23"
+            borderColor="#496649"
+            fileName="re-manufacture.jpg"
+          />
           <br></br>
           <BrochureFig
             originalWidth="50%"
+            borderColor="#496649"
             figureNumber="Fig-24"
             fileName="solid-waste-choices.jpg"
           />

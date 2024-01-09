@@ -10,7 +10,7 @@ export const primaryHierarchyProps = {
   bgColor: "bg-aboutBg",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
   path: "/about",
-  topMargin: `mt-7`,
+  topMarginForEachHierarchyButton: `mt-7`,
 };
 
 export default function About() {
