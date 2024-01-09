@@ -6381,6 +6381,14 @@ export default function LibraryLee() {
               fileLabel={true}
               showLeeLabel={true}
             />
+            <LibrarycardCatalog
+              title=""
+              leeTitle="The Basic Education Session Packet"
+              fileName="doc-705"
+              description=""
+              fileLabel={true}
+              showLeeLabel={true}
+            />
           </div>
         </div>
       </div>
