@@ -1,3 +1,5 @@
+// The "extensions" property lists the extensions
+// according to the URLs in the marketplace website:
 // https://marketplace.visualstudio.com/vscode
 {
   "customizations": {
@@ -9,7 +11,8 @@
         "burkeholland.simple-react-snippets",
         "bradlc.vscode-tailwindcss",
         "vscode-icons-team.vscode-icons",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "streetsidesoftware.code-spell-checker"
       ],
       "settings": {
         "workbench.colorTheme": "Visual Studio Dark",
