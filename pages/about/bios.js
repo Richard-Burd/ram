@@ -176,7 +176,7 @@ export default function Bios() {
               />
               <SocialMediaIcon
                 icon="email"
-                anchorLink="/organizing/contacts/john"
+                anchorLink="/organizing/contacts/davidson-county"
                 {...socialMediaIconProps}
               />
             </center>
@@ -388,7 +388,7 @@ export default function Bios() {
             <center className="link-icon-set">
               <SocialMediaIcon
                 icon="email"
-                anchorLink="/organizing/contacts/leith"
+                anchorLink="/organizing/contacts/jackson-county"
                 {...socialMediaIconProps}
               />
             </center>
@@ -420,7 +420,7 @@ export default function Bios() {
             <center className="link-icon-set">
               <SocialMediaIcon
                 icon="email"
-                anchorLink="/organizing/contacts/martha"
+                anchorLink="/organizing/contacts/stewart-county"
                 {...socialMediaIconProps}
               />
             </center>
@@ -445,7 +445,7 @@ export default function Bios() {
             <center className="link-icon-set">
               <SocialMediaIcon
                 icon="email"
-                anchorLink="/organizing/contacts/colleen"
+                anchorLink="/organizing/contacts/wayne-county"
                 {...socialMediaIconProps}
               />
             </center>
@@ -472,7 +472,7 @@ export default function Bios() {
             <center className="link-icon-set">
               <SocialMediaIcon
                 icon="email"
-                anchorLink="/organizing/contacts/catherine"
+                anchorLink="/organizing/contacts/washington-county"
                 {...socialMediaIconProps}
               />
             </center>
