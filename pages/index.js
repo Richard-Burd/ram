@@ -34,7 +34,7 @@ export default function Home() {
             <div className="pb-10">
               <div className={``}>
                 <img
-                  className="max-w-[85vh] max-h-[90vh] mx-auto py-4"
+                  className="mx-auto max-h-[90vh] max-w-[85vh] py-4"
                   src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-red.v2.png`}
                   alt="RAM Logo"
                 />
