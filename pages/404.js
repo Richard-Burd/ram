@@ -17,14 +17,14 @@ export default function NotFound() {
 
   return (
     <div className="rough-draft-page-outline bg-zinc-900 pb-[500px]">
-      <div className=" text-stone-200 mx-20 pt-20 max-w-screen-md">
-        <p className="text-4xl font-semibold mb-10">
+      <div className=" mx-20 max-w-screen-md pt-20 text-stone-200">
+        <p className="mb-10 text-4xl font-semibold">
           Oops, that page either does not exist or is still under
           construction.🛠️
         </p>{" "}
-        <p className="text-2xl font-semibold mb-10" p>
+        <p className="mb-10 text-2xl font-semibold">
           You can go to the{" "}
-          <Link className="text-blue-300 underline font-semibold" href="/">
+          <Link className="font-semibold text-blue-300 underline" href="/">
             Homepage
           </Link>{" "}
           or wait to be redirected there in a moment.
