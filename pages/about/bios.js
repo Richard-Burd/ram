@@ -281,13 +281,10 @@ export default function Bios() {
                 Michael was part of YIMBY Action's housing advocacy in San
                 Francisco, while doing work for the Breakthrough Institute. He
                 completed predictive usage model programming for New York City's
-                CitiBike program at The Data Incubator in 2014. Further data
-                science schooling has followed in 2023. His participation in a
-                free coding club introduced him to Richard Burd (currently
-                webmaster for this site). Machine learning remains a long-held
-                interest, along with game programming. Further social
-                involvement currently includes weekly recreation evenings for
-                homeless individuals.
+                CitiBike program at The Data Incubator in 2014. Machine learning
+                remains a long-held interest, along with game programming.
+                Further social involvement currently includes weekly recreation
+                evenings for homeless individuals.
               </div>
               <div className="my-4"></div>
               <div>
