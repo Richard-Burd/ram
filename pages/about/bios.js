@@ -16,6 +16,7 @@ export const secondaryHierarchyProps = {
   titles: [
     "John van der Harst",
     "Karen Cisler",
+    "Michael Goff",
     "Ursula King",
     "Jeff Brousal",
     "Leith Patton",
@@ -201,6 +202,132 @@ export default function Bios() {
                 anticipated soon.
               </div>
             </div>
+          </div>
+
+          <div id="michael-goff" className="pt-40">
+            <div className="standard-font-1 -mb-2 mt-2 border-b-2 border-zinc-700 text-4xl">
+              Michael Goff
+            </div>
+            <div className={crewDescriptionTestLayoutStyles}>
+              <div>
+                Michael volunteered to help <i>RAM</i> shortly after moving to
+                Tennessee in 2011 to teach and conduct research for Vanderbilt
+                University&apos;s Math Dept. His specialty there: Combinatorics.
+                Michael had earned his MS and PhD (2010) degrees at the
+                University of Washington, after undergraduate studies at Gonzaga
+                University.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                He built ties with Metro Nashville Council members -- one whose
+                campaign he had worked on -- to assist <i>RAM's</i> education
+                efforts. Many meetings with Mayoral and Department staff, and
+                Board and Council members followed. Groundwork was laid for the
+                Region Board insisting on a zero-waste plan in 2017. Michael
+                focused on availability of more sophisticated technologies.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Homework included several field trips to various waste handling
+                facilities in three counties.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Michael had previously been active with the Democratic Party in
+                Seattle, WA and Washington County, OR. In Nashville, he was also
+                active with the Democratic Party, Citizens Climate Lobby,
+                Tennesseans for Fair Taxation, and as Advocacy Chair for the
+                United Nations Association's Nashville Chapter. It was through
+                UNA that Michael was chosen as a 2014 Fellow in East-West: The
+                Art of Dialogue, a program of the Shafik Gabr Foundation, to
+                foster greater ties between Egypt and the U.S. Several trips
+                followed to various cities in both countries.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Michael laid initial groundwork in the state legislature for
+                meetings that eventually led to passing legislation in 2016 to
+                allow Davidson County to charge for all costs associated with
+                solid waste disposal. That removed an excuse used by Metro staff
+                for not doing that.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                An avid Urban hiker, Michael tried participating in weekly fun
+                runs hosted by the East Nasty Running Club. Michael and John
+                would run and walk back to Michael's downtown apartment
+                afterward, discussing topics that eventually led them to found
+                &nbsp;
+                <br></br>
+                <a
+                  href="https://www.urbancruiseship.org"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
+                >
+                  <strong>Urban Cruise Ship</strong>
+                </a>
+                &nbsp; in late 2014, with Michael as President and primary
+                researcher. In 2016, Michael worked under that label to assess
+                solid waste disposal costs incurred by Davidson County, in an
+                effort managed by the Tennessee Environmental Council. Today,
+                Waste is one of Urban Cruise Ship's nine specialized sites, and
+                waste is also covered in its Space site. Michael has presented
+                on, and written about, space waste as part of his involvement
+                with The Overview Effect's online discussion forum.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Michael was part of YIMBY Action's housing advocacy in San
+                Francisco, while doing work for the Breakthrough Institute. He
+                completed predictive usage model programming for New York City's
+                CitiBike program at The Data Incubator in 2014. Further data
+                science schooling has followed in 2023. His participation in a
+                free coding club introduced him to Richard Burd (currently
+                webmaster for this site). Machine learning remains a long-held
+                interest, along with game programming. Further social
+                involvement currently includes weekly recreation evenings for
+                homeless individuals.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Michael prepared to run for Metro Nashville's Council District
+                19 in 2015, but bowed out when a candidate entered the race who
+                subsequently won two terms and in late 2023 became Nashville's
+                Mayor.
+              </div>
+              <div className="my-4"></div>
+              <div>
+                Michael currently writes a weekly &nbsp;
+                <br></br>
+                <a
+                  href="https://goff.substack.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
+                >
+                  <strong>blog at Substack</strong>
+                </a>
+                , covering a variety of issues related to the environment.
+              </div>
+            </div>
+            <center className="mx-64 grid grid-cols-3 content-center">
+              <SocialMediaIcon
+                icon="x"
+                hyperLink="https://twitter.com/MichaelKGoff"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="linkedin"
+                hyperLink="https://www.linkedin.com/in/michaelkgoff/"
+                {...socialMediaIconProps}
+              />
+              <SocialMediaIcon
+                icon="email"
+                anchorLink="mailto:michael@urbancruiseship.org"
+                {...socialMediaIconProps}
+              />
+            </center>
           </div>
 
           <div id="ursula-king" className="pt-40">
